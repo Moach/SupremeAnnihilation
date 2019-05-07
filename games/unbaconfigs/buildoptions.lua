@@ -59,6 +59,7 @@ ArmDefsBuildOptions =
 			"armatlas",
 			"armdfly",
 			"armpw",
+			"armrect",
 			"armpeep",
 			"armfav",
 			"armmlv",
@@ -122,6 +123,7 @@ ArmBuildOptions =
 			armfrad= 1,
 			-- MOBILE UNITS
 			armck = 1,
+			armrect = 1,
 			armack = 4,
 			armca = 1,
 			armaca = 4,
@@ -203,6 +205,7 @@ CoreDefsBuildOptions =
 			"corvalk",
 			"corseah",
 			"corak",
+			"cornecro",
 			"corfink",
 			"corfav",
 			"cormlv",
@@ -272,6 +275,7 @@ CoreBuildOptions =
 			corvalk = 1,
 			corseah = 4,
 			corak = 1,
+			cornecro = 1,
 			corfink = 1,
 			corfav = 1,
 			cormlv = 1,
@@ -316,6 +320,7 @@ armlevel1buildoptions = {
 			"armca",
 			"armatlas",
 			"armpw",
+			"armrect",
 			"armpeep",
 			"armfav",
 }
@@ -350,6 +355,7 @@ corlevel1buildoptions = {
 			"corca",
 			"corvalk",
 			"corak",
+			"cornecro",
 			"corfink",
 			"corfav",
 }

@@ -49,6 +49,7 @@ return {
 			[2] = "cormine1",
 			[3] = "corllt",
 			[4] = "coreyes",
+			[5] = "cornanotc"
 		},
 		customparams = {
 			description_long = "Sappers are support units dedicated to keeping your troops fit and ready for combat. They can also lay mines and set up basic defenses to consolidate key positions. They are also capable of restoring usable wrecks back to service.",

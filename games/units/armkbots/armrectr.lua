@@ -49,6 +49,7 @@ return {
 			[2] = "armmine1",
 			[3] = "armllt",
 			[4] = "armeyes",
+			[5] = "armnanotc",
 		},
 		customparams = {
 			description_long = "Rectors are frontline service units dedicated to keeping your troops fit and ready for combat. They can also lay mines and set up basic defenses to consolidate key positions. They are also capable of restoring usable wrecks back to service.",
