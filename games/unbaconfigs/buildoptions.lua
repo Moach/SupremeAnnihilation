@@ -132,6 +132,7 @@ ArmBuildOptions =
 			armatlas = 1,
 			armdfly = 4,
 			armpw = 1,
+			armrect = 1,
 			armpeep = 1,
 			armfav = 1,
 			armmlv = 1,

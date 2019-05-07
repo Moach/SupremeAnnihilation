@@ -59,6 +59,7 @@ return {
 	LakeDay_v2 = 17.9290771,
 	LargeChannel = 50.0578957,
 	Lost_v2 = 28.7445221,
+	Mearth_v4 = 51.4807472,
 	Melange_v1 = 21.6514778,
 	Moor_v2 = 34.1275406,
 	MountDustmoreV3 = 17.4113388,

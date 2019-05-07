@@ -89,8 +89,9 @@ return {
 			[28] = "armca",
 			[29] = "armatlas",
 			[30] = "armpw",
-			[31] = "armpeep",
-			[32] = "armfav",
+			[31] = "armrect",
+			[32] = "armpeep",
+			[33] = "armfav",
 		},
 		customparams = {
 			area_mex_def = "armmex",

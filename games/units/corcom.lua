@@ -89,6 +89,7 @@ return {
 			[28] = "corca",
 			[29] = "corvalk",
 			[30] = "corak",
+			[31] = "cornecro",
 			[31] = "corfink",
 			[32] = "corfav",
 		},

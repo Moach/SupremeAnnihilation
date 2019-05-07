@@ -14,9 +14,9 @@ numallies=0;
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=7859;
+startposx=4344;
 side=ARM;
-startposz=8207;
+startposz=11336;
 teamleader=1;
 handicap=0;
 }
@@ -86,9 +86,9 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=863;
-side=CORE;
-startposz=803;
+startposx=7354;
+side=ARM;
+startposz=2816;
 teamleader=1;
 handicap=0;
 }
@@ -103,12 +103,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=334337223;
+maphash=3960120291;
 gametype=Supreme Annihilation M1.00.01;
 modhash=2289877057;
 ishost=1;
 hostip=;
-mapname=Mountain Passes Rev1;
+mapname=Mearth_v4;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;
