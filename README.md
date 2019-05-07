@@ -1,13 +1,20 @@
 # SupremeAnnihilation
 A Mod for a Mod of the legendary Total Annihilation based on the SpringRTS engine. Major balance changes to improve the merits of tactics over speed management
 
+
+
 Note:  Only the relevant altered files are tracked here - installation should be performed as follows:
 
-download Balanced Annihilation (see SpringRTS)
-clone this repo
-copy your BA .sdz file under Spring/Games and rename it to 'Supreme Annihilation' or some such
-shove everything in this repo's "Games" folder into that new .sdz file (7-zip can open it like any archive) - overwrite as needed
-chuck everything from "LuaUI" into the same named folder in your Spring root
+ - download Balanced Annihilation (see SpringRTS)
+ 
+ - clone this repo
+ 
+ - copy your BA .sdz file under Spring/Games and rename it to 'Supreme Annihilation' or some such
+ 
+ - shove everything in this repo's "Games" folder into that new .sdz file (7-zip can open it like any archive) - overwrite as needed
+ 
+ - chuck everything from "LuaUI" into the same named folder in your Spring root
+
 
 it should work... it might not, but ideally it should.
 
