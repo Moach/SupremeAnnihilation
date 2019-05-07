@@ -1,0 +1,15 @@
+/AI/
+/beherithmapconv_2.21/
+/cache/
+/demos/
+/engine/
+/maps/
+/packages/
+/pool/
+/rapid/
+/Saves/
+/screenshots/
+/Spring_SMF_TOOLS/
+*.png
+*.7z
+*.log
