@@ -14,9 +14,9 @@ numallies=0;
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=462;
+startposx=1400;
 side=ARM;
-startposz=8107;
+startposz=7149;
 teamleader=1;
 handicap=0;
 }
@@ -87,7 +87,7 @@ numallies=0;
 rgbcolor=0.976471 1 0;
 allyteam=1;
 startposx=10880;
-side=CORE;
+side=ARM;
 startposz=2988;
 teamleader=1;
 handicap=0;

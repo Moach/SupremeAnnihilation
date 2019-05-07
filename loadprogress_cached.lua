@@ -89,7 +89,7 @@ return {
 	["Tropical-v2"] = 18.8078423,
 	Tuckedup_16x12_003 = 21.7104797,
 	Tundra = 18.2737751,
-	["Twin Lakes Park 1"] = 41.737175,
+	["Twin Lakes Park 1"] = 23.7358475,
 	Valiant_Saltscape = 29.6545372,
 	["Whakamutunga_Riri-v05"] = 16.6934071,
 	XantheTerra_v5 = 23.7878647,

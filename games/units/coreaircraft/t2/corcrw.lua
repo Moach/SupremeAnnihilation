@@ -31,7 +31,7 @@ return {
 		objectname = "CORCRW",
 		seismicsignature = 0,
 		selfdestructas = "largeExplosionGenericSelfd",
-		sightdistance = 494,
+		sightdistance = 564,
 		turninplaceanglelimit = 360,
 		turnrate = 300,
 		upright = true,
