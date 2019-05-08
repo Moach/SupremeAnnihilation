@@ -33,6 +33,10 @@ local vehAccelerationMultiplier = 1
 local vehAdditionalVelocity = 0
 local vehVelocityMultiplier = 1
 
+local unitLOSMult = 1.8
+local weaponsRangeMult = 1.2
+local weaponsMuzzVMult = 1.5
+
 
 
 local function getFilePath(filename, path)
@@ -94,6 +98,13 @@ end
 
 
 function UnitDef_Post(name, uDef)
+
+	-- Supreme Annihilation General LOS extension for all units
+	
+	if (uDef.sightdistance ~= nil) then
+		uDef.sightdistance = uDef.sightdistance * unitLOSMult
+	end
+
 	-- load BAR stuff
 	if (Spring.GetModOptions and (tonumber(Spring.GetModOptions().barmodels) or 0) ~= 0 or string.find(name, '_bar')) and not ((Spring.GetModOptions and (Spring.GetModOptions().unba or "disabled") == "enabled") and (name == "armcom" or name == "corcom" or name == "armcom_bar" or name == "corcom_bar"))  then
 		if string.find(name, '_bar') then
@@ -299,6 +310,17 @@ end
 
 -- process weapondef
 function WeaponDef_Post(name, wDef)
+
+	if (wDef.weapontype ~= "Shield") then
+		
+		if (wDef.range ~= nil) then wDef.range = wDef.range * weaponsRangeMult end
+		if (wDef.weaponvelocity ~= nil) then 
+			wDef.weaponvelocity = wDef.weaponvelocity * weaponsMuzzVMult 
+			if (wDef.startvelocity ~= nil) then 
+				wDef.startvelocity = wDef.startvelocity * weaponsMuzzVMult
+			end
+		end
+	end
 
 	--Use targetborderoverride in weapondef customparams to override this global setting
 	--Controls whether the weapon aims for the center or the edge of its target's collision volume. Clamped between -1.0 - target the far border, and 1.0 - target the near border.

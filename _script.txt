@@ -14,9 +14,9 @@ numallies=0;
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=4344;
+startposx=688;
 side=ARM;
-startposz=11336;
+startposz=11698;
 teamleader=1;
 handicap=0;
 }
@@ -86,9 +86,9 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=7354;
+startposx=8159;
 side=ARM;
-startposz=2816;
+startposz=418;
 teamleader=1;
 handicap=0;
 }
@@ -103,12 +103,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=3960120291;
+maphash=2780699368;
 gametype=Supreme Annihilation M1.00.01;
 modhash=2289877057;
 ishost=1;
 hostip=;
-mapname=Mearth_v4;
+mapname=Melange_v1;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

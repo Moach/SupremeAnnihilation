@@ -5,7 +5,7 @@ return {
 		buildcostenergy = 660,
 		buildcostmetal = 48,
 		buildpic = "ARMPW.DDS",
-		buildtime = 500,
+		buildtime = 1000,
 		canmove = true,
 		category = "KBOT MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 -1 0",
