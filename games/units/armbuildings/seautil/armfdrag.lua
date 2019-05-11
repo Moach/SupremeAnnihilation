@@ -29,6 +29,7 @@ return {
 		repairable = false,
 		seismicsignature = 0,
 		sightdistance = 1,
+		selfDestructCountdown = 0,
 		waterline = 12,
 		yardmap = "oooo",
 		customparams = {

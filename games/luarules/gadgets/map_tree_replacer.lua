@@ -13,6 +13,8 @@ function gadget:GetInfo()
 	}
 end
 
+local decimateTreeCount = true
+
 
 if (gadgetHandler:IsSyncedCode()) then
 	local allTreeTypes = false	-- not finished feature, replaces all features atm
@@ -44,7 +46,17 @@ if (gadgetHandler:IsSyncedCode()) then
 	end
 
 	function gadget:Initialize()
-
+		
+		if decimateTreeCount then
+			local featuretable = Spring.GetAllFeatures()
+			for i = 1,#featuretable do
+				if ((i-1) % 10 ~= 0) then
+					Spring.DestroyFeature(featuretable[i]) -- remove all but every tenth tree
+				end
+			end
+		end
+		
+		
 		-- get all replacement trees
 		local replacementTrees = {}
 		local count = 0
@@ -63,7 +75,8 @@ if (gadgetHandler:IsSyncedCode()) then
 				end
 			end
 		end
-
+		
+		
 		-- replace tree featuredefs
 		if count > 0 then
 			local featuretable = Spring.GetAllFeatures()

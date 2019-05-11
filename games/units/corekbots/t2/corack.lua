@@ -73,8 +73,10 @@ return {
 			[27] = "corbuzz",
 			[28] = "corlab",
 			[29] = "coralab",
-			[30] = "corck",
-			[31] = "corvalk",
+			[30] = "coravp",
+			[31] = "coraap",
+			[32] = "corck",
+			[33] = "corvalk",
 		},   
 		customparams = {
 			area_mex_def = "cormoho",

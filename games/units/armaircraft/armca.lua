@@ -55,6 +55,7 @@ return {
 			[13] = "armjamt",
 			[14] = "armmine1",
 			[15] = "armmine2",
+			[16] = "armfdrag",
 		},
 		customparams = {
 			area_mex_def = "armmex",

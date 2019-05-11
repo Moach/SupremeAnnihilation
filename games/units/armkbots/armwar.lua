@@ -130,7 +130,7 @@ return {
 				laserflaresize = 7,
 				name = "Dual close-quarters g2g laser",
 				noselfdamage = true,
-				range = 380,
+				range = 400,
 				reloadtime = 0.3,
 				rgbcolor = "1 0 0",
 				soundhitdry = "",

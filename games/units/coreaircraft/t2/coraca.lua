@@ -70,6 +70,8 @@ return {
 			[26] = "corak",
 			[27] = "cormando",
 			[28] = "corsd",
+			[29] = "corfdrag",
+			[30] = "corscreamer",
 		},
 		customparams = {
 			area_mex_def = "cormex",

@@ -34,6 +34,7 @@ return {
 		repairable = false,
 		seismicsignature = 0,
 		sightdistance = 1,
+		selfDestructCountdown = 0,
 		usebuildinggrounddecal = true,
 		yardmap = "ffff",
 		customparams = {

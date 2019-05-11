@@ -21,7 +21,7 @@ return {
 		idleautoheal = 10,
 		idletime = 150,
 		maxdamage = 500,
-		maxslope = 17,
+		maxslope = 18,
 		maxvelocity = 2.8,
 		maxwaterdepth = 12,
 		movementclass = "KBOT2",
@@ -37,7 +37,7 @@ return {
 		turnrate = 1214.40002,
 		upright = true,
 		customparams = {
-			description_long = "Peewee is a basic infantry Kbot. Being very cheap to build and having high top speeds can be useful for scouting and taking down unguarded metal extractors and eco. In late T1 warfare Peewees can be used for ambushing Commanders and speedy skirmishing. Light armor and short range makes it susceptible to defensive towers and riot tanks",
+			description_long = "Peewee is a basic infantry Kbot. It is cheap and can easily be deployed in large mass formations. It features built-in self repair capability (when idle) to compensate for limited armour. Light infantry kbots can traverse very rugged terrain and have ideal line-of-sight conditions to spot targets for more specialized weapons units.",
 			model_author = "Kaiser",
 			subfolder = "armkbots",
 			wpn1turretx = 300,

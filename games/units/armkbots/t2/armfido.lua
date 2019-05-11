@@ -130,7 +130,7 @@ return {
 				impulsefactor = 0.123,
 				name = "Ballistic g2g AoE plasma cannon",
 				noselfdamage = true,
-				range = 650,
+				range = 600,
 				reloadtime = 3.186,
 				soundhit = "xplomed2",
 				soundhitwet = "splssml",
@@ -141,7 +141,7 @@ return {
 				weaponvelocity = 291.63333,
 				damage = {
 					bombers = 35,
-					default = 255,
+					default = 155,
 					fighters = 35,
 					subs = 5,
 					vtol = 35,

@@ -133,7 +133,7 @@ return {
 				intensity = 12,
 				name = "Close-quarters g2g lightning rifle",
 				noselfdamage = true,
-				range = 420,
+				range = 385,
 				reloadtime = 1.2,
 				rgbcolor = "0.5 0.5 1",
 				soundhit = "xplomed3",

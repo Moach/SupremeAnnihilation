@@ -34,7 +34,7 @@ local vehAdditionalVelocity = 0
 local vehVelocityMultiplier = 1
 
 local unitLOSMult = 1.8
-local weaponsRangeMult = 1.2
+local weaponsRangeMult = 1.1
 local weaponsMuzzVMult = 1.5
 
 

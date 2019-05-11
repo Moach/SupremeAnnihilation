@@ -31,7 +31,7 @@ return {
 		objectname = "CORTERMITE",
 		seismicsignature = 0,
 		selfdestructas = "mediumExplosionGenericSelfd",
-		sightdistance = 380,
+		sightdistance = 480,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.0626,

@@ -70,6 +70,8 @@ return {
 			[26] = "armpw",
 			[27] = "armvader",
 			[28] = "armspy",
+			[29] = "armmercury",
+			[30] = "armfdrag",
 		},
 		customparams = {
 			area_mex_def = "armmex",
