@@ -126,7 +126,7 @@ return {
 				model = "armmhmsl",
 				name = "Rocket",
 				noselfdamage = true,
-				range = 700,
+				range = 1200,
 				reloadtime = 9,
 				smoketrail = false,
 				soundhit = "xplomed4",

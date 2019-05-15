@@ -22,6 +22,7 @@ return {
 		description = "Produces Energy",
 		energystorage = 50,
 		energyuse = -20,
+		energymake = 20,
 		explodeas = "smallBuildingexplosiongeneric",
 		footprintx = 5,
 		footprintz = 5,

@@ -126,7 +126,7 @@ return {
 				name = "Anti-swarm g2g gauss-impulse guns",
 				noselfdamage = true,
 				predictboost = 0.3,
-				range = 450,
+				range = 500,
 				reloadtime = 1,
 				soundhit = "xplomed2",
 				soundhitwet = "splshbig",

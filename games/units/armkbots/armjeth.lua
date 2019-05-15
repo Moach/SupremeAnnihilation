@@ -160,7 +160,7 @@ return {
 					light_skip = true,
 				},
 				damage = {
-					default = 200,
+					default = 100,
 					bombers = 360,
 					fighters = 420,
 					vtol = 385,
@@ -181,7 +181,7 @@ return {
 				reloadtime = 0.5,
 				soundhitwet = "splshbig",
 				soundhitwetvolume = 0.5,
-				startvelocity = 450,
+				startvelocity = 550,
 				tolerance = 9000,
 				turnrate = 33000,
 				turret = true,

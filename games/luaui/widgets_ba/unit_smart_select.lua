@@ -442,7 +442,7 @@ function init()
 						--(udef.builder and udef.buildSpeed > 0) or					-- udef.builder = deprecated it seems
 						(udef.canResurrect and udef.resurrectSpeed > 0) or
 						(udef.canRepair and udef.repairSpeed > 0)) and  -- frontline repair units should stay with troops
-						not (UnitDefs[udid].name == "armrectr" or UnitDefs[udid].name == "cornecro" or UnitDefs[udid].name == "armfark" or UnitDefs[udid].name == "cormando")
+						not (UnitDefs[udid].name == "armrectr" or UnitDefs[udid].name == "cornecro" or UnitDefs[udid].name == "cormando")
 		local building = (mobile == false)
 		local combat = (builder == false) and (mobile == true) and (#udef.weapons > 0)
 		

@@ -130,7 +130,7 @@ return {
 				name = "Light g2g plasma cannon (low trajectory)",
 				noselfdamage = true,
 				predictboost = 0.4,
-				range = 500,
+				range = 600,
 				reloadtime = 1.75,
 				soundhit = "xplomed3",
 				soundhitwet = "splshbig",
@@ -138,7 +138,7 @@ return {
 				soundstart = "cannon1",
 				turret = true,
 				weapontype = "Cannon",
-				weaponvelocity = 286,
+				weaponvelocity = 326,
 				damage = {
 					bombers = 21,
 					default = 350,

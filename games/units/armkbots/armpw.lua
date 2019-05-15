@@ -18,7 +18,7 @@ return {
 		explodeas = "smallExplosionGeneric",
 		footprintx = 2,
 		footprintz = 2,
-		idleautoheal = 10,
+		idleautoheal = 20,
 		idletime = 150,
 		maxdamage = 500,
 		maxslope = 18,
@@ -147,7 +147,7 @@ return {
 				weaponvelocity = 500,
 				damage = {
 					bombers = 10,
-					default = 10,
+					default = 25, -- consider here that peewees are lousy shots and spray half their stuff harmlessly around any target smaller than a large building 2 feet away
 					fighters = 10,
 					subs = 1,
 					vtol = 10,

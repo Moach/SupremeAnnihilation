@@ -147,7 +147,7 @@ return {
 				impulsefactor = 0.123,
 				name = "Light g2g plasma cannon",
 				noselfdamage = true,
-				range = 550,
+				range = 600,
 				reloadtime = 1.19,
 				soundhit = "xplosml3",
 				soundhitwet = "splshbig",
@@ -158,7 +158,7 @@ return {
 				weaponvelocity = 225,
 				damage = {
 					bombers = 18,
-					default = 97,
+					default = 200,
 					fighters = 18,
 					subs = 5,
 					vtol = 18,

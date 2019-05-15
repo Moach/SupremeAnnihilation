@@ -183,7 +183,7 @@ return {
 				impulsefactor = 0,
 				name = "Close-quarters lightning turret",
 				noselfdamage = true,
-				range = 580,
+				range = 650,
 				reloadtime = 1.4,
 				rgbcolor = ".55 0.88 1",
 				rgbcolor2 = "0.45 0.45 1",
@@ -201,7 +201,7 @@ return {
 					light_mult = "0.44",
 				},
 				damage = {
-					default = 22.7,
+					default = 50,
 					subs = 0.5,
 				},
 			},

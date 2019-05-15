@@ -1024,6 +1024,7 @@ function BuildHandler(button)
     Spring.GiveOrderToUnit(facs[openedMenu+1].unitID, -(facs[openedMenu+1].buildList[pressedBOpt+1]),{},opt)
     Spring.PlaySoundFile(sound_queue_rem, 0.75, 'ui')
   end
+  
 end
 
 

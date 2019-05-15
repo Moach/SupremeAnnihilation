@@ -31,7 +31,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "tidalSelfd",
 		sightdistance = 130,
-		tidalgenerator = 1,
+		tidalgenerator = 2,
 		waterline = 13,
 		yardmap = "wwwwwwwww",
 		customparams = {

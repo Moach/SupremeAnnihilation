@@ -34,7 +34,7 @@ return {
 		selfdestructas = "windboom",
 		sightdistance = 273,
 		usebuildinggrounddecal = true,
-		windgenerator = 25,
+		windgenerator = 50,
 		yardmap = "ooo ooo ooo",
 		customparams = {
 			model_author = "Cremuss",

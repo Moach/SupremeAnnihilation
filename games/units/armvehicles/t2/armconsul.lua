@@ -78,6 +78,7 @@ return {
 			[28] = "armatlas",
 			[29] = "armgate",
 			[30] = "armarad",
+			[31] = "armveil",
 		},
 		customparams = {
 			area_mex_def = "armmex",

@@ -233,7 +233,7 @@ return {
 				energypershot = 100,
 				explosiongenerator = "custom:genericshellexplosion-medium-bomb",
 				firestarter = 100,
-				flighttime = 15,
+				flighttime = 10,
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
 				interceptedbyshieldtype = 4,
@@ -256,7 +256,7 @@ return {
 				weaponacceleration = 80,
 				weapontimer = 5,
 				weapontype = "Cannon",
-				weaponvelocity = 400,
+				weaponvelocity = 500,
 				customparams = {
 					bar_model = "airbomb.s3o",
 					expl_light_color = "1 0.5 0.05",
@@ -270,7 +270,7 @@ return {
 				},
 				damage = {
 					commanders = 223,
-					default = 350,
+					default = 1050,
 					subs = 5,
 				},
 			},

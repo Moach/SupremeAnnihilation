@@ -123,7 +123,7 @@ return {
 				edgeeffectiveness = 0.46,
 				explosiongenerator = "custom:genericshellexplosion-large-bomb",
 				firestarter = 100,
-				flighttime = 6.6,
+				flighttime = 3.2,
 				impulseboost = 0.123,
 				impulsefactor = 0.123,
 				metalpershot = 0,

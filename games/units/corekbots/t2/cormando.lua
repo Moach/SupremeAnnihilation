@@ -67,6 +67,9 @@ return {
 			[18] = "corhllt",
 			[19] = "cortoast",
 			[20] = "corflak",
+			[21] = "corca",
+			[22] = "corseah",
+			[23] = "corawac",
 		},
 		customparams = {
 			model_author = "FireStorm",

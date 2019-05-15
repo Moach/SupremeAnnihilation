@@ -18,7 +18,7 @@ return {
 		explodeas = "smallexplosiongeneric",
 		footprintx = 2,
 		footprintz = 2,
-		idleautoheal = 10,
+		idleautoheal = 20,
 		idletime = 150,
 		maxdamage = 500,
 		maxslope = 18,
@@ -117,7 +117,7 @@ return {
 			gator_laser = {
 				areaofeffect = 8,
 				avoidfeature = false,
-				beamtime = 0.1,
+				beamtime = 0.05,
 				beamttl = 1,
 				corethickness = 0.14,
 				craterareaofeffect = 0,
@@ -149,7 +149,7 @@ return {
 				weaponvelocity = 1000,
 				damage = {
 					bombers = 50,
-					default = 65, -- 15 extra "dooms" to compensate there not being a "core warrior" equivalent
+					default = 100, -- some extra "dooms" to compensate there not being a "core warrior" equivalent
 					fighters = 50,
 					subs = 1,
 					vtol = 50,

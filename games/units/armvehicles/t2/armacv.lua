@@ -76,7 +76,11 @@ return {
 			[27] = "armdf",
 			[28] = "armvp",
 			[29] = "armavp",
-			[30] = "armaap",
+			[30] = "armap",
+			[31] = "armaap",
+			[32] = "armlab",
+			[33] = "armalab",
+			[34] = "armck",
 		},
 		customparams = {
 			area_mex_def = "armmoho",

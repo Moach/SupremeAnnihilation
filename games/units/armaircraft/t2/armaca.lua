@@ -58,7 +58,7 @@ return {
 			[14] = "armhlt",
 			[15] = "armguard",
 			[16] = "armrl",
-			[17] = "armmpacko",
+			[17] = "armpacko",
 			[18] = "armsd",
 			[19] = "armdl",
 			[20] = "armjamt",

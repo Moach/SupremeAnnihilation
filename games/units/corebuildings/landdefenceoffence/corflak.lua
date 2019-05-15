@@ -140,7 +140,7 @@ return {
 				name = "Heavy g2a flak cannon",
 				noselfdamage = true,
 				predictboost = 1,
-				range = 775,
+				range = 1000,
 				reloadtime = 0.55,
 				size = 4.5,
 				sizedecay = 0.08,

@@ -18,7 +18,7 @@ return {
 		collisionvolumescales = "92 43 71",
 		collisionvolumetype = "Box",
 		description = "Hazardous Energy Source",
-		energymake = 1250,
+		energymake = 2250,
 		energystorage = 12000,
 		explodeas = "advgeo",
 		footprintx = 7,
