@@ -35,11 +35,11 @@ return {
 		name = "Radar Tower",
 		objectname = "CORRAD",
 		onoffable = true,
-		radardistance = 2100,
+		radardistance = 3000,
 		radaremitheight = 72,
 		seismicsignature = 0,
 		selfdestructas = "smallBuildingExplosionGenericSelfd",
-		sightdistance = 680,
+		sightdistance = 180,
 		usebuildinggrounddecal = true,
 		yardmap = "oooo",
 		customparams = {

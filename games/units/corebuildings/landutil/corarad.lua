@@ -35,7 +35,7 @@ return {
 		name = "Advanced Radar Tower",
 		objectname = "CORARAD",
 		onoffable = true,
-		radardistance = 3500,
+		radardistance = 5000,
 		radaremitheight = 87,
 		seismicsignature = 0,
 		selfdestructas = "smallBuildingExplosionGenericSelfd",

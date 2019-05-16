@@ -33,7 +33,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "smallBuildingExplosionGenericSelfd-uw",
 		sightdistance = 485,
-		sonardistance = 1200,
+		sonardistance = 3500,
 		yardmap = "oooo",
 		customparams = {
 			model_author = "Mr Bob",

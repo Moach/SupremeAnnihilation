@@ -14,9 +14,9 @@ numallies=0;
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=1087;
+startposx=7612;
 side=ARM;
-startposz=8165;
+startposz=7452;
 teamleader=1;
 handicap=0;
 }
@@ -86,9 +86,9 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=8129;
-side=CORE;
-startposz=1051;
+startposx=568;
+side=ARM;
+startposz=768;
 teamleader=1;
 handicap=35;
 }
@@ -103,12 +103,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=2776241188;
+maphash=3018429360;
 gametype=Supreme Annihilation M1.00.01;
 modhash=2289877057;
 ishost=1;
 hostip=;
-mapname=Ganymede v1;
+mapname=Tangerine;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

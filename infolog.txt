@@ -151,7 +151,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 m
 Scanning: C:\Users\moach\Documents\My Games\Spring\maps
 Scanning: C:\Users\moach\Documents\My Games\Spring\games
 Scanning: C:\Users\moach\Documents\My Games\Spring\packages
-[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 270ms
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 227ms
 [WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
 [ThreadPool::SetThreadCount][1] wanted=2 current=1 maximum=2 (init=1)
 [ThreadPool::SetThreadCount][2] workers=1
@@ -164,9 +164,9 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [Sound] [Sound::OpenLoopbackDevice] opening default device
 [f=-000001] [Sound] [Sound::OpenLoopbackDevice] unhandled SDL format: 0x8120
 [f=-000001] [Sound] [Sound::Cleanup][SDL_CloseAudioDevice(2)]
-[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (101.1ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (100.1ms)
 [f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
-[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=059a0b50 context=0457eeb8
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=05a73d00 context=05817ae8
 [f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
 [f=-000001] [Sound]   Vendor:         OpenAL Community
 [f=-000001] [Sound]   Version:        1.1 ALSOFT 1.16.0
@@ -182,18 +182,17 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [Sound] Error:   EFX: AL_INVALID_VALUE (40963)
 [f=-000001] [Sound] Error:   Initializing EFX failed!
 [f=-000001] [Sound] [Sound::UpdateThread][2]
-[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 201ms
+[f=-000001] [~ScopedOnceTimer][ISound::Init::Dev] 200ms
 [f=-000001] [StartScript] Loading StartScript from: C:\Users\moach\AppData\Roaming\springlobby\script.txt
 [f=-000001] [CPreGame] server using IP  and port 8452
 [f=-000001] [NetProto::InitLocalClient] connecting to local server
-[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Ganymede v1
-[f=-000001] [~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\games\SA-v0.00.11.sdz] 440423152 bytes cached in 9580 files
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Tangerine
 [f=-000001] [PreGame::StartServer]
 	mod-checksum=41c07c887d8dc494722f5fc13a5c4876113ff66591e6ecbf4795b9fa762c5668ec9017386e9236c7f2259b5a17d07f9e5429845a8f219e261041f1cdc4fc8187
-	map-checksum=24147aa58ffb24782f5df3aae6d14d427340adb4a85d9e12270426c08bbc67e55eebeebc6f3f0c850ceec822fb9580e739db3aa871ddb8d10636b436488e4608
+	map-checksum=b093e9b396ff3a7c8cedab6e4d23969a6bf9e187ca08825b3cbb91310a7d95e2cd21348b5e8c93d602b9caac2436cfec4512e797b83439cf6bde9886f7df5e78
 [f=-000001] [UDPListener::TryBindSocket] binding UDP socket to IPv6-address :: () on port 8452
 [f=-000001] [UDPListener] successfully bound socket on port 8452
-[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 6280ms
+[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 59ms
 [f=-000001] 
 [f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=1
 [f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
@@ -207,7 +206,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [GR::UpdateGLGeometry][2] winSize=<1366,768>
 [f=-000001] [GR::InitGLState]
 [f=-000001] [GR::LogDisplayMode] display-mode set to 1366x768x24bpp@60Hz (fullscreen::decorated)
-[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 1ms
 [f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
 [f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
 
@@ -228,10 +227,10 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [~ScopedOnceTimer][FBO::GLContextReinit] 0ms
 [f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
 
-[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Ganymede v1
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Tangerine
 [f=-000001] [PreGame::AddGameSetupArchivesToVFS] using game: Supreme Annihilation M1.00.01 (archive: SA-v0.00.11.sdz)
-[f=-000001] PreGame::GameDataReceived] recording demo to "C:\Users\moach\Documents\My Games\Spring\demos\20190515_162838_Ganymede v1_104.0.1-969-ga0e1218 maintenance.sdfz"
-[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 208ms
+[f=-000001] PreGame::GameDataReceived] recording demo to "C:\Users\moach\Documents\My Games\Spring\demos\20190515_172459_Tangerine_104.0.1-969-ga0e1218 maintenance.sdfz"
+[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 424ms
 [f=-000001] [PreGame::UpdateClientNet] received local player number 0 (team 1, allyteam 0), creating LoadScreen
 [f=-000001] [LuaIntro] Searching for new Widgets
 [f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
@@ -256,17 +255,17 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [Game::LoadGame][1] globalQuit=0 threaded=0
 [f=-000001] [LoadScreen::SetLoadMessage] text="Parsing Map Information"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading SMF"
-[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (131 MB)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (103 MB)"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading GameData Definitions"
-[f=-000001] [~ScopedOnceTimer][Loading all definitions: ] 170ms
-[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 212ms
+[f=-000001] [~ScopedOnceTimer][Loading all definitions: ] 174ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 217ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Radar Icons"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Sound Definitions"
 [f=-000001] [Sound] [LoadSoundDefsImpl] parsed 568 sounds from gamedata/sounds.lua
-[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 12ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 13ms
 [f=-000001] [Game::LoadGame][2] globalQuit=0 forcedQuit=0
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating Smooth Height Mesh"
-[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 121ms
+[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 80ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating QuadField & CEGs"
 [f=-000001] [Init] number of ArmorDefs: 16
 [f=-000001] [RegisterModelFormats] supported (Assimp) model formats: *.3ds;*.blend;*.dae;*.lwo;*.obj;
@@ -280,12 +279,12 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] Warning: WeaponDefs: Unknown tag "fighters" in "corsfig_corsfig_weapon"
 [f=-000001] Warning: WeaponDefs: Unknown tag "subs" in "corsfig_corsfig_weapon"
 [f=-000001] Warning: WeaponDefs: Unknown tag "vtol" in "corsfig_corsfig_weapon"
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 490ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 466ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Unit Definitions"
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 76ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 75ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Feature Definitions"
 [f=-000001] Error: [GetFeatureDef] could not find FeatureDef "heap"
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 33ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 32ms
 [f=-000001] [IPathManager::GetInstance] using HAPFS
 [f=-000001] [LoadScreen::SetLoadMessage] text="Initializing Map Features"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating ShadowHandler"
@@ -722,303 +721,120 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalizing PFS"
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=16
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=92
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=1f4f6bf7
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=2deb32d2
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=a5799497
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=7caeb9a3
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=4177bd37
-[f=-000001] [Path] [PathEstimator::ReadFile] hash=4177bd37 file="cache\104dev-maintenance/paths/Ganymede v1.pe-4177bd37.zip" (exists=0)
-[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] creating PE16 cache with 4 PF threads (50 MB)"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 0 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 327 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 654 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 979 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1305 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1631 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1956 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2282 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2606 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 2931 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 3258 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 3583 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 3910 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 4238 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 4565 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 4893 of 5184 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] writing PE16 cache-file pe-4177bd37"
-[f=-000001] [Path] [PathEstimator::WriteFile] hash=4177bd37 file="cache\104dev-maintenance/paths/Ganymede v1.pe-4177bd37.zip" (exists=0)
-[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] written PE16 cache-file pe-4177bd37"
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=13634e02
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=6376cf7a
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=6376cf7a file="cache\104dev-maintenance/paths/Tangerine.pe-6376cf7a.zip" (exists=1)
+[f=-000001] [LoadScreen::SetLoadMessage] text="Reading Estimate PathCosts [16]"
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=32
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=92
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=1f4f6bf7
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=2deb32d2
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=a5799497
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=7caeb9a3
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=4177bd47
-[f=-000001] [Path] [PathEstimator::ReadFile] hash=4177bd47 file="cache\104dev-maintenance/paths/Ganymede v1.pe2-4177bd47.zip" (exists=0)
-[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] creating PE32 cache with 4 PF threads (10 MB)"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 4 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 86 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 169 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 251 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 333 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 415 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 500 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 581 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 664 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 747 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 831 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 912 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 995 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1078 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1159 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[EstimatePathCosts] precached 1240 of 1296 blocks"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] writing PE32 cache-file pe2-4177bd47"
-[f=-000001] [Path] [PathEstimator::WriteFile] hash=4177bd47 file="cache\104dev-maintenance/paths/Ganymede v1.pe2-4177bd47.zip" (exists=0)
-[f=-000001] [LoadScreen::SetLoadMessage] text="[InitEstimator] written PE32 cache-file pe2-4177bd47"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (11390ms, checksum 4c90d4cb)"
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=13634e02
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=6376cf8a
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=6376cf8a file="cache\104dev-maintenance/paths/Tangerine.pe2-6376cf8a.zip" (exists=1)
+[f=-000001] [LoadScreen::SetLoadMessage] text="Reading Estimate PathCosts [32]"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (1230ms, checksum 848c227d)"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Skirmish AIs"
 [f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs::CreateAI(id=0)] 0ms
 [f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs] 0ms
 [f=-000001] [Game::LoadGame][6] globalQuit=0 forcedQuit=0
-[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,13800,0} {chunk,block}Bytes={0,0}
+[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,13632,0} {chunk,block}Bytes={0,0}
 [f=-000001] Set water rendering mode to 1 (reflective)
 [f=-000001] Set water rendering mode to 1 (reflective)
-[f=-000001] GameID: a6a0dc5c3ab00ce3f6e4b9c03a2ede48
+[f=-000001] GameID: daaddc5ca7a038b0b3ab91a33b440565
 [f=-000001] Connection attempt from Player
 [f=-000001]  -> Version: 104.0.1-969-ga0e1218 maintenance [Windows 32-bit (emulated)]
 [f=-000001]  -> Connection established (given id 0)
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PreGame::GameDataReceived][map-checksums]
-	server=24147aa58ffb24782f5df3aae6d14d427340adb4a85d9e12270426c08bbc67e55eebeebc6f3f0c850ceec822fb9580e739db3aa871ddb8d10636b436488e4608
-	client=24147aa58ffb24782f5df3aae6d14d427340adb4a85d9e12270426c08bbc67e55eebeebc6f3f0c850ceec822fb9580e739db3aa871ddb8d10636b436488e4608"
+	server=b093e9b396ff3a7c8cedab6e4d23969a6bf9e187ca08825b3cbb91310a7d95e2cd21348b5e8c93d602b9caac2436cfec4512e797b83439cf6bde9886f7df5e78
+	client=b093e9b396ff3a7c8cedab6e4d23969a6bf9e187ca08825b3cbb91310a7d95e2cd21348b5e8c93d602b9caac2436cfec4512e797b83439cf6bde9886f7df5e78"
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PreGame::GameDataReceived][mod-checksums]
 	server=41c07c887d8dc494722f5fc13a5c4876113ff66591e6ecbf4795b9fa762c5668ec9017386e9236c7f2259b5a17d07f9e5429845a8f219e261041f1cdc4fc8187
 	client=41c07c887d8dc494722f5fc13a5c4876113ff66591e6ecbf4795b9fa762c5668ec9017386e9236c7f2259b5a17d07f9e5429845a8f219e261041f1cdc4fc8187"
-[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=ddd88a0f3d4aff0b9df832432453d3dd7c017afcc6ecf0110c381a9497fb1ca49fa51512d823f3f592519c94f569102fa0dd374267e9947b5382ef46a75183b4]"
-[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=744c02801aa7507aad4e91dd83ee23f6feb4626199ab7cb9a8f3d952b2cf44241d64291e790a6f8f5493382a8a428b9fee82ec33dd394f1b63ddbb9355219aaa]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=9ceb5379ccd75200cc9ded4240ba0e3a56c2ec5a0c5db70443712181aad424b998e11bde1fb159f480fb29285d6b750f1eafabaaa8f212bca71c99a0d0c0efeb]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=d6747fae09bd8101a003fc6442d96617bc187e066c24690c7a261c71b0302ae5824fede82399d648b2ff573c89fc366949260f734c71c656a023da3268562f8c]"
 [f=-000001] Skirmish AI "Bot1" (ID:0, Short-Name:"DAI", Version:"<not-versioned>") took over control of team 0
 [f=-000001] Player Player finished loading and is now ingame
 [f=-000001] <Player> Private: My player ID is 0
-[f=-000001] 576, 576, 331776, 7, 308, 77, 7, 4
-[f=-000001] 122, blobs
-[f=-000001] Shard by AF - playing: BA on: Ganymede v1
-[f=-000001] adding UnitHandler module
-[f=-000001] adding BomberHandler module
-[f=-000001] adding FighterHandler module
-[f=-000001] adding ControlPointHandler module
-[f=-000001] adding MetalSpotHandler module
-[f=-000001] adding GeoSpotHandler module
-[f=-000001] adding NewPlacementHandler module
-[f=-000001] adding RequestsHandler module
-[f=-000001] adding AiModeHandler module
-[f=-000001] adding Sleep module
-[f=-000001] adding ScoutsHandler module
-[f=-000001] adding TriggerHandler module
-[f=-000001] adding MainSquadHandler module
-[f=-000001] Warning: isCommander - deprecated field!
-[f=-000001] Warning: builder - deprecated field!
-[f=0000338] Cheating is enabled!
-[f=0000419] [GlobalLosActionExecutor] global LOS toggled for all allyteams
-[f=0000521] [GlobalLosActionExecutor] global LOS toggled for all allyteams
-[f=0000556] Warning: isCommander - deprecated field!
-[f=0000556] Warning: builder - deprecated field!
-[f=0000837] Buildings set to face North
-[f=0001111] Warning: isCommander - deprecated field!
-[f=0001111] Warning: builder - deprecated field!
-[f=0001551] Warning: isCommander - deprecated field!
-[f=0001551] Warning: builder - deprecated field!
-[f=0001761] LuaUI TweakMode: ON
-[f=0002119] Warning: isCommander - deprecated field!
-[f=0002119] Warning: builder - deprecated field!
-[f=0002142] LuaUI TweakMode: OFF
-[f=0002479] Warning: isCommander - deprecated field!
-[f=0002479] Warning: builder - deprecated field!
-[f=0002865] Warning: isCommander - deprecated field!
-[f=0002865] Warning: builder - deprecated field!
-[f=0003183] Warning: isCommander - deprecated field!
-[f=0003183] Warning: builder - deprecated field!
-[f=0004196] Warning: isCommander - deprecated field!
-[f=0004196] Warning: builder - deprecated field!
-[f=0004522] Warning: isCommander - deprecated field!
-[f=0004522] Warning: builder - deprecated field!
-[f=0004544] Warning: isCommander - deprecated field!
-[f=0004544] Warning: builder - deprecated field!
-[f=0004801] Warning: isCommander - deprecated field!
-[f=0004801] Warning: builder - deprecated field!
-[f=0004820] Warning: isCommander - deprecated field!
-[f=0004820] Warning: builder - deprecated field!
-[f=0004962] Warning: isCommander - deprecated field!
-[f=0004962] Warning: builder - deprecated field!
-[f=0005201] Warning: isCommander - deprecated field!
-[f=0005201] Warning: builder - deprecated field!
-[f=0005341] Warning: isCommander - deprecated field!
-[f=0005341] Warning: builder - deprecated field!
-[f=0005352] Warning: isCommander - deprecated field!
-[f=0005352] Warning: builder - deprecated field!
-[f=0005610] Warning: isCommander - deprecated field!
-[f=0005610] Warning: builder - deprecated field!
-[f=0005708] Warning: isCommander - deprecated field!
-[f=0005708] Warning: builder - deprecated field!
-[f=0005778] Warning: isCommander - deprecated field!
-[f=0005778] Warning: builder - deprecated field!
-[f=0005898] Warning: isCommander - deprecated field!
-[f=0005898] Warning: builder - deprecated field!
-[f=0007055] Warning: isCommander - deprecated field!
-[f=0007055] Warning: builder - deprecated field!
-[f=0007235] Warning: isCommander - deprecated field!
-[f=0007235] Warning: builder - deprecated field!
-[f=0007576] Warning: isCommander - deprecated field!
-[f=0007576] Warning: builder - deprecated field!
-[f=0007680] Warning: isCommander - deprecated field!
-[f=0007680] Warning: builder - deprecated field!
-[f=0007722] Warning: isCommander - deprecated field!
-[f=0007722] Warning: builder - deprecated field!
-[f=0007835] Warning: isCommander - deprecated field!
-[f=0007835] Warning: builder - deprecated field!
-[f=0007851] Warning: isCommander - deprecated field!
-[f=0007851] Warning: builder - deprecated field!
-[f=0007998] Warning: isCommander - deprecated field!
-[f=0007998] Warning: builder - deprecated field!
-[f=0008358] Warning: isCommander - deprecated field!
-[f=0008358] Warning: builder - deprecated field!
-[f=0008415] Warning: isCommander - deprecated field!
-[f=0008415] Warning: builder - deprecated field!
-[f=0008522] Warning: isCommander - deprecated field!
-[f=0008522] Warning: builder - deprecated field!
-[f=0008841] Warning: isCommander - deprecated field!
-[f=0008841] Warning: builder - deprecated field!
-[f=0009185] Warning: isCommander - deprecated field!
-[f=0009185] Warning: builder - deprecated field!
-[f=0009273] Warning: isCommander - deprecated field!
-[f=0009273] Warning: builder - deprecated field!
-[f=0009348] Warning: isCommander - deprecated field!
-[f=0009348] Warning: builder - deprecated field!
-[f=0009421] -> Peewee is being attacked!
-[f=0009733] Warning: isCommander - deprecated field!
-[f=0009733] Warning: builder - deprecated field!
-[f=0009917] Warning: isCommander - deprecated field!
-[f=0009917] Warning: builder - deprecated field!
-[f=0009946] Warning: isCommander - deprecated field!
-[f=0009946] Warning: builder - deprecated field!
-[f=0010001] Warning: isCommander - deprecated field!
-[f=0010001] Warning: builder - deprecated field!
-[f=0010411] Warning: isCommander - deprecated field!
-[f=0010411] Warning: builder - deprecated field!
-[f=0010423] Warning: isCommander - deprecated field!
-[f=0010423] Warning: builder - deprecated field!
-[f=0010526] Warning: isCommander - deprecated field!
-[f=0010526] Warning: builder - deprecated field!
-[f=0010621] Warning: isCommander - deprecated field!
-[f=0010621] Warning: builder - deprecated field!
-[f=0010623] Warning: isCommander - deprecated field!
-[f=0010623] Warning: builder - deprecated field!
-[f=0010661] Warning: isCommander - deprecated field!
-[f=0010661] Warning: builder - deprecated field!
-[f=0010684] Warning: isCommander - deprecated field!
-[f=0010684] Warning: builder - deprecated field!
-[f=0010736] Warning: isCommander - deprecated field!
-[f=0010736] Warning: builder - deprecated field!
-[f=0010794] Warning: isCommander - deprecated field!
-[f=0010794] Warning: builder - deprecated field!
-[f=0010862] Warning: isCommander - deprecated field!
-[f=0010862] Warning: builder - deprecated field!
-[f=0010915] Warning: isCommander - deprecated field!
-[f=0010915] Warning: builder - deprecated field!
-[f=0011111] Warning: isCommander - deprecated field!
-[f=0011111] Warning: builder - deprecated field!
-[f=0011119] Warning: isCommander - deprecated field!
-[f=0011119] Warning: builder - deprecated field!
-[f=0011148] Warning: isCommander - deprecated field!
-[f=0011148] Warning: builder - deprecated field!
-[f=0011244] Warning: isCommander - deprecated field!
-[f=0011244] Warning: builder - deprecated field!
-[f=0011262] Warning: isCommander - deprecated field!
-[f=0011262] Warning: builder - deprecated field!
-[f=0011282] Warning: isCommander - deprecated field!
-[f=0011282] Warning: builder - deprecated field!
-[f=0011335] Warning: isCommander - deprecated field!
-[f=0011335] Warning: builder - deprecated field!
-[f=0011383] Warning: isCommander - deprecated field!
-[f=0011383] Warning: builder - deprecated field!
-[f=0011404] Warning: isCommander - deprecated field!
-[f=0011404] Warning: builder - deprecated field!
-[f=0011431] Warning: isCommander - deprecated field!
-[f=0011431] Warning: builder - deprecated field!
-[f=0011471] [SpringApp::Kill][1] fromRun=1
-[f=0011471] [ThreadPool::SetThreadCount][1] wanted=0 current=2 maximum=2 (init=0)
-[f=0011471] 	[async=0] threads=2 tasks=26395 {sum,avg}{exec,wait}time={{0.000, -0.000}, {0.000, 0.000}}ms
-[f=0011471] 		thread=1 tasks=26395 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -0.000}, {0.000, 0.000, -0.000, 0.000}}ms
-[f=0011471] 	[async=1] threads=2 tasks=1 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
-[f=0011471] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {0.000, 0.000, 0.000, 0.000}}ms
-[f=0011471] [ThreadPool::SetThreadCount][2] workers=0
-[f=0011471] [SpringApp::Kill][2]
-[f=0011471] [Game::KillLua][0] dtor=0 loadscreen=00000000
-[f=0011471] [Game::KillLua][3] dtor=0 luaUI=19f76e68
-[f=0011471] Red_UI_Framework>> last processed widget was "Red Tooltip"
-[f=0011471] Red_Drawing>> last processed widget was "Red Tooltip"
-[f=0011471] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,40996817,0} {chunk,block}Bytes={0,0}
-[f=0011471] [Game::KillLua][1] dtor=0 luaGaia=00000000
-[f=0011471] [Game::KillLua][2] dtor=0 luaRules=0fdceb00
-[f=0011471] Shard AI unsync gadget shutdown
-[f=0011471] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,40996821,0} {chunk,block}Bytes={0,0}
-[f=0011471] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,40996821,0} {chunk,block}Bytes={0,0}
-[f=0011471] [Game::KillLua][4] dtor=0
-[f=0011471] [WriteDemoFile] writing client-demo "C:\Users\moach\Documents\My Games\Spring\demos\20190515_162838_Ganymede v1_104.0.1-969-ga0e1218 maintenance.sdfz" (167493 bytes)
-[f=0011471] [Sound] [Sound::Kill] soundThread.joinable()=1
-[f=0011471] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
-[f=0011471] [Sound] [Sound::UpdateThread][3] #sources=64 #items=43
-[f=0011471] [Sound] [Sound::UpdateThread][4] ctx=0457eeb8 dev=059a0b50
-[f=0011471] [Sound] [Sound::UpdateThread][5] ctx=0457eeb8 dev=059a0b50
-[f=0011471] [Sound] [Sound::Cleanup][alcDestroyContext(0457eeb8)]
-[f=0011471] [Sound] [Sound::Cleanup][alcCloseDevice(059a0b50)]
-[f=0011471] [Sound] [Sound::UpdateThread][6]
-[f=0011471] [Game::~CGame][1]
-[f=0011471] [Game::KillLua][0] dtor=1 loadscreen=00000000
-[f=0011471] [Game::KillLua][3] dtor=1 luaUI=00000000
-[f=0011471] [Game::KillLua][1] dtor=1 luaGaia=00000000
-[f=0011471] [Game::KillLua][2] dtor=1 luaRules=00000000
-[f=0011471] [Game::KillLua][4] dtor=1
-[f=0011471] [Game::KillMisc][1]
-[f=0011471] [Game::KillMisc][2]
-[f=0011471] [Game::KillMisc][3]
-[f=0011471] [Game::KillRendering][1]
-[f=0011471] [3DOParser::Kill] allocated 4694 pieces
-[f=0011471] [S3OParser::Kill] allocated 1026 pieces
-[f=0011471] [AssParser::Kill] allocated 0 pieces
-[f=0011471] [Game::KillInterface][1]
-[f=0011471] [Game::KillInterface][2]
-[f=0011471] [Game::KillSimulation][1]
-[f=0011471] [Game::KillSimulation][2]
-[f=0011471] [CCollisionHandler] dis-/continuous tests: 0/608139
-[f=0011471] [Game::KillSimulation][3]
-[f=0011471] [~CPathCache(36x36)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
-[f=0011471] [~CPathCache(36x36)] cacheHits=468 hitPercentage=68% numHashColls=0 maxCacheSize=16
-[f=0011471] [~CPathCache(72x72)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
-[f=0011471] [~CPathCache(72x72)] cacheHits=329 hitPercentage=0% numHashColls=0 maxCacheSize=201
-[f=0011471] [~CRectangleOverlapHandler] 0% overlap reduction
-[f=0011471] [~CRectangleOverlapHandler] 0% overlap reduction
-[f=0011471] [LosHandler::Kill] raycast instance cache-{hits,misses}={4070,4265}; shared=19%; from cache=30%
-[f=0011471] [Game::KillSimulation][4]
-[f=0011471] [CommonDefHandler::KillStatic] 3208 sound-set data items added
-[f=0011471] [Game::~CGame][2]
-[f=0011471] [Game::~CGame][3]
-[f=0011471] [SpringApp::Kill][3]
-[f=0011471] [NetProto::~CNetProtocol] [LocalConnection::Statistics]
-	158320 bytes sent  
-	57462 bytes recv'd
+[f=-000001] [SpringApp::Kill][1] fromRun=1
+[f=-000001] [ThreadPool::SetThreadCount][1] wanted=0 current=2 maximum=2 (init=0)
+[f=-000001] 	[async=0] threads=2 tasks=203 {sum,avg}{exec,wait}time={{26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -2.000}, {-2.000, -0.000}}ms
+[f=-000001] 		thread=1 tasks=203 {sum,min,max,avg}{exec,wait}time={{26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, 0.000, -0.000, -2.000}, {-2.000, 0.000, -2.000, -0.000}}ms
+[f=-000001] 	[async=1] threads=2 tasks=1 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
+[f=-000001] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {0.000, 0.000, 0.000, 0.000}}ms
+[f=-000001] [ThreadPool::SetThreadCount][2] workers=0
+[f=-000001] [SpringApp::Kill][2]
+[f=-000001] [Game::KillLua][0] dtor=0 loadscreen=00000000
+[f=-000001] [Game::KillLua][3] dtor=0 luaUI=5d85a5c8
+[f=-000001] Red_UI_Framework>> last processed widget was "Red Tooltip"
+[f=-000001] Red_Drawing>> last processed widget was "Red Tooltip"
+[f=-000001] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,1004686,0} {chunk,block}Bytes={0,0}
+[f=-000001] [Game::KillLua][1] dtor=0 luaGaia=00000000
+[f=-000001] [Game::KillLua][2] dtor=0 luaRules=294b62f8
+[f=-000001] Shard AI unsync gadget shutdown
+[f=-000001] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,1004688,0} {chunk,block}Bytes={0,0}
+[f=-000001] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,1004688,0} {chunk,block}Bytes={0,0}
+[f=-000001] [Game::KillLua][4] dtor=0
+[f=-000001] [WriteDemoFile] writing client-demo "C:\Users\moach\Documents\My Games\Spring\demos\20190515_172459_Tangerine_104.0.1-969-ga0e1218 maintenance.sdfz" (5194 bytes)
+[f=-000001] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=-000001] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=-000001] [Sound] [Sound::UpdateThread][3] #sources=64 #items=5
+[f=-000001] [Sound] [Sound::UpdateThread][4] ctx=05817ae8 dev=05a73d00
+[f=-000001] [Sound] [Sound::UpdateThread][5] ctx=05817ae8 dev=05a73d00
+[f=-000001] [Sound] [Sound::Cleanup][alcDestroyContext(05817ae8)]
+[f=-000001] [Sound] [Sound::Cleanup][alcCloseDevice(05a73d00)]
+[f=-000001] [Sound] [Sound::UpdateThread][6]
+[f=-000001] [Game::~CGame][1]
+[f=-000001] [Game::KillLua][0] dtor=1 loadscreen=00000000
+[f=-000001] [Game::KillLua][3] dtor=1 luaUI=00000000
+[f=-000001] [Game::KillLua][1] dtor=1 luaGaia=00000000
+[f=-000001] [Game::KillLua][2] dtor=1 luaRules=00000000
+[f=-000001] [Game::KillLua][4] dtor=1
+[f=-000001] [Game::KillMisc][1]
+[f=-000001] [Game::KillMisc][2]
+[f=-000001] [Game::KillMisc][3]
+[f=-000001] [Game::KillRendering][1]
+[f=-000001] [3DOParser::Kill] allocated 4693 pieces
+[f=-000001] [S3OParser::Kill] allocated 1033 pieces
+[f=-000001] [AssParser::Kill] allocated 0 pieces
+[f=-000001] [Game::KillInterface][1]
+[f=-000001] [Game::KillInterface][2]
+[f=-000001] [Game::KillSimulation][1]
+[f=-000001] [Game::KillSimulation][2]
+[f=-000001] [CCollisionHandler] dis-/continuous tests: 0/1599
+[f=-000001] [Game::KillSimulation][3]
+[f=-000001] [~CPathCache(32x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=-000001] [~CPathCache(32x32)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=-000001] [~CPathCache(64x64)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=-000001] [~CPathCache(64x64)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [~CRectangleOverlapHandler] 0% overlap reduction
+[f=-000001] [LosHandler::Kill] raycast instance cache-{hits,misses}={1,1}; shared=0%; from cache=50%
+[f=-000001] [Game::KillSimulation][4]
+[f=-000001] [CommonDefHandler::KillStatic] 3208 sound-set data items added
+[f=-000001] [Game::~CGame][2]
+[f=-000001] [Game::~CGame][3]
+[f=-000001] [SpringApp::Kill][3]
+[f=-000001] [NetProto::~CNetProtocol] [LocalConnection::Statistics]
+	1768 bytes sent  
+	2944 bytes recv'd
 
-[f=0011471] [SpringApp::Kill][4] font=0514d010
-[f=0011471] [SpringApp::Kill][5]
-[f=0011471] [SpringApp::Kill][6]
+[f=-000001] [SpringApp::Kill][4] font=0521b010
+[f=-000001] [SpringApp::Kill][5]
+[f=-000001] [SpringApp::Kill][6]
 [SpringApp::Kill][7]
 [LuaSocket] [~CLuaSocketRestrictions] dumping luasocket rules:
 [LuaSocket] TCP_CONNECT ALLOW * -1
 [LuaSocket] TCP_LISTEN  ALLOW * -1
 [LuaSocket] UDP_LISTEN  ALLOW * -1
-[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\springcontent.sdz] 186067 bytes cached in 79 files
-[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\spring\bitmaps.sdz] 835908 bytes cached in 6 files
+[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\springcontent.sdz] 183755 bytes cached in 78 files
+[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\spring\bitmaps.sdz] 786702 bytes cached in 5 files
 [~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\maphelper.sdz] 14008 bytes cached in 3 files
-[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\games\SA-v0.00.11.sdz] 60254739 bytes cached in 3667 files
+[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\games\SA-v0.00.11.sdz] 58546356 bytes cached in 3519 files
 [SpringApp::Kill][8]
 [WatchDog::DeregisterThread] deregistering controls for thread [main]
 [WatchDog::Uninstall][1] hangDetectorThread=011055cc (joinable=1)
