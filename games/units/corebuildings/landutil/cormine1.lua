@@ -36,7 +36,7 @@ return {
 		objectname = "CORMINE1",
 		script = "mines_lus.lua",
 		seismicsignature = 0,
-		selfdestructas = "MINE_LIGHT",
+		selfdestructas = "noweapon",
 		selfdestructcountdown = 0,
 		sightdistance = 83.2,
 		stealth = true,

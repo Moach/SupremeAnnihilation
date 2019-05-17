@@ -35,7 +35,7 @@ return {
 		objectname = "ARMFMINE3",
 		script = "mines_lus.lua",
 		seismicsignature = 0,
-		selfdestructas = "FMINE_HEAVY",
+		selfdestructas = "noweapon",
 		selfdestructcountdown = 0,
 		sightdistance = 78,
 		sonarstealth = true,

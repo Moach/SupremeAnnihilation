@@ -1,6 +1,6 @@
 return {
 	cormlv = {
-		acceleration = 0.05681,
+		acceleration = 0.07,
 		activatewhenbuilt = true,
 		brakerate = 0.11362,
 		buildcostenergy = 1300,
@@ -17,6 +17,7 @@ return {
 		canrepair = true,
 		canrestore = false,
 		category = "ALL TANK MOBILE NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
+		cloakcost = 5,
 		collisionvolumeoffsets = "0 -2 0",
 		collisionvolumescales = "19 10 29",
 		collisionvolumetype = "Box",
@@ -32,8 +33,8 @@ return {
 		leavetracks = true,
 		mass = 1500,
 		maxdamage = 155,
-		maxslope = 16,
-		maxvelocity = 2.15,
+		maxslope = 10,
+		maxvelocity = 2.16,
 		maxwaterdepth = 0,
 		movementclass = "TANK2",
 		name = "Spoiler",
@@ -53,7 +54,7 @@ return {
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.62228,
 		turnrate = 580,
-		workertime = 40,
+		workertime = 50,
 		buildoptions = {
 			[1] = "cormine1",
 			[2] = "cormine2",
@@ -62,7 +63,8 @@ return {
 			[5] = "coreyes",
 			[6] = "cormaw",
 			[7] = "corllt",
-			[8] = "corroach",
+			[8] = "corrl",
+			[9] = "corroach",
 		},
 		customparams = {
 			bar_trackoffset = 12,

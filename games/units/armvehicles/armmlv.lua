@@ -1,6 +1,6 @@
 return {
 	armmlv = {
-		acceleration = 0.07135,
+		acceleration = 0.1,
 		activatewhenbuilt = true,
 		brakerate = 0.1427,
 		buildcostenergy = 1100,
@@ -17,6 +17,7 @@ return {
 		canrepair = true,
 		canrestore = false,
 		category = "ALL TANK MOBILE NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
+		cloakcost = 5,
 		collisionvolumeoffsets = "0 -1 0",
 		collisionvolumescales = "15 14 28",
 		collisionvolumetype = "Box",
@@ -32,8 +33,8 @@ return {
 		leavetracks = true,
 		mass = 1500,
 		maxdamage = 155,
-		maxslope = 16,
-		maxvelocity = 2.49,
+		maxslope = 10,
+		maxvelocity = 2.8,
 		maxwaterdepth = 0,
 		movementclass = "TANK2",
 		name = "Podger",
@@ -53,7 +54,7 @@ return {
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.66584,
 		turnrate = 629,
-		workertime = 40,
+		workertime = 50,
 		buildoptions = {
 			[1] = "armmine1",
 			[2] = "armmine2",
@@ -62,7 +63,8 @@ return {
 			[5] = "armeyes",
 			[6] = "armclaw",
 			[7] = "armllt",
-			[8] = "armvader",
+			[8] = "armrl",
+			[9] = "armvader",
 		},
 		customparams = {
 			arm_tank = "1",

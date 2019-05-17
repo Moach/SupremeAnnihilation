@@ -59,6 +59,7 @@ return {
 			[16] = "corfdrag",
 			[17] = "corflak",
 			[18] = "corck",
+			[19] = "cormlv",
 		},
 		customparams = {
 			area_mex_def = "cormex",
