@@ -36,6 +36,7 @@ return {
 		turninplacespeedlimit = 1.848,
 		turnrate = 1214.40002,
 		upright = true,
+		stealth = true,
 		customparams = {
 			description_long = "Peewee is a basic infantry Kbot. It is cheap and can easily be deployed in large mass formations. It features built-in self repair capability (when idle) to compensate for limited armour. Light infantry kbots can traverse very rugged terrain and have ideal line-of-sight conditions to spot targets for more specialized weapons units.",
 			model_author = "Kaiser",

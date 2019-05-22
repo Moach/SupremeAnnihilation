@@ -37,6 +37,7 @@ return {
 		selfdestructas = "corsktlSelfd",
 		selfdestructcountdown = 0,
 		sightdistance = 260,
+		stealth = true,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.155,

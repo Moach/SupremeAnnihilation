@@ -45,6 +45,7 @@ return {
 		turninplacespeedlimit = 1.7424,
 		turnrate = 1265,
 		upright = true,
+		stealth = true,
 		workertime = 140,
 		buildoptions = {
 			[1] = "armllt",

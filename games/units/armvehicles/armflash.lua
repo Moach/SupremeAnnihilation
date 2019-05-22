@@ -38,6 +38,7 @@ return {
 		tracktype = "StdTank",
 		trackwidth = 22,
 		turninplace = true,
+		stealth = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 2.424,
 		turnrate = 473,

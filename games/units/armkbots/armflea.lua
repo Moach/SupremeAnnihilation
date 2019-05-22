@@ -33,6 +33,7 @@ return {
 		selfdestructas = "tinyexplosiongenericSelfd",
 		sightdistance = 550,
 		turninplace = true,
+		stealth = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 2.904,
 		turnrate = 1807.79993,

@@ -34,6 +34,7 @@ return {
 		selfdestructas = "crawl_blast",
 		selfdestructcountdown = 0,
 		sightdistance = 260,
+		stealth = true,
 		turninplace = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.782,

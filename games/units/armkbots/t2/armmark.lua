@@ -35,6 +35,7 @@ return {
 		sightdistance = 900,
 		sonardistance = 0,
 		turninplace = true,
+		stealth = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 0.891,
 		turnrate = 580.75,

@@ -36,6 +36,7 @@ return {
 		turninplacespeedlimit = 1.98,
 		turnrate = 506,
 		upright = true,
+		stealth = true,
 		customparams = {
 			model_author = "FireStorm",
 			subfolder = "armkbots/t2",

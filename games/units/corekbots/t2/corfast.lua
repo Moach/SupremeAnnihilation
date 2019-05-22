@@ -37,6 +37,7 @@ return {
 		seismicsignature = 0,
 		selfdestructas = "smallbuilderSelfd",
 		sightdistance = 520,
+		stealth = true,
 		terraformspeed = 750,
 		turninplace = true,
 		turninplaceanglelimit = 90,

@@ -45,6 +45,7 @@ return {
 		turninplacespeedlimit = 1.65,
 		turnrate = 1168.40002,
 		upright = true,
+		stealth = true,
 		workertime = 200,
 		buildoptions = {
 			[1] = "corvalk",

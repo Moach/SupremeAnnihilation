@@ -36,6 +36,7 @@ return {
 		selfdestructcountdown = 0,
 		sightdistance = 273,
 		turninplace = true,
+		stealth = true,
 		turninplaceanglelimit = 90,
 		turninplacespeedlimit = 1.848,
 		turnrate = 1771,

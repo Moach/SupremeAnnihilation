@@ -38,6 +38,7 @@ return {
 		turninplacespeedlimit = 0.7788,
 		turnrate = 1538.69995,
 		upright = true,
+		stealth = true,
 		customparams = {
 			model_author = "Kaiser",
 			subfolder = "armkbots/t2",
