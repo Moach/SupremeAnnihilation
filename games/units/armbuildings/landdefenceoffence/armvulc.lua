@@ -157,7 +157,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "MOBILE",
+				badtargetcategory = "MOBILE LITEINF",
 				def = "ARMVULC_WEAPON",
 				onlytargetcategory = "SURFACE",
 			},

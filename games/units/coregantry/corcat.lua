@@ -19,7 +19,7 @@ return {
 		idleautoheal = 5,
 		idletime = 1800,
 		mass = 200000,
-		maxdamage = 5500,
+		maxdamage = 2500,
 		maxslope = 20,
 		maxvelocity = 1.6,
 		maxwaterdepth = 12,
@@ -164,12 +164,13 @@ return {
 				damage = {
 					default = 450,
 					subs = 5,
+					buildings = 350,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL GROUNDSCOUT",
+				badtargetcategory = "VTOL GROUNDSCOUT LITEINF",
 				def = "EXP_HEAVYROCKET",
 				onlytargetcategory = "SURFACE",
 			},

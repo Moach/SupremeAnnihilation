@@ -159,16 +159,17 @@ return {
 				weaponvelocity = 450,
 				damage = {
 					bombers = 24,
-					default = 262.5,
+					default = 562.5,
 					fighters = 24,
 					subs = 5,
 					vtol = 24,
+					buildings = 450,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "ARMST_GAUSS",
 				onlytargetcategory = "NOTSUB",
 			},

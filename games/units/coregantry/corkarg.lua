@@ -19,7 +19,7 @@ return {
 		idleautoheal = 5,
 		idletime = 1800,
 		mass = 200000,
-		maxdamage = 9000,
+		maxdamage = 6000,
 		maxslope = 160,
 		maxvelocity = 1.5,
 		maxwaterdepth = 12,
@@ -275,12 +275,12 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "GROUNDSCOUT",
+				badtargetcategory = "GROUNDSCOUT LITEINF",
 				def = "SUPER_MISSILE",
 				onlytargetcategory = "NOTSUB",
 			},
 			[2] = {
-				badtargetcategory = "GROUNDSCOUT",
+				badtargetcategory = "GROUNDSCOUT LITEINF",
 				def = "KARG_SHOULDER",
 				onlytargetcategory = "VTOL",
 			},

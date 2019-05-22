@@ -156,12 +156,13 @@ return {
 					fighters = 19,
 					subs = 5,
 					vtol = 19,
+					buildings = 420,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL MOBILE",
 				def = "TREMOR",
 				maindir = "0 0 1",
 				maxangledif = 270,

@@ -15,7 +15,7 @@ return {
 		canreclaim = true,
 		canrepair = true,
 		canrestore = false,
-		category = "ALL MOBILE WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE KBOT EMPABLE",
+		category = "ALL LITEINF MOBILE WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE KBOT EMPABLE",
 		collisionvolumeoffsets = "0 -6 0",
 		collisionvolumescales = "38 45 22",
 		collisionvolumetype = "box",
@@ -128,7 +128,7 @@ return {
 				noselfdamage = true,
 				predictboost = 0.5,
 				proximitypriority = -10,
-				range = 400,
+				range = 450,
 				reloadtime = 0.5,
 				rgbcolor = "0.85,0.3,0.2",
 				soundhit = "xplosml3",
@@ -139,7 +139,8 @@ return {
 				weapontype = "LaserCannon",
 				weaponvelocity = 310,
 				damage = {
-					default = 100,
+					default = 500,
+					buildings = 10,
 				},
 			},
 			commando_minelayer = {

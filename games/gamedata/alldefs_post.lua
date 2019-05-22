@@ -34,10 +34,15 @@ local vehAdditionalVelocity = 0
 local vehVelocityMultiplier = 1
 
 local unitLOSMult = 1.8
-local weaponsRangeMult = 1.1
+local sensorsRangeMult = 1
+local weaponsRangeMult = 1.0
 local weaponsMuzzVMult = 1.5
 
+local allUnitsReverseVel = 0.948
 
+local staticsArmorMult = 1.5
+local staticsSelfRepairTime = 180
+local staticsSelfRepairRate = 50
 
 local function getFilePath(filename, path)
 	local files = VFS.DirList(path, '*.lua')
@@ -99,12 +104,31 @@ end
 
 function UnitDef_Post(name, uDef)
 
+	if (Spring.GetModOptions) then
+		unitLOSMult = Spring.GetModOptions().ba_unitlosmult
+		sensorsRangeMult = Spring.GetModOptions().ba_sensorsrangemult
+	end
+
 	-- Supreme Annihilation General LOS extension for all units
-	
 	if (uDef.sightdistance ~= nil) then
 		uDef.sightdistance = uDef.sightdistance * unitLOSMult
 	end
 
+	if (uDef.radardistance ~= nil) then
+		uDef.radardistance = uDef.radardistance * sensorsRangeMult
+	end
+	if (uDef.sonardistance ~= nil) then
+		uDef.sonardistance = uDef.sonardistance * sensorsRangeMult
+	end
+	
+	-- increase durability for static units (buildings and stuff)
+	if (uDef.maxdamage ~= nil and not uDef.canmove) then
+		uDef.maxdamage = uDef.maxdamage * staticsArmorMult
+		
+		-- also, static units shall all be fitted with rapid self-repair, which should lessen the effect of small units against them without making them too much "harder" in general
+		
+	end
+	
 	-- load BAR stuff
 	if (Spring.GetModOptions and (tonumber(Spring.GetModOptions().barmodels) or 0) ~= 0 or string.find(name, '_bar')) and not ((Spring.GetModOptions and (Spring.GetModOptions().unba or "disabled") == "enabled") and (name == "armcom" or name == "corcom" or name == "armcom_bar" or name == "corcom_bar"))  then
 		if string.find(name, '_bar') then
@@ -310,10 +334,17 @@ end
 
 -- process weapondef
 function WeaponDef_Post(name, wDef)
-
+	
+	if (Spring.GetModOptions) then
+		weaponsRangeMult = Spring.GetModOptions().ba_weaponsrangemult
+	end
+	
 	if (wDef.weapontype ~= "Shield") then
-		
+	
 		if (wDef.range ~= nil) then wDef.range = wDef.range * weaponsRangeMult end
+		
+		
+		
 		if (wDef.weaponvelocity ~= nil) then 
 			wDef.weaponvelocity = wDef.weaponvelocity * weaponsMuzzVMult 
 			if (wDef.startvelocity ~= nil) then 

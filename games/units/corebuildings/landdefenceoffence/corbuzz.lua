@@ -154,7 +154,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "MOBILE",
+				badtargetcategory = "MOBILE LITEINF",
 				def = "CORBUZZ_WEAPON",
 				onlytargetcategory = "SURFACE",
 			},

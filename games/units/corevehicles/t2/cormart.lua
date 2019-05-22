@@ -173,7 +173,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "NOTLAND",
+				badtargetcategory = "VTOL LITEINF",
 				def = "CORE_ARTILLERY",
 				maindir = "0 0 1",
 				maxangledif = 180,

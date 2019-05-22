@@ -155,6 +155,7 @@ return {
 				},
 				damage = {
 					default = 850,
+					buildings = 400,
 				},
 			},
 		},

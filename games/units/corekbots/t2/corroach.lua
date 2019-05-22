@@ -8,7 +8,7 @@ return {
 		buildpic = "CORROACH.DDS",
 		buildtime = 1229,
 		canmove = true,
-		category = "KBOT MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE CANBEUW EMPABLE",
+		category = "KBOT LITEINF MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE CANBEUW EMPABLE",
 		collisionvolumeoffsets = "0 3 0",
 		collisionvolumescales = "18 14 18",
 		collisionvolumetype = "CylY",

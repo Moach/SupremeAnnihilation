@@ -167,11 +167,13 @@ return {
 					commanders = 810,
 					default = 1700,
 					subs = 5,
+					buildings = 1610,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
+				badtargetcategory = "VTOL NOTLAND",
 				def = "CORTRUCK_ROCKET",
 				onlytargetcategory = "SURFACE",
 			},

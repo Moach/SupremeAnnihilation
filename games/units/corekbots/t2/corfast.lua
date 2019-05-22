@@ -10,7 +10,7 @@ return {
 		buildtime = 6488,
 		canmove = true,
 		canresurrect = true,
-		category = "KBOT MOBILE ALL NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
+		category = "KBOT LITEINF MOBILE ALL NOTSUB NOWEAPON NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 -1 -3",
 		collisionvolumescales = "22 37 19",
 		collisionvolumetype = "Box",

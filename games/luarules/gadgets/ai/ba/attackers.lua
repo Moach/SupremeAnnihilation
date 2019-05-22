@@ -3,6 +3,8 @@ Attackers!
 ]]--
 
 skirmisherlist = {
+	"armpw",
+	"corak",
 	"armham", 	--	Hammer 			/	Light Plasma
 	"armrock",	--	Rocko			/	Rocket Bot
 	"armfboy",  --  Fatboy          /   Heavy Plasma Bot
@@ -18,6 +20,14 @@ skirmisherlist = {
 	"cormando",	--	Commando		/	Sealthy Paratrooper Kbot
 	"cormort",	--	Morty			/	Mobile Mortar Kbot
 	"cormist",	--	Slasher			/	Misile Truck
+	"armbull",
+	"correap",	
+	"armsword",
+	"corfalchion",
+	"armkam",
+	"corbw",
+	"armsword",
+	"corfalchion",
 	"corban",	--	Banisher		/	Heavy Missile Tank
 	"corgol",	--	Goliath			/	Very heavy Assault Tank
 	"corparrow",--	Posion Arrow	/	Very Heavy Amphibious Tank
@@ -45,6 +55,15 @@ artillerylist = {
 	"corvrad",	--	Informer		/	Radar Vehicle	
 	"armmark",  --  Marky           /   Radar Kbot	
 	"corvoyr",	--	Voyeur			/	Radar Kbot
+	"armroy",   
+	"armbats",
+	"armepoch",
+	"armmship",
+	"corroy",
+	"corbats",
+	"corblackhy",
+	"cormship",
+	"corcat",	--	Catapult		/	Heavy Rocket Kbot
 }
 
 attackerlist = {
@@ -56,10 +75,12 @@ attackerlist = {
 	"cornecro",	--	Necro			/ 	Rez-Reclaim
 	"corspec",	--	Spectre			/	Radar Jamming Kbot
 	"coreter",	--	Deleter			/	Radar Jammer Vehicle
-	"corcat",	--	Catapult		/	Heavy Rocket Kbot
+	
 }
 
 gunshiplist = {
+	"armsword",
+	"corfalchion",
 	"armbrawl",	--	Brawler			/	Gunship	
 	"armblade",	--	Blade			/	Rapid Assault Gunship	
 	"armkam",	--	Banshee			/	Light Gunship	
@@ -67,8 +88,8 @@ gunshiplist = {
 	"corcrw",	--	Krow			/	Flying Fortress	
 	"corape",	--	Rapier			/	Gunship	
 	"corcut",	--	Cutlass			/	Seaplane Gunship	
-	-- "corseap",	--	Typhoon			/	Torpedo Gunship
-	-- "armseap",	--	Albatross		/	Torpedo Gunship
+	"corseap",	--	Typhoon			/	Torpedo Gunship
+	"armseap",	--	Albatross		/	Torpedo Gunship
 	"armsaber",	--	Sabre			/	Seaplane Gunship
 	-- "armdfly",	--	Dragonfly		/	Sealthy Armed Transport
 }
@@ -85,27 +106,27 @@ unusedlist = {
 	"armscab",  --  Scarab          /   Mobile Anti Nuke
 	"armdship",	--	Hunter			/	Light Torpedo Boat
 	"armrecl",	--	Grim Reaper		/	Ressurection Sub
-	"armroy",	--	Crusader		/	Destroyer
+--	"armroy",	--	Crusader		/	Destroyer
 	"armsub",	--	Lurker			/	Submarine
 	"armtship",	--	Hulk			/	Armored Transport Ship
-	"armbats",	--	Millennium		/	Battleship
+--	"armbats",	--	Millennium		/	Battleship
 	"armcarry",	--	Colossus		/	Aircraft Carrier with Anti-Nuke
-	"armepoch",	--	Epoch			/	Flagship
-	"armmls",	--	Valiant			/	Naval Engineer
+--	"armepoch",	--	Epoch			/	Flagship
+--	"armmls",	--	Valiant			/	Naval Engineer
 	"armmship",	--	Ranger			/	Missile Cruiser
 	"armserp",	--	Serpent			/	Battle Submarine
 	"armsjam",	--	Escort			/	Radar Jammer Ship
 	"armsubk",	--	Piranha			/	Submarine Killer
-	"cordship",	--	Chaser			/	Light Torpedo Boat
+--	"cordship",	--	Chaser			/	Light Torpedo Boat
 	"correcl",	--	Death Cavalry	/	Ressurection Sub
-	"corroy",	--	Enforcer		/	Destroyer
+--	"corroy",	--	Enforcer		/	Destroyer
 	"corsub",	--	Snake			/	Submarine
 	"cortship",	--	Envoy			/	Armored Transport Ship
-	"corbats",	--	Warlord			/	Battleship
-	"corblackhy",--	Black Hydra		/	Flagship
+--	"corbats",	--	Warlord			/	Battleship
+--	"corblackhy",--	Black Hydra		/	Flagship
 	"corcarry",	--	Hive			/	Aircraft Carrier with Anti-Nuke
 	"cormls",	--	Pathfinder		/	Naval Engineer
-	"cormship",	--	Messenger		/	Cruise Missile Ship
+--	"cormship",	--	Messenger		/	Cruise Missile Ship
 	"corshark",	--	Shark			/	Submarine Killer
 	"corsjam",	--	Phantom			/	Radar Jammer Ship
 	"corssub",	--	Leviathan		/	Battle Submarine
@@ -126,7 +147,6 @@ bomberlist = {
 	"armpnix",	--	Phoenix			/	Strategic Bomber	
 	"armsb",	--	Tsunami			/	Seaplane Bomber
 	"armstil",	--	Stiletto		/	EMP Bomber
-
 }
 
 fighterlist = {
@@ -155,6 +175,8 @@ mobileaalist = {
 raiderlist = {
 	"armspkt",  --  Recluse         /   All-Terrain Rocket Spider
 	"armpw", 	--	Peewee 			/ 	Fast Infantry
+	"armkam",
+	"corbw",
 	"armwar",	--	Warrior			/	Medium Infantry
 	"armamph",  --  Pelican         /   Amphibious Kbot
 	"armspid",  --  Spider          /   All-Terrain EMP Spider
@@ -189,4 +211,22 @@ raiderlist = {
 	"coresupp",	--	Supporter		/	Fast Assault Corvette
 	"corpship",	--	Era				/	Assault Frigate
 	"corcrus",	--	Executioner		/	Cruiser
+	"corshad",	--	Shadow			/	Bomber
+	"armthund",
+	"armroy",
+	"corroy",
+	"armsword",
+	"corfalchion",
+	"corveng",
+	"armfig",
+	"corsfig",
+	"armsfig",
+	"corsb",
+	"armsb",
+	"corseap",
+	"armseap",
+	"armhawk",
+	"corvamp",
+	"armbrawl",
+	"corape",
 }	

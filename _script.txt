@@ -9,17 +9,14 @@ numallies=0;
 }
 [mapoptions]
 {
-inv=0;
-alt=0;
-fog=0;
 }
 [team1]
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=10625;
+startposx=2642;
 side=ARM;
-startposz=10658;
+startposz=8131;
 teamleader=1;
 handicap=0;
 }
@@ -30,10 +27,10 @@ handicap=0;
 }
 host=1;
 name=Bot1;
-version=dev;
+version=<not-versioned>;
 isfromdemo=0;
 team=0;
-shortname=Shard;
+shortname=DAI;
 }
 [modoptions]
 {
@@ -46,21 +43,23 @@ newbie_placer=0;
 transportenemy=notcoms;
 pathfinder=normal;
 allowmapmutators=1;
+ba_sensorsrangemult=1;
 fixedallies=1;
 chicken_custom_chickenspawn=90;
 chicken_maxchicken=300;
 barmodels=0;
-startmetal=4000;
+startmetal=2000;
 chicken_queendifficulty=n_chickenq;
 armageddontime=0;
 allowuserwidgets=1;
-deathmode=killall;
+deathmode=com;
 map_terraintype=enabled;
+ba_unitlosmult=2;
 chicken_custom_minchicken=8;
 ffa_mode=0;
 chicken_chickenstart=alwaysbox;
 chicken_custom_angerbonus=0.15;
-startenergy=8000;
+startenergy=4000;
 custom_expstep=1.5;
 chicken_custom_damagemod=100;
 chicken_queenanger=1;
@@ -77,6 +76,7 @@ map_tidal=unchanged;
 globallos=0;
 comm_wreck_metal=2500;
 map_waterlevel=0;
+ba_weaponsrangemult=1;
 chicken_custom_queenspawnmult=1;
 chicken_queentime=40;
 chicken_custom_burrowspawn=120;
@@ -89,11 +89,11 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=1574;
+startposx=8028;
 side=CORE;
-startposz=1574;
+startposz=1987;
 teamleader=1;
-handicap=0;
+handicap=100;
 }
 [player1]
 {
@@ -106,12 +106,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=1420498207;
-gametype=Supreme Annihilation M1.00.01;
+maphash=3611622587;
+gametype=Supreme Annihilation M1.00.02;
 modhash=3234155661;
 ishost=1;
 hostip=;
-mapname=Grts_Messa_008;
+mapname=rivervalley1.3;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

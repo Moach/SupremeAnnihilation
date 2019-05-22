@@ -134,7 +134,7 @@ return {
 				model = "missile",
 				name = "Pop-up rapid-fire g2a missile launcher",
 				noselfdamage = true,
-				range = 840,
+				range = 1200,
 				reloadtime = 0.425,
 				smoketrail = false,
 				soundhit = "packohit",

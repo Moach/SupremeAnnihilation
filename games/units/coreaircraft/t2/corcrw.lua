@@ -154,8 +154,9 @@ return {
 					light_radius_mult = "1.1",
 				},
 				damage = {
-					default = 450,
+					default = 650,
 					subs = 5,
+					buildings = 500,
 				},
 			},
 		},

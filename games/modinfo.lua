@@ -2,7 +2,7 @@ return {
   name = 'Supreme Annihilation',
   description = 'Supreme Annihilation (BA mod by Moach)',
   shortname = 'BA',
-  version = 'M1.00.01',
+  version = 'M1.00.02',
   mutator = 'Official',
   game = 'Balanced Annihilation',
   shortGame = 'BA',

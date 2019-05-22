@@ -126,7 +126,7 @@ return {
 				impulsefactor = 0.123,
 				name = "Heavy long-range g2g plasma cannon",
 				noselfdamage = true,
-				range = 1850,
+				range = 2250,
 				reloadtime = 0.4,
 				soundhit = "xplomed2",
 				soundhitwet = "splsmed",

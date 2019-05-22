@@ -16,12 +16,12 @@ shortrangelist = {
 
 mediumrangelist = {
 	"armhlt",
-	-- "armguard",
+	"armguard",
 	"armamb",
 	"armanni",
 	
 	"corhlt",
-	-- "corpun",
+	"corpun",
 	"cortoast",
 	"cordoom",
 }

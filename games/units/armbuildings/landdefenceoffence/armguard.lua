@@ -3,8 +3,8 @@ return {
 		acceleration = 0,
 		brakerate = 0,
 		buildangle = 8192,
-		buildcostenergy = 8500,
-		buildcostmetal = 550,
+		buildcostenergy = 4500,
+		buildcostmetal = 350,
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 5,
 		buildinggrounddecalsizey = 5,
@@ -190,7 +190,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "PLASMA",
 				maindir = "0 1 0",
 				maxangledif = 230,
@@ -198,6 +198,7 @@ return {
 			},
 			[2] = {
 				def = "PLASMA_HIGH",
+				badtargetcategory = "VTOL LITEINF",
 				onlytargetcategory = "SURFACE",
 			},
 		},

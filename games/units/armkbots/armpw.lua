@@ -7,7 +7,7 @@ return {
 		buildpic = "ARMPW.DDS",
 		buildtime = 1000,
 		canmove = true,
-		category = "KBOT MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
+		category = "LITEINF KBOT MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 -1 0",
 		collisionvolumescales = "22 28 22",
 		collisionvolumetype = "CylY",
@@ -147,10 +147,11 @@ return {
 				weaponvelocity = 500,
 				damage = {
 					bombers = 10,
-					default = 25, -- consider here that peewees are lousy shots and spray half their stuff harmlessly around any target smaller than a large building 2 feet away
+					default = 150, -- consider here that peewees are lousy shots and spray half their stuff harmlessly around any target smaller than a large building 2 feet away
 					fighters = 10,
 					subs = 1,
 					vtol = 10,
+					buildings = 1,
 				},
 			},
 		},

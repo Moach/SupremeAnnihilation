@@ -19,7 +19,7 @@ return {
 		idleautoheal = 15,
 		idletime = 1800,
 		mass = 200000,
-		maxdamage = 8500,
+		maxdamage = 6500,
 		maxslope = 36,
 		maxvelocity = 1.61,
 		maxwaterdepth = 32,
@@ -196,7 +196,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "GROUNDSCOUT",
+				badtargetcategory = "GROUNDSCOUT LITEINF",
 				def = "SHIVA_GUN",
 				onlytargetcategory = "SURFACE",
 			},

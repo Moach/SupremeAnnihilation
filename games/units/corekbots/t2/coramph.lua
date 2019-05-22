@@ -8,7 +8,7 @@ return {
 		buildpic = "CORAMPH.DDS",
 		buildtime = 9650,
 		canmove = true,
-		category = "KBOT MOBILE WEAPON ALL NOTSHIP NOTAIR NOTHOVER NOTSUB SURFACE CANBEUW EMPABLE",
+		category = "KBOT LITEINF MOBILE WEAPON ALL NOTSHIP NOTAIR NOTHOVER NOTSUB SURFACE CANBEUW EMPABLE",
 		collisionvolumeoffsets = "0 0 -7",
 		collisionvolumescales = "32 29 32",
 		collisionvolumetype = "CylY",

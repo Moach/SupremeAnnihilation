@@ -152,7 +152,7 @@ return {
 				impulsefactor = 0.123,
 				name = "PlasmaCannon",
 				noselfdamage = true,
-				range = 620,
+				range = 660,
 				reloadtime = 0.7,
 				soundhit = "xplomed2",
 				soundhitwet = "splssml",
@@ -163,16 +163,17 @@ return {
 				weaponvelocity = 380,
 				damage = {
 					bombers = 35,
-					default = 249,
+					default = 1649,
 					fighters = 35,
 					subs = 5,
 					vtol = 35,
+					buildings = 440,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "CORE_REAP",
 				onlytargetcategory = "SURFACE",
 			},

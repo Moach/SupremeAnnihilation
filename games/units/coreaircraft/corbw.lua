@@ -31,7 +31,7 @@ return {
 		objectname = "CORBW",
 		seismicsignature = 0,
 		selfdestructas = "tinyExplosionGenericSelfd",
-		sightdistance = 364,
+		sightdistance = 500,
 		turninplaceanglelimit = 360,
 		turnrate = 1100,
 		upright = true,
@@ -70,6 +70,49 @@ return {
 		},
 		weapondefs = {
 			bladewing_lyzer = {
+				areaofeffect = 8, -- copied from AK's Gator Laser,  BW should thus be equivalent to ARM Banshee, that is: flying light infantry (battlemeat)
+				avoidfeature = false,
+				beamtime = 0.05,
+				beamttl = 1,
+				corethickness = 0.14,
+				craterareaofeffect = 0,
+				craterboost = 0,
+				cratermult = 0,
+				energypershot = 0,
+				explosiongenerator = "custom:laserhit-small-red",
+				firestarter = 50,
+				impactonly = 1,
+				impulseboost = 0,
+				impulsefactor = 0,
+				laserflaresize = 4,
+				name = "Laser",
+				noselfdamage = true,
+				range = 450,
+				reloadtime = 0.5,
+				rgbcolor = "1 0 0",
+				soundhitdry = "",
+				soundhitwet = "sizzle",
+				soundhitwetvolume = 0.5,
+				soundstart = "lasrlit3",
+				soundtrigger = 1,
+				sprayangle = 660,
+				targetmoveerror = 0.15,
+				thickness = 1.7,
+				tolerance = 10000,
+				turret = true,
+				weapontype = "BeamLaser",
+				weaponvelocity = 1000,
+				damage = {
+					bombers = 50,
+					default = 350, -- some extra "dooms" to compensate there not being a "core warrior" equivalent
+					fighters = 50,
+					subs = 1,
+					vtol = 50,
+					buildings = 1,
+				},
+			},
+		},
+			--[[bladewing_lyzer = {
 				areaofeffect = 8,
 				avoidfeature = false,
 				avoidfriendly = false,
@@ -116,14 +159,21 @@ return {
 					default = 800,
 				},
 			},
-		},
+		},]]--
 		weapons = {
+			[1] = {
+				badtargetcategory = "VTOL",
+				def = "BLADEWING_LYZER",
+				onlytargetcategory = "NOTSUB",
+			},
+		},
+		--[[weapons = {
 			[1] = {
 				def = "BLADEWING_LYZER",
 				maindir = "0 0 1",
 				maxangledif = 90,
 				onlytargetcategory = "EMPABLE",
-			},
-		},
+			},]]--
+		
 	},
 }

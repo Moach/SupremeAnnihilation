@@ -1,7 +1,7 @@
 return {
 	armrl = {
 		acceleration = 0,
-		airsightdistance = 700,
+		airsightdistance = 800,
 		brakerate = 0,
 		buildcostenergy = 900,
 		buildcostmetal = 84,
@@ -32,7 +32,7 @@ return {
 		objectname = "ARMRL",
 		seismicsignature = 0,
 		selfdestructas = "mediumBuildingExplosionGenericSelfd",
-		sightdistance = 455,
+		sightdistance = 500,
 		usebuildinggrounddecal = true,
 		yardmap = "ooooooooo",
 		customparams = {
@@ -129,7 +129,7 @@ return {
 				model = "missile",
 				name = "Light g2a missile launcher",
 				noselfdamage = true,
-				range = 765,
+				range = 1000,
 				reloadtime = 1.7,
 				smoketrail = false,
 				soundhit = "xplomed2",
@@ -156,7 +156,7 @@ return {
 					light_skip = true,
 				},
 				damage = {
-					default = 200,
+					default = 100,
 					bombers = 250,
 					fighters = 465,
 					vtol = 420,
@@ -165,9 +165,9 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "NOTAIR LIGHTAIRSCOUT",
+				badtargetcategory = "NOTAIR LIGHTAIRSCOUT LITEINF",
 				def = "ARMRL_MISSILE",
-				onlytargetcategory = "VTOL",
+				onlytargetcategory = "NOTSUB",
 			},
 		},
 	},

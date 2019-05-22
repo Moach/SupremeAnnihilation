@@ -145,7 +145,7 @@ return {
 				impulsefactor = 0.123,
 				name = "Medium g2g plasma cannon",
 				noselfdamage = true,
-				range = 480,
+				range = 600,
 				reloadtime = 1.5,
 				soundhit = "xplomed4",
 				soundhitwet = "splsmed",
@@ -156,16 +156,17 @@ return {
 				weaponvelocity = 290,
 				damage = {
 					bombers = 30,
-					default = 174,
+					default = 1704,
 					fighters = 30,
 					subs = 5,
 					vtol = 30,
+					buildings = 300,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "ARM_TRITON",
 				onlytargetcategory = "NOTSUB",
 			},

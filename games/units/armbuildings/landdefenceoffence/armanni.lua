@@ -4,8 +4,8 @@ return {
 		activatewhenbuilt = true,
 		brakerate = 0,
 		buildangle = 4096,
-		buildcostenergy = 74000,
-		buildcostmetal = 3500,
+		buildcostenergy = 54000,
+		buildcostmetal = 2500,
 		buildinggrounddecaldecayspeed = 30,
 		buildinggrounddecalsizex = 6,
 		buildinggrounddecalsizey = 6,
@@ -167,7 +167,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL GROUNDSCOUT",
+				badtargetcategory = "VTOL GROUNDSCOUT LITEINF",
 				def = "ATA",
 				onlytargetcategory = "SURFACE",
 			},

@@ -160,7 +160,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "MOBILE",
+				badtargetcategory = "MOBILE LITEINF NOTLAND",
 				def = "ARMMH_WEAPON",
 				onlytargetcategory = "SURFACE",
 			},

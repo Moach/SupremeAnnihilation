@@ -176,7 +176,7 @@ return {
 				impulsefactor = 0.123,
 				name = "Double close-quarters gauss cannon",
 				noselfdamage = true,
-				range = 350,
+				range = 750,
 				reloadtime = 0.7,
 				soundhit = "XploMed2",
 				soundhitwet = "splshbig",
@@ -193,6 +193,7 @@ return {
 					fighters = 60,
 					subs = 5,
 					vtol = 60,
+					
 				},
 			},
 		},

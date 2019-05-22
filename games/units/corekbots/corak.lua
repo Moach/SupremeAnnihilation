@@ -7,7 +7,7 @@ return {
 		buildpic = "CORAK.DDS",
 		buildtime = 900,
 		canmove = true,
-		category = "KBOT MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
+		category = "KBOT LITEINF MOBILE WEAPON ALL NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		collisionvolumeoffsets = "0 -2 -3",
 		collisionvolumescales = "24 28 24",
 		collisionvolumetype = "CylY",
@@ -149,10 +149,11 @@ return {
 				weaponvelocity = 1000,
 				damage = {
 					bombers = 50,
-					default = 100, -- some extra "dooms" to compensate there not being a "core warrior" equivalent
+					default = 350, -- plus some extra "dooms" to compensate there not being a "core warrior" equivalent
 					fighters = 50,
 					subs = 1,
 					vtol = 50,
+					buildings = 5,
 				},
 			},
 		},

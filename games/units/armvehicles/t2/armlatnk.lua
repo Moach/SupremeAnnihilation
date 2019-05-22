@@ -203,6 +203,7 @@ return {
 				damage = {
 					default = 50,
 					subs = 0.5,
+					buildings = 100,
 				},
 			},
 		},

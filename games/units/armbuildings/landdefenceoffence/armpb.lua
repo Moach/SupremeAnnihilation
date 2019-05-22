@@ -9,7 +9,7 @@ return {
 		buildinggrounddecalsizey = 5,
 		buildinggrounddecaltype = "decals/armpb_aoplane.dds",
 		buildpic = "ARMPB.DDS",
-		buildtime = 8961,
+		buildtime = 5961,
 		canrepeat = false,
 		category = "ALL NOTLAND WEAPON NOTSUB NOTSHIP NOTAIR NOTHOVER SURFACE EMPABLE",
 		cloakcost = 16,

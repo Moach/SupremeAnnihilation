@@ -161,15 +161,17 @@ return {
 				weaponvelocity = 310,
 				damage = {
 					bombers = 55,
-					default = 900,
+					default = 1200,
 					fighters = 55,
 					subs = 5,
 					vtol = 55,
+					buildings = 3210,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
+				badtargetcategory = "VTOL LITEINF",
 				def = "COR_GOL",
 				onlytargetcategory = "SURFACE",
 			},

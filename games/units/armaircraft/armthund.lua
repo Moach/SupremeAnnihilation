@@ -121,6 +121,7 @@ return {
 					bombers = 100,
 					default = 400,
 					subs = 5,
+					buildings = 500,
 				},
 			},
 		},

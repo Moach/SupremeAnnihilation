@@ -170,12 +170,13 @@ return {
 					fighters = 13,
 					subs = 5,
 					vtol = 13,
+					buildings = 200,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "TAWF113_WEAPON",
 				maindir = "0 0 1",
 				maxangledif = 180,

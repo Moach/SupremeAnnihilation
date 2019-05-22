@@ -23,7 +23,7 @@ return {
 		idleautoheal = 5,
 		idletime = 1800,
 		mass = 200000,
-		maxdamage = 44000,
+		maxdamage = 40000,
 		maxslope = 17,
 		maxvelocity = 1.12,
 		maxwaterdepth = 12,
@@ -292,17 +292,17 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "CORKROG_FIRE",
 				onlytargetcategory = "SURFACE",
 			},
 			[2] = {
-				badtargetcategory = "VTOL GROUNDSCOUT",
+				badtargetcategory = "VTOL GROUNDSCOUT LITEINF" ,
 				def = "CORKROG_LASER",
 				onlytargetcategory = "NOTSUB",
 			},
 			[3] = {
-				badtargetcategory = "VTOL GROUNDSCOUT",
+				badtargetcategory = "VTOL GROUNDSCOUT LITEINF",
 				def = "CORKROG_ROCKET",
 				onlytargetcategory = "SURFACE",
 			},

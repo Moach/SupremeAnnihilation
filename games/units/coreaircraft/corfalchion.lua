@@ -111,6 +111,7 @@ return {
 					fighters = 300,
 					subs = 1,
 					vtol = 400,
+					buildings = 200,
 				},
 			},
 		},

@@ -162,18 +162,19 @@ return {
 					bar_model = "cormissile.s3o",
 				},
 				damage = {
-					bombers = 500,
+					bombers = 300,
 					commanders = 22,
-					default = 450,
-					fighters = 480,
+					default = 400,
+					fighters = 300,
 					subs = 5,
 					vtol = 460,
+					buildings = 10,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "NOTAIR",
+				badtargetcategory = "NOTAIR LITEINF",
 				def = "ARMTRUCK_MISSILE",
 				onlytargetcategory = "NOTSUB",
 			},

@@ -158,10 +158,11 @@ return {
 				},
 				damage = {
 					bombers = 250,
-					default = 330,
+					default = 630,
 					fighters = 235,
 					subs = 5,
 					vtol = 250,
+					buildings = 1000,
 				},
 			},
 		},

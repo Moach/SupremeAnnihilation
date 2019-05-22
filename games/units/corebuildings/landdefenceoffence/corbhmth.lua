@@ -146,7 +146,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "CORBHMTH_WEAPON",
 				onlytargetcategory = "SURFACE",
 			},

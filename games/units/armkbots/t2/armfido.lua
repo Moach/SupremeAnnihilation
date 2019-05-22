@@ -141,10 +141,11 @@ return {
 				weaponvelocity = 291.63333,
 				damage = {
 					bombers = 35,
-					default = 155,
+					default = 1155,
 					fighters = 35,
 					subs = 5,
 					vtol = 35,
+					buildings = 400,
 				},
 			},
 			gauss = {

@@ -165,14 +165,15 @@ return {
 				},
 				damage = {
 					commanders = 625,
-					default = 1900,
+					default = 1200,
 					subs = 5,
+					buildings = 2110,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "MOBILE",
+				badtargetcategory = "MOBILE LITEINF NOTLAND",
 				def = "ARMTRUCK_ROCKET",
 				onlytargetcategory = "SURFACE",
 			},

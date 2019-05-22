@@ -157,8 +157,9 @@ return {
 					light_mult = "0.66",
 				},
 				damage = {
-					default = 120,
+					default = 500,
 					subs = 5,
+					buildings = 250,
 				},
 			},
 		},

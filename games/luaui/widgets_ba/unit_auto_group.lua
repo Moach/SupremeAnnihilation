@@ -80,7 +80,7 @@ local options = {
 	groupnumbers = {
 		name = 'Display Group Numbers',
 		type = 'bool',
-		value = true,
+		value = false,
 	},
 	
 	cleargroups = {
@@ -90,6 +90,11 @@ local options = {
 			unit2group = {} 
 			Spring.Echo('Cleared Autogroups.')
 		end,
+	},
+	groupbuildings = {
+		name = 'Allow Any Buildings to be Auto-Grouped',
+		type = 'bool',
+		value = true,
 	},
 }
 
@@ -264,7 +269,7 @@ function widget:KeyPress(key, modifier, isRepeat)
 				local exec = false --set to true when there is at least one unit to process
 				for _, unitID in ipairs(GetSelectedUnits()) do
 					local udid = GetUnitDefID(unitID)
-					if ( not UDefTab[udid]["isFactory"] and (groupableBuildings[udid] or not UDefTab[udid]["isBuilding"] )) then
+					if ( (not UDefTab[udid]["isFactory"] and (groupableBuildings[udid] or not UDefTab[udid]["isBuilding"] )) or options.groupbuildings.value) then
 						--if unit2group[udid] ~= nil then
 						--	unit2group[udid] = nil
 						--	unit2groupDeleted[udid] = true

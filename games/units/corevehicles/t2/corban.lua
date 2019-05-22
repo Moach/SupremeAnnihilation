@@ -189,6 +189,7 @@ return {
 					commanders = 1000,
 					default = 1000,
 					subs = 5,
+					buildings = 2500,
 				},
 			},
 		},

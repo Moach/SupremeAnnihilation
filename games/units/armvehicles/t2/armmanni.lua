@@ -171,14 +171,15 @@ return {
 				},
 				damage = {
 					commanders = 1000,
-					default = 2500,
+					default = 1500,
 					subs = 5,
+					buildings = 3210,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "ATAM",
 				maindir = "0 0 1",
 				maxangledif = 180,

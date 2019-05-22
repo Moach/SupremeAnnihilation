@@ -133,7 +133,7 @@ return {
 				laserflaresize = 8.5,
 				name = "Anti-swarm constant wave g2g laser",
 				noselfdamage = true,
-				range = 450,
+				range = 500,
 				reloadtime = 0.1,
 				rgbcolor = "0 0 1",
 				soundhitdry = "",
