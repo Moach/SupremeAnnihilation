@@ -21,7 +21,7 @@ return {
 		corpse = "DEAD",
 		description = "Extended Sonar",
 		energymake = 18,
-		energyuse = 18,
+		energyuse = 140,
 		explodeas = "mediumBuildingexplosiongeneric",
 		footprintx = 3,
 		footprintz = 3,

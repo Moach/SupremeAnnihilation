@@ -59,6 +59,7 @@ return {
 			[17] = "armflak",
 			[18] = "armck",
 			[19] = "armmlv",
+			[20] = "armsonar",
 		},
 		customparams = {
 			area_mex_def = "armmex",

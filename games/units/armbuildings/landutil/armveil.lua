@@ -30,7 +30,7 @@ return {
 		name = "Veil",
 		objectname = "ARMVEIL",
 		onoffable = true,
-		radardistancejam = 760,
+		radardistancejam = 1000,
 		seismicsignature = 0,
 		selfdestructas = "smallBuildingExplosionGenericSelfd",
 		sightdistance = 155,

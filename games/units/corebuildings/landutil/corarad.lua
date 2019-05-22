@@ -21,7 +21,7 @@ return {
 		corpse = "DEAD",
 		description = "Long-Range Radar",
 		energymake = 17,
-		energyuse = 17,
+		energyuse = 170,
 		explodeas = "smallBuildingExplosionGeneric",
 		footprintx = 2,
 		footprintz = 2,

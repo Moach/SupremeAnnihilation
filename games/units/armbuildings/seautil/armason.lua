@@ -19,7 +19,7 @@ return {
 		damagemodifier = 0.46,
 		description = "Extended Sonar",
 		energymake = 22,
-		energyuse = 22,
+		energyuse = 120,
 		explodeas = "mediumBuildingexplosiongeneric-uw",
 		footprintx = 4,
 		footprintz = 4,

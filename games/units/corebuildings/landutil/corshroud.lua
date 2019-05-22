@@ -33,7 +33,7 @@ return {
 		name = "Shroud",
 		objectname = "CORSHROUD",
 		onoffable = true,
-		radardistancejam = 700,
+		radardistancejam = 1000,
 		seismicsignature = 0,
 		selfdestructas = "smallBuildingExplosionGenericSelfd",
 		sightdistance = 155,

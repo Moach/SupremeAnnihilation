@@ -17,7 +17,7 @@ return {
 		corpse = "DEAD",
 		description = "Locates Water Units",
 		energymake = 1,
-		energyuse = 1,
+		energyuse = 10,
 		explodeas = "smallBuildingexplosiongeneric-uw",
 		footprintx = 2,
 		footprintz = 2,
