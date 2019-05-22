@@ -152,7 +152,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 m
 Scanning: C:\Users\moach\Documents\My Games\Spring\maps
 Scanning: C:\Users\moach\Documents\My Games\Spring\games
 Scanning: C:\Users\moach\Documents\My Games\Spring\packages
-[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 236ms
+[~ScopedOnceTimer][CArchiveScanner::ScanAllDirs] 333ms
 [WatchDog::DeregisterThread] deregistering controls for thread [vfsi]
 [ThreadPool::SetThreadCount][1] wanted=2 current=1 maximum=2 (init=1)
 [ThreadPool::SetThreadCount][2] workers=1
@@ -165,9 +165,9 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [Sound] [Sound::OpenLoopbackDevice] opening default device
 [f=-000001] [Sound] [Sound::OpenLoopbackDevice] unhandled SDL format: 0x8120
 [f=-000001] [Sound] [Sound::Cleanup][SDL_CloseAudioDevice(2)]
-[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (100.5ms)
+[f=-000001] [Sound] [ISound::Initialize] spawning sound-thread (100.1ms)
 [f=-000001] [Sound] [Sound::OpenOpenALDevice] opening default device "OpenAL Soft"
-[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=059d04f0 context=05788500
+[f=-000001] [Sound] [Sound::OpenOpenALDevice] device=059146f0 context=057986e0
 [f=-000001] [Sound] [Sound::InitThread][4][OpenAL API Info]
 [f=-000001] [Sound]   Vendor:         OpenAL Community
 [f=-000001] [Sound]   Version:        1.1 ALSOFT 1.16.0
@@ -187,14 +187,13 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [StartScript] Loading StartScript from: C:\Users\moach\AppData\Roaming\springlobby\script.txt
 [f=-000001] [CPreGame] server using IP  and port 8452
 [f=-000001] [NetProto::InitLocalClient] connecting to local server
-[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Dworld_V1
-[f=-000001] [~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\games\SA-v0.00.12.sdz] 440516414 bytes cached in 9598 files
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Deadlock-v1
 [f=-000001] [PreGame::StartServer]
 	mod-checksum=8d4cc5c054dff4e2d110fd5f7938b10f2253cbe03de6b918e0b7c0ae112a13bb449e781cf33d56867b19f0efc4272f114f894fc54c02af77a203d47da88b8ead
-	map-checksum=e71ef49f8a8541741ab9bc6fd584711789d7b9a4d2f371065f6ebe19a6c603448d98f34467e6a530bf76555f04ac44dca06cdb9503066f52cbe0aeaa75f97031
+	map-checksum=f02ed8d5b401fead07ffcc0dea051d456cc70279bff1cf1624092176cb0d0cc7726222024b21133213db9009f552f6b55f7580994f9cd558478f07166bbdd1d1
 [f=-000001] [UDPListener::TryBindSocket] binding UDP socket to IPv6-address :: () on port 8452
 [f=-000001] [UDPListener] successfully bound socket on port 8452
-[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 6199ms
+[f=-000001] [~ScopedOnceTimer][PreGame::StartServer] 200ms
 [f=-000001] 
 [f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][1] fullScreen=1
 [f=-000001] [~ScopedOnceTimer][Sound::Iconified] 0ms
@@ -208,7 +207,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [GR::UpdateGLGeometry][2] winSize=<1366,768>
 [f=-000001] [GR::InitGLState]
 [f=-000001] [GR::LogDisplayMode] display-mode set to 1366x768x24bpp@60Hz (fullscreen::decorated)
-[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 1ms
+[f=-000001] [~ScopedOnceTimer][GlobalRendering::UpdateGL] 0ms
 [f=-000001] [~ScopedOnceTimer][ActiveController::ResizeEvent] 0ms
 [f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SIZE_CHANGED][2]
 
@@ -229,10 +228,10 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [~ScopedOnceTimer][FBO::GLContextReinit] 0ms
 [f=-000001] [SpringApp::MainEventHandler][SDL_WINDOWEVENT_SHOWN][2]
 
-[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Dworld_V1
+[f=-000001] [PreGame::AddGameSetupArchivesToVFS] using map: Deadlock-v1
 [f=-000001] [PreGame::AddGameSetupArchivesToVFS] using game: Supreme Annihilation M1.00.02 (archive: SA-v0.00.12.sdz)
-[f=-000001] PreGame::GameDataReceived] recording demo to "C:\Users\moach\Documents\My Games\Spring\demos\20190522_002356_Dworld_V1_104.0.1-969-ga0e1218 maintenance.sdfz"
-[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 206ms
+[f=-000001] PreGame::GameDataReceived] recording demo to "C:\Users\moach\Documents\My Games\Spring\demos\20190522_012545_Deadlock-v1_104.0.1-969-ga0e1218 maintenance.sdfz"
+[f=-000001] [~ScopedOnceTimer][PreGame::GameDataReceived] 253ms
 [f=-000001] [PreGame::UpdateClientNet] received local player number 0 (team 1, allyteam 0), creating LoadScreen
 [f=-000001] [LuaIntro] Searching for new Widgets
 [f=-000001] [LuaIntro] Scanning: LuaIntro/Addons/
@@ -257,17 +256,17 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [Game::LoadGame][1] globalQuit=0 threaded=0
 [f=-000001] [LoadScreen::SetLoadMessage] text="Parsing Map Information"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading SMF"
-[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (318 MB)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map (162 MB)"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading GameData Definitions"
-[f=-000001] [~ScopedOnceTimer][Loading all definitions: ] 242ms
-[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 288ms
+[f=-000001] [~ScopedOnceTimer][Loading all definitions: ] 201ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (GameData)] 247ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Radar Icons"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Sound Definitions"
 [f=-000001] [Sound] [LoadSoundDefsImpl] parsed 568 sounds from gamedata/sounds.lua
-[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 12ms
+[f=-000001] [~ScopedOnceTimer][Game::LoadDefs (Sound)] 13ms
 [f=-000001] [Game::LoadGame][2] globalQuit=0 forcedQuit=0
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating Smooth Height Mesh"
-[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 274ms
+[f=-000001] [~ScopedOnceTimer][SmoothHeightMesh::MakeSmoothMesh] 179ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating QuadField & CEGs"
 [f=-000001] [Init] number of ArmorDefs: 17
 [f=-000001] [RegisterModelFormats] supported (Assimp) model formats: *.3ds;*.blend;*.dae;*.lwo;*.obj;
@@ -281,12 +280,12 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] Warning: WeaponDefs: Unknown tag "fighters" in "corsfig_corsfig_weapon"
 [f=-000001] Warning: WeaponDefs: Unknown tag "subs" in "corsfig_corsfig_weapon"
 [f=-000001] Warning: WeaponDefs: Unknown tag "vtol" in "corsfig_corsfig_weapon"
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 476ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (WeaponDefs)] 475ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Unit Definitions"
 [f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (UnitDefs)] 77ms
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Feature Definitions"
 [f=-000001] Error: [GetFeatureDef] could not find FeatureDef "heap"
-[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 32ms
+[f=-000001] [~ScopedOnceTimer][Game::PostLoadSim (FeatureDefs)] 34ms
 [f=-000001] [IPathManager::GetInstance] using HAPFS
 [f=-000001] [LoadScreen::SetLoadMessage] text="Initializing Map Features"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating ShadowHandler"
@@ -298,7 +297,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating GroundDrawer"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Map Tiles"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Square Textures"
-[f=-000001] [~ScopedOnceTimer][CSMFGroundTextures::ConvolveHeightMap] 11ms
+[f=-000001] [~ScopedOnceTimer][CSMFGroundTextures::ConvolveHeightMap] 6ms
 [f=-000001] Switching to ROAM Mesh Rendering
 [f=-000001] [LoadScreen::SetLoadMessage] text="Creating TreeDrawer"
 [f=-000001] Loaded DecalsDrawer: Legacy
@@ -323,6 +322,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] Loaded synced gadget:  Stats               <api_damage_stats.lua>
 [f=-000001] Loaded synced gadget:  ranks api           <api_ranks.lua>
 [f=-000001] Loaded synced gadget:  gaia critter units  <gaia_critters.lua>
+[f=-000001] Loaded synced gadget:  Precipitation, v0.2  <precipitation_particles.lua>
 [f=-000001] Loaded synced gadget:  IconGenerator       <unit_icongenerator.lua>
 [f=-000001] Loaded synced gadget:  CameraBroadcast     <camera_lockcamera.lua>
 [f=-000001] Loaded synced gadget:  Awards              <gui_awards.lua>
@@ -443,6 +443,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] Loaded synced gadget:  Substitution        <game_replace_afk_players.lua>
 [f=-000001] Loaded synced gadget:  Voice Notifs        <sfx_voice_notifs_gadget.lua>
 [f=-000001] Loaded synced gadget:  resurrected param   <unit_resurrected.lua>
+[f=-000001] Loaded synced gadget:  DualFog             <gui_dualfog_gadget.lua>
 [f=-000001] Loaded synced gadget:  Mex Upgrader Gadget  <unit_mex_upgrader.lua>
 [f=-000001] Loaded synced gadget:  Mobile Unit Paralyze Damage Handler  <unit_paralyze_damage_limit.lua>
 [f=-000001] Loaded synced gadget:  Lups Shield         <lups_shield.lua>
@@ -480,79 +481,9 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] Loaded unsynced gadget:  Save/Load           <api_saveload.lua>
 [f=-000001] Loaded unsynced gadget:  Stats               <api_damage_stats.lua>
 [f=-000001] Loaded unsynced gadget:  ranks api           <api_ranks.lua>
-[f=-000001] Warning: [Watchdog] Hang detection triggered for Spring 104.0.1-969-ga0e1218 maintenance.
-[f=-000001] Warning: 	(in threads: {main,load,audio,vfsi}={0,1,0,0})
-[f=-000001] Warning: DLL information:
-[f=-000001] Error: 0x00400000	spring
-[f=-000001] Error: 0x775b0000	ntdll
-[f=-000001] Error: 0x760f0000	KERNEL32
-[f=-000001] Error: 0x76d20000	KERNELBASE
-[f=-000001] Error: 0x747f0000	apphelp
-[f=-000001] Error: 0x10000000	DevIL
-[f=-000001] Error: 0x74bc0000	ADVAPI32
-[f=-000001] Error: 0x73780000	GLU32
-[f=-000001] Error: 0x76320000	IMAGEHLP
-[f=-000001] Error: 0x76860000	msvcrt
-[f=-000001] Error: 0x71a80000	OPENGL32
-[f=-000001] Error: 0x74fc0000	SHELL32
-[f=-000001] Error: 0x74c70000	SHLWAPI
-[f=-000001] Error: 0x773b0000	USER32
-[f=-000001] Error: 0x76f00000	WS2_32
-[f=-000001] Error: 0x6b800000	OpenAL32
-[f=-000001] Error: 0x6b5c0000	libvorbisfile-3
-[f=-000001] Error: 0x70e40000	libfreetype-6
-[f=-000001] Error: 0x65180000	libfontconfig-1
-[f=-000001] Error: 0x6ef80000	glew32
-[f=-000001] Error: 0x6c740000	SDL2
-[f=-000001] Error: 0x6dfa0000	MSVCP80
-[f=-000001] Error: 0x71530000	MSVCR80
-[f=-000001] Error: 0x76090000	sechost
-[f=-000001] Error: 0x76460000	RPCRT4
-[f=-000001] Error: 0x76220000	GDI32
-[f=-000001] Error: 0x6c370000	DDRAW
-[f=-000001] Error: 0x76ab0000	combase
-[f=-000001] Error: 0x74cd0000	NSI
-[f=-000001] Error: 0x76340000	ole32
-[f=-000001] Error: 0x746f0000	WINMM
-[f=-000001] Error: 0x6d740000	libvorbis-0
-[f=-000001] Error: 0x70880000	libogg-0
-[f=-000001] Error: 0x62e80000	zlib1
-[f=-000001] Error: 0x68f40000	libexpat-1
-[f=-000001] Error: 0x765a0000	IMM32
-[f=-000001] Error: 0x76f50000	OLEAUT32
-[f=-000001] Error: 0x74a60000	VERSION
-[f=-000001] Error: 0x74ba0000	SspiCli
-[f=-000001] Error: 0x73770000	DCIMAN32
-[f=-000001] Error: 0x74110000	WINMMBASE
-[f=-000001] Error: 0x76e20000	MSCTF
-[f=-000001] Error: 0x74b90000	CRYPTBASE
-[f=-000001] Error: 0x76550000	cfgmgr32
-[f=-000001] Error: 0x76510000	DEVOBJ
-[f=-000001] Error: 0x74b30000	bcryptPrimitives
-[f=-000001] Error: 0x749e0000	SHCORE
-[f=-000001] Error: 0x76530000	profapi
-[f=-000001] Error: 0x73d50000	uxtheme
-[f=-000001] Error: 0x07260000	ig7icd32
-[f=-000001] Error: 0x73d30000	dwmapi
-[f=-000001] Error: 0x74f30000	clbcatq
-[f=-000001] Error: 0x735c0000	shfolder
-[f=-000001] Error: 0x73af0000	MMDevApi
-[f=-000001] Error: 0x73a40000	AUDIOSES
-[f=-000001] Error: 0x73a00000	powrprof
-[f=-000001] Error: 0x64e80000	dsound
-[f=-000001] Error: 0x73920000	mswsock
-[f=-000001] Error: 0x71920000	dbghelp
-[f=-000001] Warning: Stacktrace (load) for Spring 104.0.1-969-ga0e1218 maintenance:
-[f=-000001] Warning: 	[ProgCtr=07520a57 StackPtr=0028e1e4 FramePtr=ad1513b0]
-[f=-000001] Warning: 	(0) C:\Windows\SYSTEM32\ig7icd32.dll [0x002C0A57]
-[f=-000001] Warning: 	(1) C:\Windows\SYSTEM32\ig7icd32.dll [0x0028B0EB]
-[f=-000001] Warning: Stacktrace (audio) for Spring 104.0.1-969-ga0e1218 maintenance:
-[f=-000001] Warning: 	[ProgCtr=775dda1c StackPtr=0ce6fcac FramePtr=0ce6fd14]
-[f=-000001] Warning: 	(0) C:\Windows\SYSTEM32\ntdll.dll [0x0002DA1C]
-[f=-000001] Warning: 	(1) C:\Windows\SYSTEM32\KERNELBASE.dll [0x000010B4]
-[f=-000001] Warning: 	(2) C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\spring.exe [0x00C7522D]
 [f=-000001] Loaded unsynced gadget:  CustomIcons         <unit_customicons.lua>
 [f=-000001] Loaded unsynced gadget:  gaia critter units  <gaia_critters.lua>
+[f=-000001] Loaded unsynced gadget:  Precipitation, v0.2  <precipitation_particles.lua>
 [f=-000001] Loaded unsynced gadget:  IconGenerator       <unit_icongenerator.lua>
 [f=-000001] Loaded unsynced gadget:  CameraBroadcast     <camera_lockcamera.lua>
 [f=-000001] Loaded unsynced gadget:  Awards              <gui_awards.lua>
@@ -638,6 +569,7 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] Loaded unsynced gadget:  Substitution        <game_replace_afk_players.lua>
 [f=-000001] Loaded unsynced gadget:  Voice Notifs        <sfx_voice_notifs_gadget.lua>
 [f=-000001] Loaded unsynced gadget:  resurrected param   <unit_resurrected.lua>
+[f=-000001] Loaded unsynced gadget:  DualFog             <gui_dualfog_gadget.lua>
 [f=-000001] Loaded unsynced gadget:  Lups Cloak FX       <lups_cloak_fx.lua>
 [f=-000001] Loaded unsynced gadget:  Mex Upgrader Gadget  <unit_mex_upgrader.lua>
 [f=-000001] Loaded unsynced gadget:  Lups Shield         <lups_shield.lua>
@@ -775,49 +707,49 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalizing PFS"
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=16
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=92
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=4ae8926d
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=3946710b
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=5054d786
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=d483de04
-[f=-000001] [Path] [PathEstimator::ReadFile] hash=d483de04 file="cache\104dev-maintenance/paths/Dworld_V1.pe-d483de04.zip" (exists=1)
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=a106dcb4
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=4561efc9
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=7caeb9a3
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=79c41b5
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=6ab3c841
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=6ab3c841 file="cache\104dev-maintenance/paths/Deadlock-v1.pe-6ab3c841.zip" (exists=1)
 [f=-000001] [LoadScreen::SetLoadMessage] text="Reading Estimate PathCosts [16]"
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] BLOCK_SIZE=32
 [f=-000001] [Path] [PathEstimator::CalcHash][Init] PATHESTIMATOR_VERSION=92
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=4ae8926d
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=3946710b
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=5054d786
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=29a
-[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=d483de14
-[f=-000001] [Path] [PathEstimator::ReadFile] hash=d483de14 file="cache\104dev-maintenance/paths/Dworld_V1.pe2-d483de14.zip" (exists=1)
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] heightMapChecksum=a106dcb4
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] typeMapChecksum=4561efc9
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] moveDefChecksum=7caeb9a3
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] blockMapChecksum=79c41b5
+[f=-000001] [Path] [PathEstimator::CalcHash][Init] estimatorHashCode=6ab3c851
+[f=-000001] [Path] [PathEstimator::ReadFile] hash=6ab3c851 file="cache\104dev-maintenance/paths/Deadlock-v1.pe2-6ab3c851.zip" (exists=1)
 [f=-000001] [LoadScreen::SetLoadMessage] text="Reading Estimate PathCosts [32]"
-[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (4295ms, checksum 039ffbcf)"
+[f=-000001] [LoadScreen::SetLoadMessage] text="[LoadFinalize] finalized PFS (1972ms, checksum 3988afc8)"
 [f=-000001] [LoadScreen::SetLoadMessage] text="Loading Skirmish AIs"
 [f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs::CreateAI(id=0)] 0ms
 [f=-000001] [~ScopedOnceTimer][Game::LoadSkirmishAIs] 1ms
 [f=-000001] [Game::LoadGame][6] globalQuit=0 forcedQuit=0
-[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,13752,0} {chunk,block}Bytes={0,0}
+[f=-000001] [LuaMemPool::LogStats][handle=LuaIntro (unsynced)] index=1 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,13746,0} {chunk,block}Bytes={0,0}
 [f=-000001] Set water rendering mode to 0 (basic)
 [f=-000001] Set water rendering mode to 0 (basic)
-[f=-000001] GameID: 0cf9e45ce0ae1473199e2e9c4596f592
+[f=-000001] GameID: 8807e55c0661b8f63b7c5c0eb20856bf
 [f=-000001] Connection attempt from Player
 [f=-000001]  -> Version: 104.0.1-969-ga0e1218 maintenance [Windows 32-bit (emulated)]
 [f=-000001]  -> Connection established (given id 0)
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PreGame::GameDataReceived][map-checksums]
-	server=e71ef49f8a8541741ab9bc6fd584711789d7b9a4d2f371065f6ebe19a6c603448d98f34467e6a530bf76555f04ac44dca06cdb9503066f52cbe0aeaa75f97031
-	client=e71ef49f8a8541741ab9bc6fd584711789d7b9a4d2f371065f6ebe19a6c603448d98f34467e6a530bf76555f04ac44dca06cdb9503066f52cbe0aeaa75f97031"
+	server=f02ed8d5b401fead07ffcc0dea051d456cc70279bff1cf1624092176cb0d0cc7726222024b21133213db9009f552f6b55f7580994f9cd558478f07166bbdd1d1
+	client=f02ed8d5b401fead07ffcc0dea051d456cc70279bff1cf1624092176cb0d0cc7726222024b21133213db9009f552f6b55f7580994f9cd558478f07166bbdd1d1"
 [f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PreGame::GameDataReceived][mod-checksums]
 	server=8d4cc5c054dff4e2d110fd5f7938b10f2253cbe03de6b918e0b7c0ae112a13bb449e781cf33d56867b19f0efc4272f114f894fc54c02af77a203d47da88b8ead
 	client=8d4cc5c054dff4e2d110fd5f7938b10f2253cbe03de6b918e0b7c0ae112a13bb449e781cf33d56867b19f0efc4272f114f894fc54c02af77a203d47da88b8ead"
-[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=523569ce577d8fcb1ee559d575b989e46bf7aba8e5f4545604d8c18737424bdd12f96642002d8806fec145b27192113fa52a1a14bd721c7aebd5bd04adbd459f]"
-[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=467f608dbe67a07efa1dd3eba33a29d7493478c15b3cff5ab2af3e3f907212104c495fbf71ad5a9e9848d8a134f1379711e874cd788912c8f4aa29dbe04b30f7]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=16][SHA_DATA=0bec995091efc62cc0ca2323aa7d63a936cb34b7539ab325ff1ea0f83001bd59b1aa06cddc42593bc7659816b7f1b21554ba9b473b67d371b21673258458e57f]"
+[f=-000001] [Game::ClientReadNet][LOGMSG] sender="Player" string="[PE::CalcChecksum][BLK_SIZE=32][SHA_DATA=8d68be70a46444440dd1bc053ac87c2adacdd3df8b54738ae8acc020191df85c0da736a015c52240d6ace11069155f319d26ea1126a8fc792d8724e034bfbcef]"
 [f=-000001] Skirmish AI "Bot1" (ID:0, Short-Name:"DAI", Version:"<not-versioned>") took over control of team 0
 [f=-000001] Player Player finished loading and is now ingame
 [f=-000001] <Player> Private: My player ID is 0
 [f=-000001] <Player> Private: My player ID is 0
-[f=-000001] 896, 896, 802816, 6, 227, 57, 6, 3
-[f=-000001] 98, blobs
-[f=-000001] Shard by AF - playing: BA on: Dworld_V1
+[f=-000001] 640, 640, 409600, 6, 227, 57, 6, 3
+[f=-000001] 52, blobs
+[f=-000001] Shard by AF - playing: BA on: Deadlock-v1
 [f=-000001] adding UnitHandler module
 [f=-000001] adding BomberHandler module
 [f=-000001] adding FighterHandler module
@@ -831,183 +763,776 @@ Scanning: C:\Users\moach\Documents\My Games\Spring\packages
 [f=-000001] adding ScoutsHandler module
 [f=-000001] adding TriggerHandler module
 [f=-000001] adding MainSquadHandler module
-[f=0000127] Buildings set to face East
-[f=0000827] Cheating is enabled!
-[f=0000881] [GlobalLosActionExecutor] global LOS toggled for all allyteams
-[f=0001021] [GlobalLosActionExecutor] global LOS toggled for all allyteams
-[f=0001057] Cheating is disabled!
-[f=0006820] Buildings set to face North
-[f=0006840] Buildings set to face West
-[f=0006853] Buildings set to face South
-[f=0012461] Buildings set to face East
-[f=0015139] Buildings set to face North
-[f=0015244] Buildings set to face West
-[f=0018881] Buildings set to face South
-[f=0020256] -> Sword is being attacked!
-[f=0021215] Buildings set to face East
-[f=0021225] Buildings set to face North
-[f=0021389] -> Freedom Fighter is being attacked!
-[f=0022556] Stockpile queue is already full (max 5).
-[f=0022556] Stockpile queue is already full (max 5).
-[f=0022556] Stockpile queue is already full (max 5).
-[f=0022556] Stockpile queue is already full (max 5).
-[f=0022556] Stockpile queue is already full (max 5).
-[f=0022647] -> Freedom Fighter is being attacked!
-[f=0023154] -> Freedom Fighter is being attacked!
-[f=0023649] -> FarSight is being attacked!
-[f=0024297] -> Freedom Fighter is being attacked!
-[f=0024761] -> Sword is being attacked!
-[f=0025259] -> Freedom Fighter is being attacked!
-[f=0025569] Stockpile queue is already full (max 5).
-[f=0025569] Stockpile queue is already full (max 5).
-[f=0025569] Stockpile queue is already full (max 5).
-[f=0025569] Stockpile queue is already full (max 5).
-[f=0025569] Stockpile queue is already full (max 5).
-[f=0026026] -> Freedom Fighter is being attacked!
-[f=0026657] Stockpile queue is already full (max 5).
-[f=0026657] Stockpile queue is already full (max 5).
-[f=0026657] Stockpile queue is already full (max 5).
-[f=0026657] Stockpile queue is already full (max 5).
-[f=0026657] Stockpile queue is already full (max 5).
-[f=0027148] -> Freedom Fighter is being attacked!
-[f=0027585] Stockpile queue is already full (max 5).
-[f=0027585] Stockpile queue is already full (max 5).
-[f=0027585] Stockpile queue is already full (max 5).
-[f=0027585] Stockpile queue is already full (max 5).
-[f=0027585] Stockpile queue is already full (max 5).
-[f=0027603] -> Rocko is being attacked!
-[f=0028097] -> Rocko is being attacked!
-[f=0028503] Stockpile queue is already full (max 5).
-[f=0028503] Stockpile queue is already full (max 5).
-[f=0028503] Stockpile queue is already full (max 5).
-[f=0028503] Stockpile queue is already full (max 5).
-[f=0028503] Stockpile queue is already full (max 5).
-[f=0028581] -> Rocko is being attacked!
-[f=0029236] Stockpile queue is already full (max 5).
-[f=0029236] Stockpile queue is already full (max 5).
-[f=0029236] Stockpile queue is already full (max 5).
-[f=0029236] Stockpile queue is already full (max 5).
-[f=0029236] Stockpile queue is already full (max 5).
-[f=0029303] Stockpile queue is already full (max 5).
-[f=0029303] Stockpile queue is already full (max 5).
-[f=0029303] Stockpile queue is already full (max 5).
-[f=0029303] Stockpile queue is already full (max 5).
-[f=0029303] Stockpile queue is already full (max 5).
-[f=0030100] -> Freedom Fighter is being attacked!
-[f=0030242] Stockpile queue is already full (max 5).
-[f=0030242] Stockpile queue is already full (max 5).
-[f=0030242] Stockpile queue is already full (max 5).
-[f=0030242] Stockpile queue is already full (max 5).
-[f=0030242] Stockpile queue is already full (max 5).
-[f=0031179] -> Freedom Fighter is being attacked!
-[f=0031335] Stockpile queue is already full (max 5).
-[f=0031335] Stockpile queue is already full (max 5).
-[f=0031335] Stockpile queue is already full (max 5).
-[f=0031335] Stockpile queue is already full (max 5).
-[f=0031335] Stockpile queue is already full (max 5).
-[f=0031827] -> LLT is being attacked!
-[f=0031878] Stockpile queue is already full (max 5).
-[f=0031878] Stockpile queue is already full (max 5).
-[f=0031878] Stockpile queue is already full (max 5).
-[f=0031878] Stockpile queue is already full (max 5).
-[f=0031878] Stockpile queue is already full (max 5).
-[f=0032123] Stockpile queue is already full (max 5).
-[f=0032123] Stockpile queue is already full (max 5).
-[f=0032123] Stockpile queue is already full (max 5).
-[f=0032123] Stockpile queue is already full (max 5).
-[f=0032123] Stockpile queue is already full (max 5).
-[f=0032364] -> LLT is being attacked!
-[f=0032976] -> Freedom Fighter is being attacked!
-[f=0033048] Stockpile queue is already full (max 5).
-[f=0033048] Stockpile queue is already full (max 5).
-[f=0033048] Stockpile queue is already full (max 5).
-[f=0033048] Stockpile queue is already full (max 5).
-[f=0033048] Stockpile queue is already full (max 5).
-[f=0033606] -> Luger is being attacked!
-[f=0034309] Stockpile queue is already full (max 5).
-[f=0034309] Stockpile queue is already full (max 5).
-[f=0034309] Stockpile queue is already full (max 5).
-[f=0034309] Stockpile queue is already full (max 5).
-[f=0034309] Stockpile queue is already full (max 5).
-[f=0034645] [SpringApp::Kill][1] fromRun=1
-[f=0034645] [ThreadPool::SetThreadCount][1] wanted=0 current=2 maximum=2 (init=0)
-[f=0034645] 	[async=0] threads=2 tasks=103110 {sum,avg}{exec,wait}time={{-2.000, 2.000}, {0.000, -0.000}}ms
-[f=0034645] 		thread=1 tasks=103110 {sum,min,max,avg}{exec,wait}time={{-2.000, 0.000, -0.000, 2.000}, {0.000, 0.000, -0.000, -0.000}}ms
-[f=0034645] 	[async=1] threads=2 tasks=1 {sum,avg}{exec,wait}time={{0.000, 0.000}, {0.000, 0.000}}ms
-[f=0034645] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {0.000, 0.000, 0.000, 0.000}}ms
-[f=0034645] [ThreadPool::SetThreadCount][2] workers=0
-[f=0034645] [SpringApp::Kill][2]
-[f=0034645] [Game::KillLua][0] dtor=0 loadscreen=00000000
-[f=0034645] [Game::KillLua][3] dtor=0 luaUI=1cd465c8
-[f=0034645] Red_UI_Framework>> last processed widget was "Red Tooltip"
-[f=0034645] Red_Drawing>> last processed widget was "Red Tooltip"
-[f=0034645] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,98705406,0} {chunk,block}Bytes={0,0}
-[f=0034645] [Game::KillLua][1] dtor=0 luaGaia=00000000
-[f=0034645] [Game::KillLua][2] dtor=0 luaRules=22b8c818
-[f=0034645] Shard AI unsync gadget shutdown
-[f=0034645] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,98705415,0} {chunk,block}Bytes={0,0}
-[f=0034645] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,98705415,0} {chunk,block}Bytes={0,0}
-[f=0034645] [Game::KillLua][4] dtor=0
-[f=0034645] [WriteDemoFile] writing client-demo "C:\Users\moach\Documents\My Games\Spring\demos\20190522_002356_Dworld_V1_104.0.1-969-ga0e1218 maintenance.sdfz" (467318 bytes)
-[f=0034645] [Sound] [Sound::Kill] soundThread.joinable()=1
-[f=0034645] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
-[f=0034645] [Sound] [Sound::UpdateThread][3] #sources=64 #items=72
-[f=0034645] [Sound] [Sound::UpdateThread][4] ctx=05788500 dev=059d04f0
-[f=0034645] [Sound] [Sound::UpdateThread][5] ctx=05788500 dev=059d04f0
-[f=0034645] [Sound] [Sound::Cleanup][alcDestroyContext(05788500)]
-[f=0034645] [Sound] [Sound::Cleanup][alcCloseDevice(059d04f0)]
-[f=0034645] [Sound] [Sound::UpdateThread][6]
-[f=0034645] [Game::~CGame][1]
-[f=0034645] [Game::KillLua][0] dtor=1 loadscreen=00000000
-[f=0034645] [Game::KillLua][3] dtor=1 luaUI=00000000
-[f=0034645] [Game::KillLua][1] dtor=1 luaGaia=00000000
-[f=0034645] [Game::KillLua][2] dtor=1 luaRules=00000000
-[f=0034645] [Game::KillLua][4] dtor=1
-[f=0034645] [Game::KillMisc][1]
-[f=0034645] [Game::KillMisc][2]
-[f=0034645] [Game::KillMisc][3]
-[f=0034645] [Game::KillRendering][1]
-[f=0034645] [3DOParser::Kill] allocated 4695 pieces
-[f=0034645] [S3OParser::Kill] allocated 1026 pieces
-[f=0034645] [AssParser::Kill] allocated 0 pieces
-[f=0034645] [Game::KillInterface][1]
-[f=0034645] [Game::KillInterface][2]
-[f=0034645] [Game::KillSimulation][1]
-[f=0034645] [Game::KillSimulation][2]
-[f=0034645] [CCollisionHandler] dis-/continuous tests: 0/5748443
-[f=0034645] [Game::KillSimulation][3]
-[f=0034645] [~CPathCache(56x56)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
-[f=0034645] [~CPathCache(56x56)] cacheHits=1093 hitPercentage=33% numHashColls=0 maxCacheSize=62
-[f=0034645] [~CPathCache(112x112)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
-[f=0034645] [~CPathCache(112x112)] cacheHits=2488 hitPercentage=1% numHashColls=0 maxCacheSize=201
-[f=0034645] [~CRectangleOverlapHandler] 2% overlap reduction
-[f=0034645] [~CRectangleOverlapHandler] 2% overlap reduction
-[f=0034645] [LosHandler::Kill] raycast instance cache-{hits,misses}={90774,68264}; shared=14%; from cache=43%
-[f=0034645] [Game::KillSimulation][4]
-[f=0034645] [CommonDefHandler::KillStatic] 3208 sound-set data items added
-[f=0034645] [Game::~CGame][2]
-[f=0034645] [Game::~CGame][3]
-[f=0034645] [SpringApp::Kill][3]
-[f=0034645] [NetProto::~CNetProtocol] [LocalConnection::Statistics]
-	450738 bytes sent  
-	144462 bytes recv'd
+[f=0000158] Buildings set to face East
+[f=0000289] Cheating is enabled!
+[f=0000354] [GlobalLosActionExecutor] global LOS toggled for all allyteams
+[f=0000464] [GlobalLosActionExecutor] global LOS toggled for all allyteams
+[f=0000508] Cheating is disabled!
+[f=0013035] -> Peewee is being attacked!
+[f=0013724] -> Freedom Fighter is being attacked!
+[f=0014442] -> Freedom Fighter is being attacked!
+[f=0014945] -> Flash is being attacked!
+[f=0015627] -> Freedom Fighter is being attacked!
+[f=0016190] Buildings set to face North
+[f=0017467] -> Sword is being attacked!
+[f=0018813] -> FarSight is being attacked!
+[f=0019526] -> Sword is being attacked!
+[f=0020021] -> Sword is being attacked!
+[f=0022195] -> Freedom Fighter is being attacked!
+[f=0023158] -> Sword is being attacked!
+[f=0023613] -> Stumpy is being attacked!
+[f=0025932] -> Peewee is being attacked!
+[f=0026158] Buildings set to face West
+[f=0026170] Buildings set to face South
+[f=0026400] -> Hammer is being attacked!
+[f=0027038] -> Hammer is being attacked!
+[f=0027740] -> Stumpy is being attacked!
+[f=0029555] -> Hammer is being attacked!
+[f=0030539] Buildings set to face East
+[f=0031352] -> Freedom Fighter is being attacked!
+[f=0032181] -> Stumpy is being attacked!
+[f=0032651] -> Sword is being attacked!
+[f=0033690] -> Freedom Fighter is being attacked!
+[f=0034678] -> Jethro is being attacked!
+[f=0035152] -> Stumpy is being attacked!
+[f=0035612] -> Sword is being attacked!
+[f=0036067] -> Stumpy is being attacked!
+[f=0036540] -> Freedom Fighter is being attacked!
+[f=0038104] -> Samson is being attacked!
+[f=0038652] -> Peewee is being attacked!
+[f=0039896] -> Stumpy is being attacked!
+[f=0040347] -> Jethro is being attacked!
+[f=0040825] -> Hammer is being attacked!
+[f=0042475] -> Sword is being attacked!
+[f=0042928] -> Stumpy is being attacked!
+[f=0043762] -> Sword is being attacked!
+[f=0044266] -> Freedom Fighter is being attacked!
+[f=0044572] Added Aircraft Plant to autogroup #2.
+[f=0045595] -> Stumpy is being attacked!
+[f=0046163] -> Freedom Fighter is being attacked!
+[f=0046686] -> Freedom Fighter is being attacked!
+[f=0047812] -> Sword is being attacked!
+[f=0048486] -> Freedom Fighter is being attacked!
+[f=0049087] -> Peewee is being attacked!
+[f=0049611] -> Sword is being attacked!
+[f=0050188] -> Stumpy is being attacked!
+[f=0051130] Stockpile queue is already full (max 5).
+[f=0051130] Stockpile queue is already full (max 5).
+[f=0051130] Stockpile queue is already full (max 5).
+[f=0051130] Stockpile queue is already full (max 5).
+[f=0051130] Stockpile queue is already full (max 5).
+[f=0051396] -> Sword is being attacked!
+[f=0051950] -> Freedom Fighter is being attacked!
+[f=0052535] -> Stumpy is being attacked!
+[f=0053165] -> Sword is being attacked!
+[f=0053637] -> Stumpy is being attacked!
+[f=0053934] Stockpile queue is already full (max 5).
+[f=0053934] Stockpile queue is already full (max 5).
+[f=0053934] Stockpile queue is already full (max 5).
+[f=0053934] Stockpile queue is already full (max 5).
+[f=0053934] Stockpile queue is already full (max 5).
+[f=0054222] Stockpile queue is already full (max 5).
+[f=0054222] Stockpile queue is already full (max 5).
+[f=0054222] Stockpile queue is already full (max 5).
+[f=0054222] Stockpile queue is already full (max 5).
+[f=0054222] Stockpile queue is already full (max 5).
+[f=0054323] -> Stumpy is being attacked!
+[f=0054642] Stockpile queue is already full (max 5).
+[f=0054642] Stockpile queue is already full (max 5).
+[f=0054642] Stockpile queue is already full (max 5).
+[f=0054642] Stockpile queue is already full (max 5).
+[f=0054642] Stockpile queue is already full (max 5).
+[f=0054920] -> Sword is being attacked!
+[f=0055062] Stockpile queue is already full (max 5).
+[f=0055062] Stockpile queue is already full (max 5).
+[f=0055062] Stockpile queue is already full (max 5).
+[f=0055062] Stockpile queue is already full (max 5).
+[f=0055062] Stockpile queue is already full (max 5).
+[f=0055444] -> Freedom Fighter is being attacked!
+[f=0055482] Stockpile queue is already full (max 5).
+[f=0055482] Stockpile queue is already full (max 5).
+[f=0055482] Stockpile queue is already full (max 5).
+[f=0055482] Stockpile queue is already full (max 5).
+[f=0055482] Stockpile queue is already full (max 5).
+[f=0055902] Stockpile queue is already full (max 5).
+[f=0055902] Stockpile queue is already full (max 5).
+[f=0055902] Stockpile queue is already full (max 5).
+[f=0055902] Stockpile queue is already full (max 5).
+[f=0055902] Stockpile queue is already full (max 5).
+[f=0055928] -> Metal Extractor is being attacked!
+[f=0056387] -> Shellshocker is being attacked!
+[f=0057439] -> Sword is being attacked!
+[f=0057737] Stockpile queue is already full (max 5).
+[f=0057737] Stockpile queue is already full (max 5).
+[f=0057737] Stockpile queue is already full (max 5).
+[f=0057737] Stockpile queue is already full (max 5).
+[f=0057737] Stockpile queue is already full (max 5).
+[f=0057901] -> Metal Extractor is being attacked!
+[f=0058089] Stockpile queue is already full (max 5).
+[f=0058089] Stockpile queue is already full (max 5).
+[f=0058089] Stockpile queue is already full (max 5).
+[f=0058089] Stockpile queue is already full (max 5).
+[f=0058089] Stockpile queue is already full (max 5).
+[f=0058157] Stockpile queue is already full (max 5).
+[f=0058157] Stockpile queue is already full (max 5).
+[f=0058157] Stockpile queue is already full (max 5).
+[f=0058157] Stockpile queue is already full (max 5).
+[f=0058157] Stockpile queue is already full (max 5).
+[f=0058354] -> Sentinel is being attacked!
+[f=0058577] Stockpile queue is already full (max 5).
+[f=0058577] Stockpile queue is already full (max 5).
+[f=0058577] Stockpile queue is already full (max 5).
+[f=0058577] Stockpile queue is already full (max 5).
+[f=0058577] Stockpile queue is already full (max 5).
+[f=0058947] -> Sentinel is being attacked!
+[f=0058997] Stockpile queue is already full (max 5).
+[f=0058997] Stockpile queue is already full (max 5).
+[f=0058997] Stockpile queue is already full (max 5).
+[f=0058997] Stockpile queue is already full (max 5).
+[f=0058997] Stockpile queue is already full (max 5).
+[f=0059417] Stockpile queue is already full (max 5).
+[f=0059417] Stockpile queue is already full (max 5).
+[f=0059417] Stockpile queue is already full (max 5).
+[f=0059417] Stockpile queue is already full (max 5).
+[f=0059417] Stockpile queue is already full (max 5).
+[f=0059539] -> Freedom Fighter is being attacked!
+[f=0059985] Metal Extractor: self-destruct in 1s
+[f=0060453] -> Freedom Fighter is being attacked!
+[f=0061454] -> Samson is being attacked!
+[f=0061892] Stockpile queue is already full (max 5).
+[f=0061892] Stockpile queue is already full (max 5).
+[f=0061892] Stockpile queue is already full (max 5).
+[f=0061892] Stockpile queue is already full (max 5).
+[f=0061892] Stockpile queue is already full (max 5).
+[f=0062312] Stockpile queue is already full (max 5).
+[f=0062312] Stockpile queue is already full (max 5).
+[f=0062312] Stockpile queue is already full (max 5).
+[f=0062312] Stockpile queue is already full (max 5).
+[f=0062312] Stockpile queue is already full (max 5).
+[f=0062538] -> Sword is being attacked!
+[f=0062732] Stockpile queue is already full (max 5).
+[f=0062732] Stockpile queue is already full (max 5).
+[f=0062732] Stockpile queue is already full (max 5).
+[f=0062732] Stockpile queue is already full (max 5).
+[f=0062732] Stockpile queue is already full (max 5).
+[f=0063032] -> Freedom Fighter is being attacked!
+[f=0063152] Stockpile queue is already full (max 5).
+[f=0063152] Stockpile queue is already full (max 5).
+[f=0063152] Stockpile queue is already full (max 5).
+[f=0063152] Stockpile queue is already full (max 5).
+[f=0063152] Stockpile queue is already full (max 5).
+[f=0063572] Stockpile queue is already full (max 5).
+[f=0063572] Stockpile queue is already full (max 5).
+[f=0063572] Stockpile queue is already full (max 5).
+[f=0063572] Stockpile queue is already full (max 5).
+[f=0063572] Stockpile queue is already full (max 5).
+[f=0064475] -> Nano Turret is being attacked!
+[f=0065435] -> Nano Turret is being attacked!
+[f=0065662] Buildings set to face North
+[f=0065678] Buildings set to face West
+[f=0065692] Buildings set to face South
+[f=0066123] -> Hammer is being attacked!
+[f=0066891] -> Nano Turret is being attacked!
+[f=0067663] -> Thunder is being attacked!
+[f=0068192] -> Keeper is being attacked!
+[f=0069054] -> Sword is being attacked!
+[f=0069684] -> Freedom Fighter is being attacked!
+[f=0070188] -> Keeper is being attacked!
+[f=0070684] -> Nano Turret is being attacked!
+[f=0071415] -> Keeper is being attacked!
+[f=0071994] -> Nano Turret is being attacked!
+[f=0072646] -> Nano Turret is being attacked!
+[f=0073115] -> Freedom Fighter is being attacked!
+[f=0073638] -> Nano Turret is being attacked!
+[f=0074184] -> Sword is being attacked!
+[f=0074625] Added Advanced Vehicle Plant to autogroup #1.
+[f=0074738] -> Sword is being attacked!
+[f=0075196] -> Freedom Fighter is being attacked!
+[f=0075877] -> Sword is being attacked!
+[f=0076357] -> Sword is being attacked!
+[f=0077389] -> Shellshocker is being attacked!
+[f=0077857] -> Freedom Fighter is being attacked!
+[f=0078520] -> Warrior is being attacked!
+[f=0079048] -> Keeper is being attacked!
+[f=0079494] Stockpile queue is already full (max 5).
+[f=0079494] Stockpile queue is already full (max 5).
+[f=0079494] Stockpile queue is already full (max 5).
+[f=0079494] Stockpile queue is already full (max 5).
+[f=0079494] Stockpile queue is already full (max 5).
+[f=0080199] Stockpile queue is already full (max 5).
+[f=0080199] Stockpile queue is already full (max 5).
+[f=0080199] Stockpile queue is already full (max 5).
+[f=0080199] Stockpile queue is already full (max 5).
+[f=0080199] Stockpile queue is already full (max 5).
+[f=0080202] -> Nano Turret is being attacked!
+[f=0080414] Stockpile queue is already full (max 5).
+[f=0080414] Stockpile queue is already full (max 5).
+[f=0080414] Stockpile queue is already full (max 5).
+[f=0080414] Stockpile queue is already full (max 5).
+[f=0080414] Stockpile queue is already full (max 5).
+[f=0080698] -> Keeper is being attacked!
+[f=0080834] Stockpile queue is already full (max 5).
+[f=0080834] Stockpile queue is already full (max 5).
+[f=0080834] Stockpile queue is already full (max 5).
+[f=0080834] Stockpile queue is already full (max 5).
+[f=0080834] Stockpile queue is already full (max 5).
+[f=0080846] Stockpile queue is already full (max 5).
+[f=0080846] Stockpile queue is already full (max 5).
+[f=0080846] Stockpile queue is already full (max 5).
+[f=0080846] Stockpile queue is already full (max 5).
+[f=0080846] Stockpile queue is already full (max 5).
+[f=0081261] -> Peewee is being attacked!
+[f=0081267] Stockpile queue is already full (max 5).
+[f=0081267] Stockpile queue is already full (max 5).
+[f=0081267] Stockpile queue is already full (max 5).
+[f=0081267] Stockpile queue is already full (max 5).
+[f=0081267] Stockpile queue is already full (max 5).
+[f=0081673] Stockpile queue is already full (max 5).
+[f=0081673] Stockpile queue is already full (max 5).
+[f=0081673] Stockpile queue is already full (max 5).
+[f=0081673] Stockpile queue is already full (max 5).
+[f=0081673] Stockpile queue is already full (max 5).
+[f=0081822] -> Bulldog is being attacked!
+[f=0082008] Buildings set to face East
+[f=0082012] Stockpile queue is already full (max 5).
+[f=0082012] Stockpile queue is already full (max 5).
+[f=0082012] Stockpile queue is already full (max 5).
+[f=0082012] Stockpile queue is already full (max 5).
+[f=0082012] Stockpile queue is already full (max 5).
+[f=0082093] Stockpile queue is already full (max 5).
+[f=0082093] Stockpile queue is already full (max 5).
+[f=0082093] Stockpile queue is already full (max 5).
+[f=0082093] Stockpile queue is already full (max 5).
+[f=0082093] Stockpile queue is already full (max 5).
+[f=0082359] -> Bulldog is being attacked!
+[f=0082520] Stockpile queue is already full (max 5).
+[f=0082520] Stockpile queue is already full (max 5).
+[f=0082520] Stockpile queue is already full (max 5).
+[f=0082520] Stockpile queue is already full (max 5).
+[f=0082520] Stockpile queue is already full (max 5).
+[f=0082527] Stockpile queue is already full (max 5).
+[f=0082527] Stockpile queue is already full (max 5).
+[f=0082527] Stockpile queue is already full (max 5).
+[f=0082527] Stockpile queue is already full (max 5).
+[f=0082527] Stockpile queue is already full (max 5).
+[f=0082809] -> Bulldog is being attacked!
+[f=0082898] Stockpile queue is already full (max 5).
+[f=0082898] Stockpile queue is already full (max 5).
+[f=0082898] Stockpile queue is already full (max 5).
+[f=0082898] Stockpile queue is already full (max 5).
+[f=0082898] Stockpile queue is already full (max 5).
+[f=0082940] Stockpile queue is already full (max 5).
+[f=0082940] Stockpile queue is already full (max 5).
+[f=0082940] Stockpile queue is already full (max 5).
+[f=0082940] Stockpile queue is already full (max 5).
+[f=0082940] Stockpile queue is already full (max 5).
+[f=0083269] -> Freedom Fighter is being attacked!
+[f=0083360] Stockpile queue is already full (max 5).
+[f=0083360] Stockpile queue is already full (max 5).
+[f=0083360] Stockpile queue is already full (max 5).
+[f=0083360] Stockpile queue is already full (max 5).
+[f=0083360] Stockpile queue is already full (max 5).
+[f=0083481] Stockpile queue is already full (max 5).
+[f=0083481] Stockpile queue is already full (max 5).
+[f=0083481] Stockpile queue is already full (max 5).
+[f=0083481] Stockpile queue is already full (max 5).
+[f=0083481] Stockpile queue is already full (max 5).
+[f=0083799] -> Rocko is being attacked!
+[f=0083901] Stockpile queue is already full (max 5).
+[f=0083901] Stockpile queue is already full (max 5).
+[f=0083901] Stockpile queue is already full (max 5).
+[f=0083901] Stockpile queue is already full (max 5).
+[f=0083901] Stockpile queue is already full (max 5).
+[f=0083918] Stockpile queue is already full (max 5).
+[f=0083918] Stockpile queue is already full (max 5).
+[f=0083918] Stockpile queue is already full (max 5).
+[f=0083918] Stockpile queue is already full (max 5).
+[f=0083918] Stockpile queue is already full (max 5).
+[f=0084248] -> Freedom Fighter is being attacked!
+[f=0084321] Stockpile queue is already full (max 5).
+[f=0084321] Stockpile queue is already full (max 5).
+[f=0084321] Stockpile queue is already full (max 5).
+[f=0084321] Stockpile queue is already full (max 5).
+[f=0084321] Stockpile queue is already full (max 5).
+[f=0084870] -> Sword is being attacked!
+[f=0085289] Stockpile queue is already full (max 5).
+[f=0085289] Stockpile queue is already full (max 5).
+[f=0085289] Stockpile queue is already full (max 5).
+[f=0085289] Stockpile queue is already full (max 5).
+[f=0085289] Stockpile queue is already full (max 5).
+[f=0085336] Stockpile queue is already full (max 5).
+[f=0085336] Stockpile queue is already full (max 5).
+[f=0085336] Stockpile queue is already full (max 5).
+[f=0085336] Stockpile queue is already full (max 5).
+[f=0085336] Stockpile queue is already full (max 5).
+[f=0085502] -> Hammer is being attacked!
+[f=0085709] Stockpile queue is already full (max 5).
+[f=0085709] Stockpile queue is already full (max 5).
+[f=0085709] Stockpile queue is already full (max 5).
+[f=0085709] Stockpile queue is already full (max 5).
+[f=0085709] Stockpile queue is already full (max 5).
+[f=0085755] Stockpile queue is already full (max 5).
+[f=0085755] Stockpile queue is already full (max 5).
+[f=0085755] Stockpile queue is already full (max 5).
+[f=0085755] Stockpile queue is already full (max 5).
+[f=0085755] Stockpile queue is already full (max 5).
+[f=0085955] -> Nano Turret is being attacked!
+[f=0086129] Stockpile queue is already full (max 5).
+[f=0086129] Stockpile queue is already full (max 5).
+[f=0086129] Stockpile queue is already full (max 5).
+[f=0086129] Stockpile queue is already full (max 5).
+[f=0086129] Stockpile queue is already full (max 5).
+[f=0086176] Stockpile queue is already full (max 5).
+[f=0086176] Stockpile queue is already full (max 5).
+[f=0086176] Stockpile queue is already full (max 5).
+[f=0086176] Stockpile queue is already full (max 5).
+[f=0086176] Stockpile queue is already full (max 5).
+[f=0087013] -> Keeper is being attacked!
+[f=0087017] Stockpile queue is already full (max 5).
+[f=0087017] Stockpile queue is already full (max 5).
+[f=0087017] Stockpile queue is already full (max 5).
+[f=0087017] Stockpile queue is already full (max 5).
+[f=0087017] Stockpile queue is already full (max 5).
+[f=0087757] -> Freedom Fighter is being attacked!
+[f=0088259] -> Nano Turret is being attacked!
+[f=0088709] -> Jethro is being attacked!
+[f=0089391] Stockpile queue is already full (max 5).
+[f=0089391] Stockpile queue is already full (max 5).
+[f=0089391] Stockpile queue is already full (max 5).
+[f=0089391] Stockpile queue is already full (max 5).
+[f=0089391] Stockpile queue is already full (max 5).
+[f=0089619] -> Freedom Fighter is being attacked!
+[f=0090291] Stockpile queue is already full (max 5).
+[f=0090291] Stockpile queue is already full (max 5).
+[f=0090291] Stockpile queue is already full (max 5).
+[f=0090291] Stockpile queue is already full (max 5).
+[f=0090291] Stockpile queue is already full (max 5).
+[f=0090362] -> Hawk is being attacked!
+[f=0090515] Stockpile queue is already full (max 5).
+[f=0090515] Stockpile queue is already full (max 5).
+[f=0090515] Stockpile queue is already full (max 5).
+[f=0090515] Stockpile queue is already full (max 5).
+[f=0090515] Stockpile queue is already full (max 5).
+[f=0090630] Stockpile queue is already full (max 5).
+[f=0090630] Stockpile queue is already full (max 5).
+[f=0090630] Stockpile queue is already full (max 5).
+[f=0090630] Stockpile queue is already full (max 5).
+[f=0090630] Stockpile queue is already full (max 5).
+[f=0090708] Buildings set to face North
+[f=0090952] -> Sword is being attacked!
+[f=0090983] Stockpile queue is already full (max 5).
+[f=0090983] Stockpile queue is already full (max 5).
+[f=0090983] Stockpile queue is already full (max 5).
+[f=0090983] Stockpile queue is already full (max 5).
+[f=0090983] Stockpile queue is already full (max 5).
+[f=0091145] Stockpile queue is already full (max 5).
+[f=0091145] Stockpile queue is already full (max 5).
+[f=0091145] Stockpile queue is already full (max 5).
+[f=0091145] Stockpile queue is already full (max 5).
+[f=0091145] Stockpile queue is already full (max 5).
+[f=0091727] -> Nano Turret is being attacked!
+[f=0092042] Stockpile queue is already full (max 5).
+[f=0092042] Stockpile queue is already full (max 5).
+[f=0092042] Stockpile queue is already full (max 5).
+[f=0092042] Stockpile queue is already full (max 5).
+[f=0092042] Stockpile queue is already full (max 5).
+[f=0092163] Stockpile queue is already full (max 5).
+[f=0092163] Stockpile queue is already full (max 5).
+[f=0092163] Stockpile queue is already full (max 5).
+[f=0092163] Stockpile queue is already full (max 5).
+[f=0092163] Stockpile queue is already full (max 5).
+[f=0092267] -> Hammer is being attacked!
+[f=0092290] Stockpile queue is already full (max 5).
+[f=0092290] Stockpile queue is already full (max 5).
+[f=0092290] Stockpile queue is already full (max 5).
+[f=0092290] Stockpile queue is already full (max 5).
+[f=0092290] Stockpile queue is already full (max 5).
+[f=0092481] Stockpile queue is already full (max 5).
+[f=0092481] Stockpile queue is already full (max 5).
+[f=0092481] Stockpile queue is already full (max 5).
+[f=0092481] Stockpile queue is already full (max 5).
+[f=0092481] Stockpile queue is already full (max 5).
+[f=0092921] -> Sword is being attacked!
+[f=0093049] Stockpile queue is already full (max 5).
+[f=0093049] Stockpile queue is already full (max 5).
+[f=0093049] Stockpile queue is already full (max 5).
+[f=0093049] Stockpile queue is already full (max 5).
+[f=0093049] Stockpile queue is already full (max 5).
+[f=0093082] Stockpile queue is already full (max 5).
+[f=0093082] Stockpile queue is already full (max 5).
+[f=0093082] Stockpile queue is already full (max 5).
+[f=0093082] Stockpile queue is already full (max 5).
+[f=0093082] Stockpile queue is already full (max 5).
+[f=0093373] -> Freedom Fighter is being attacked!
+[f=0093468] Stockpile queue is already full (max 5).
+[f=0093468] Stockpile queue is already full (max 5).
+[f=0093468] Stockpile queue is already full (max 5).
+[f=0093468] Stockpile queue is already full (max 5).
+[f=0093468] Stockpile queue is already full (max 5).
+[f=0093502] Stockpile queue is already full (max 5).
+[f=0093502] Stockpile queue is already full (max 5).
+[f=0093502] Stockpile queue is already full (max 5).
+[f=0093502] Stockpile queue is already full (max 5).
+[f=0093502] Stockpile queue is already full (max 5).
+[f=0093823] -> Keeper is being attacked!
+[f=0093921] Stockpile queue is already full (max 5).
+[f=0093921] Stockpile queue is already full (max 5).
+[f=0093921] Stockpile queue is already full (max 5).
+[f=0093921] Stockpile queue is already full (max 5).
+[f=0093921] Stockpile queue is already full (max 5).
+[f=0094017] Stockpile queue is already full (max 5).
+[f=0094017] Stockpile queue is already full (max 5).
+[f=0094017] Stockpile queue is already full (max 5).
+[f=0094017] Stockpile queue is already full (max 5).
+[f=0094017] Stockpile queue is already full (max 5).
+[f=0094329] -> Sentinel is being attacked!
+[f=0094342] Stockpile queue is already full (max 5).
+[f=0094342] Stockpile queue is already full (max 5).
+[f=0094342] Stockpile queue is already full (max 5).
+[f=0094342] Stockpile queue is already full (max 5).
+[f=0094342] Stockpile queue is already full (max 5).
+[f=0094761] Stockpile queue is already full (max 5).
+[f=0094761] Stockpile queue is already full (max 5).
+[f=0094761] Stockpile queue is already full (max 5).
+[f=0094761] Stockpile queue is already full (max 5).
+[f=0094761] Stockpile queue is already full (max 5).
+[f=0094810] -> Rocko is being attacked!
+[f=0095282] -> Keeper is being attacked!
+[f=0095732] -> Jethro is being attacked!
+[f=0096300] -> Sword is being attacked!
+[f=0096757] -> LLT is being attacked!
+[f=0097208] -> Blade is being attacked!
+[f=0097670] -> LLT is being attacked!
+[f=0098217] -> Freedom Fighter is being attacked!
+[f=0098674] -> Blade is being attacked!
+[f=0099496] -> Sword is being attacked!
+[f=0099946] -> Blade is being attacked!
+[f=0100576] -> Hammer is being attacked!
+[f=0101029] -> Peewee is being attacked!
+[f=0101505] -> Blade is being attacked!
+[f=0101958] -> Blade is being attacked!
+[f=0102456] -> Jethro is being attacked!
+[f=0103251] -> Hawk is being attacked!
+[f=0103875] -> Keeper is being attacked!
+[f=0104852] -> Freedom Fighter is being attacked!
+[f=0105419] -> Keeper is being attacked!
+[f=0106099] Stockpile queue is already full (max 5).
+[f=0106099] Stockpile queue is already full (max 5).
+[f=0106099] Stockpile queue is already full (max 5).
+[f=0106099] Stockpile queue is already full (max 5).
+[f=0106099] Stockpile queue is already full (max 5).
+[f=0106136] -> Sword is being attacked!
+[f=0106632] -> Keeper is being attacked!
+[f=0107327] -> Freedom Fighter is being attacked!
+[f=0107925] -> Keeper is being attacked!
+[f=0108530] -> Hawk is being attacked!
+[f=0108533] Stockpile queue is already full (max 5).
+[f=0108533] Stockpile queue is already full (max 5).
+[f=0108533] Stockpile queue is already full (max 5).
+[f=0108533] Stockpile queue is already full (max 5).
+[f=0108533] Stockpile queue is already full (max 5).
+[f=0108953] Stockpile queue is already full (max 5).
+[f=0108953] Stockpile queue is already full (max 5).
+[f=0108953] Stockpile queue is already full (max 5).
+[f=0108953] Stockpile queue is already full (max 5).
+[f=0108953] Stockpile queue is already full (max 5).
+[f=0109041] -> Blade is being attacked!
+[f=0109340] Stockpile queue is already full (max 5).
+[f=0109340] Stockpile queue is already full (max 5).
+[f=0109340] Stockpile queue is already full (max 5).
+[f=0109340] Stockpile queue is already full (max 5).
+[f=0109340] Stockpile queue is already full (max 5).
+[f=0109373] Stockpile queue is already full (max 5).
+[f=0109373] Stockpile queue is already full (max 5).
+[f=0109373] Stockpile queue is already full (max 5).
+[f=0109373] Stockpile queue is already full (max 5).
+[f=0109373] Stockpile queue is already full (max 5).
+[f=0109841] -> Keeper is being attacked!
+[f=0110214] Stockpile queue is already full (max 5).
+[f=0110214] Stockpile queue is already full (max 5).
+[f=0110214] Stockpile queue is already full (max 5).
+[f=0110214] Stockpile queue is already full (max 5).
+[f=0110214] Stockpile queue is already full (max 5).
+[f=0110525] -> Razorback is being attacked!
+[f=0110718] Stockpile queue is already full (max 5).
+[f=0110718] Stockpile queue is already full (max 5).
+[f=0110718] Stockpile queue is already full (max 5).
+[f=0110718] Stockpile queue is already full (max 5).
+[f=0110718] Stockpile queue is already full (max 5).
+[f=0111137] Stockpile queue is already full (max 5).
+[f=0111137] Stockpile queue is already full (max 5).
+[f=0111137] Stockpile queue is already full (max 5).
+[f=0111137] Stockpile queue is already full (max 5).
+[f=0111137] Stockpile queue is already full (max 5).
+[f=0111413] -> Razorback is being attacked!
+[f=0111558] Stockpile queue is already full (max 5).
+[f=0111558] Stockpile queue is already full (max 5).
+[f=0111558] Stockpile queue is already full (max 5).
+[f=0111558] Stockpile queue is already full (max 5).
+[f=0111558] Stockpile queue is already full (max 5).
+[f=0111978] Stockpile queue is already full (max 5).
+[f=0111978] Stockpile queue is already full (max 5).
+[f=0111978] Stockpile queue is already full (max 5).
+[f=0111978] Stockpile queue is already full (max 5).
+[f=0111978] Stockpile queue is already full (max 5).
+[f=0112675] -> Peewee is being attacked!
+[f=0113636] -> Maverick is being attacked!
+[f=0114285] -> Sword is being attacked!
+[f=0115377] -> Nano Turret is being attacked!
+[f=0117205] -> Freedom Fighter is being attacked!
+[f=0117968] -> Flash is being attacked!
+[f=0119008] -> Razorback is being attacked!
+[f=0119458] -> Bulldog is being attacked!
+[f=0119919] -> Razorback is being attacked!
+[f=0120386] -> Stumpy is being attacked!
+[f=0120685] Stockpile queue is already full (max 5).
+[f=0120685] Stockpile queue is already full (max 5).
+[f=0120685] Stockpile queue is already full (max 5).
+[f=0120685] Stockpile queue is already full (max 5).
+[f=0120685] Stockpile queue is already full (max 5).
+[f=0120863] -> Fido is being attacked!
+[f=0121323] -> Razorback is being attacked!
+[f=0121776] Stockpile queue is already full (max 5).
+[f=0121776] Stockpile queue is already full (max 5).
+[f=0121776] Stockpile queue is already full (max 5).
+[f=0121776] Stockpile queue is already full (max 5).
+[f=0121776] Stockpile queue is already full (max 5).
+[f=0121778] -> Razorback is being attacked!
+[f=0122003] Player added point: ÿÓÿNuke Missile Silo
+[f=0122230] -> Freedom Fighter is being attacked!
+[f=0123896] -> Aero Drone is being attacked!
+[f=0124259] Stockpile queue is already full (max 5).
+[f=0124259] Stockpile queue is already full (max 5).
+[f=0124259] Stockpile queue is already full (max 5).
+[f=0124259] Stockpile queue is already full (max 5).
+[f=0124259] Stockpile queue is already full (max 5).
+[f=0124392] -> Sword is being attacked!
+[f=0124490] Stockpile queue is already full (max 5).
+[f=0124490] Stockpile queue is already full (max 5).
+[f=0124490] Stockpile queue is already full (max 5).
+[f=0124490] Stockpile queue is already full (max 5).
+[f=0124490] Stockpile queue is already full (max 5).
+[f=0124680] Stockpile queue is already full (max 5).
+[f=0124680] Stockpile queue is already full (max 5).
+[f=0124680] Stockpile queue is already full (max 5).
+[f=0124680] Stockpile queue is already full (max 5).
+[f=0124680] Stockpile queue is already full (max 5).
+[f=0125301] -> Maverick is being attacked!
+[f=0125519] Stockpile queue is already full (max 5).
+[f=0125519] Stockpile queue is already full (max 5).
+[f=0125519] Stockpile queue is already full (max 5).
+[f=0125519] Stockpile queue is already full (max 5).
+[f=0125519] Stockpile queue is already full (max 5).
+[f=0125572] Stockpile queue is already full (max 5).
+[f=0125572] Stockpile queue is already full (max 5).
+[f=0125572] Stockpile queue is already full (max 5).
+[f=0125572] Stockpile queue is already full (max 5).
+[f=0125572] Stockpile queue is already full (max 5).
+[f=0125827] -> Field Engineering Aircraft is being attacked!
+[f=0125939] Stockpile queue is already full (max 5).
+[f=0125939] Stockpile queue is already full (max 5).
+[f=0125939] Stockpile queue is already full (max 5).
+[f=0125939] Stockpile queue is already full (max 5).
+[f=0125939] Stockpile queue is already full (max 5).
+[f=0125992] Stockpile queue is already full (max 5).
+[f=0125992] Stockpile queue is already full (max 5).
+[f=0125992] Stockpile queue is already full (max 5).
+[f=0125992] Stockpile queue is already full (max 5).
+[f=0125992] Stockpile queue is already full (max 5).
+[f=0126788] -> Bulldog is being attacked!
+[f=0126938] Stockpile queue is already full (max 5).
+[f=0126938] Stockpile queue is already full (max 5).
+[f=0126938] Stockpile queue is already full (max 5).
+[f=0126938] Stockpile queue is already full (max 5).
+[f=0126938] Stockpile queue is already full (max 5).
+[f=0127310] Stockpile queue is already full (max 5).
+[f=0127310] Stockpile queue is already full (max 5).
+[f=0127310] Stockpile queue is already full (max 5).
+[f=0127310] Stockpile queue is already full (max 5).
+[f=0127310] Stockpile queue is already full (max 5).
+[f=0127429] -> Stumpy is being attacked!
+[f=0127779] Stockpile queue is already full (max 5).
+[f=0127779] Stockpile queue is already full (max 5).
+[f=0127779] Stockpile queue is already full (max 5).
+[f=0127779] Stockpile queue is already full (max 5).
+[f=0127779] Stockpile queue is already full (max 5).
+[f=0128016] Stockpile queue is already full (max 5).
+[f=0128016] Stockpile queue is already full (max 5).
+[f=0128016] Stockpile queue is already full (max 5).
+[f=0128016] Stockpile queue is already full (max 5).
+[f=0128016] Stockpile queue is already full (max 5).
+[f=0128216] Player added point: ÿÓÿAnti-Nuke
+[f=0128273] -> Freedom Fighter is being attacked!
+[f=0128524] Stockpile queue is already full (max 5).
+[f=0128524] Stockpile queue is already full (max 5).
+[f=0128524] Stockpile queue is already full (max 5).
+[f=0128524] Stockpile queue is already full (max 5).
+[f=0128524] Stockpile queue is already full (max 5).
+[f=0128618] Stockpile queue is already full (max 5).
+[f=0128618] Stockpile queue is already full (max 5).
+[f=0128618] Stockpile queue is already full (max 5).
+[f=0128618] Stockpile queue is already full (max 5).
+[f=0128618] Stockpile queue is already full (max 5).
+[f=0128723] -> Razorback is being attacked!
+[f=0128751] Player added point: ÿÓÿAnti-Nuke
+[f=0128752] Stockpile queue is already full (max 5).
+[f=0128752] Stockpile queue is already full (max 5).
+[f=0128752] Stockpile queue is already full (max 5).
+[f=0128752] Stockpile queue is already full (max 5).
+[f=0128752] Stockpile queue is already full (max 5).
+[f=0128817] Player added point: ÿÓÿTactical Nuke Silo
+[f=0128944] Stockpile queue is already full (max 5).
+[f=0128944] Stockpile queue is already full (max 5).
+[f=0128944] Stockpile queue is already full (max 5).
+[f=0128944] Stockpile queue is already full (max 5).
+[f=0128944] Stockpile queue is already full (max 5).
+[f=0129172] Stockpile queue is already full (max 5).
+[f=0129172] Stockpile queue is already full (max 5).
+[f=0129172] Stockpile queue is already full (max 5).
+[f=0129172] Stockpile queue is already full (max 5).
+[f=0129172] Stockpile queue is already full (max 5).
+[f=0129419] Player added point: ÿÓÿAnti-Nuke
+[f=0129487] -> Warrior is being attacked!
+[f=0129593] Stockpile queue is already full (max 5).
+[f=0129593] Stockpile queue is already full (max 5).
+[f=0129593] Stockpile queue is already full (max 5).
+[f=0129593] Stockpile queue is already full (max 5).
+[f=0129593] Stockpile queue is already full (max 5).
+[f=0129689] Stockpile queue is already full (max 5).
+[f=0129689] Stockpile queue is already full (max 5).
+[f=0129689] Stockpile queue is already full (max 5).
+[f=0129689] Stockpile queue is already full (max 5).
+[f=0129689] Stockpile queue is already full (max 5).
+[f=0130221] -> Bulldog is being attacked!
+[f=0130432] Stockpile queue is already full (max 5).
+[f=0130432] Stockpile queue is already full (max 5).
+[f=0130432] Stockpile queue is already full (max 5).
+[f=0130432] Stockpile queue is already full (max 5).
+[f=0130432] Stockpile queue is already full (max 5).
+[f=0130456] Player added point: ÿÓÿAnti-Nuke
+[f=0130529] Stockpile queue is already full (max 5).
+[f=0130529] Stockpile queue is already full (max 5).
+[f=0130529] Stockpile queue is already full (max 5).
+[f=0130529] Stockpile queue is already full (max 5).
+[f=0130529] Stockpile queue is already full (max 5).
+[f=0130547] Stockpile queue is already full (max 5).
+[f=0130547] Stockpile queue is already full (max 5).
+[f=0130547] Stockpile queue is already full (max 5).
+[f=0130547] Stockpile queue is already full (max 5).
+[f=0130547] Stockpile queue is already full (max 5).
+[f=0130871] -> Vanguard is being attacked!
+[f=0130949] Stockpile queue is already full (max 5).
+[f=0130949] Stockpile queue is already full (max 5).
+[f=0130949] Stockpile queue is already full (max 5).
+[f=0130949] Stockpile queue is already full (max 5).
+[f=0130949] Stockpile queue is already full (max 5).
+[f=0130967] Stockpile queue is already full (max 5).
+[f=0130967] Stockpile queue is already full (max 5).
+[f=0130967] Stockpile queue is already full (max 5).
+[f=0130967] Stockpile queue is already full (max 5).
+[f=0130967] Stockpile queue is already full (max 5).
+[f=0136396] -> Hawk is being attacked!
+[f=0137379] Stockpile queue is already full (max 5).
+[f=0137379] Stockpile queue is already full (max 5).
+[f=0137379] Stockpile queue is already full (max 5).
+[f=0137379] Stockpile queue is already full (max 5).
+[f=0137379] Stockpile queue is already full (max 5).
+[f=0137668] Stockpile queue is already full (max 5).
+[f=0137668] Stockpile queue is already full (max 5).
+[f=0137668] Stockpile queue is already full (max 5).
+[f=0137668] Stockpile queue is already full (max 5).
+[f=0137668] Stockpile queue is already full (max 5).
+[f=0138140] -> Sword is being attacked!
+[f=0138508] Stockpile queue is already full (max 5).
+[f=0138508] Stockpile queue is already full (max 5).
+[f=0138508] Stockpile queue is already full (max 5).
+[f=0138508] Stockpile queue is already full (max 5).
+[f=0138508] Stockpile queue is already full (max 5).
+[f=0138928] Stockpile queue is already full (max 5).
+[f=0138928] Stockpile queue is already full (max 5).
+[f=0138928] Stockpile queue is already full (max 5).
+[f=0138928] Stockpile queue is already full (max 5).
+[f=0138928] Stockpile queue is already full (max 5).
+[f=0148378] -> Warrior is being attacked!
+[f=0155654] [SpringApp::Kill][1] fromRun=1
+[f=0155654] [ThreadPool::SetThreadCount][1] wanted=0 current=2 maximum=2 (init=0)
+[f=0155654] 	[async=0] threads=2 tasks=493594 {sum,avg}{exec,wait}time={{-0.000, -0.000}, {26815622230723482179973009173775366638522786927935911404230748622664395683028921057226802842051782046163575592728429521961335416370968437693086577782161408.000, 0.000}}ms
+[f=0155654] 		thread=1 tasks=493594 {sum,min,max,avg}{exec,wait}time={{-0.000, 0.000, 0.000, -0.000}, {26815622230723482179973009173775366638522786927935911404230748622664395683028921057226802842051782046163575592728429521961335416370968437693086577782161408.000, 0.000, -2.000, 0.000}}ms
+[f=0155654] 	[async=1] threads=2 tasks=1 {sum,avg}{exec,wait}time={{0.000, 0.000}, {-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -26815622247013940391420025427415190689621566753564904655378323716338855176402339010971002580720203442737034675597477860502084517230779783739890160917020672.000}}ms
+[f=0155654] 		thread=1 tasks=1 {sum,min,max,avg}{exec,wait}time={{0.000, 0.000, 0.000, 0.000}, {-26815615859885194199148049996411692254958731641184786755447122887443528060147093953603748596333806855380063716372972101707507765623893139892867298012168192.000, -26815622247013940391420025427415190689621566753564904655378323716338855176402339010971002580720203442737034675597477860502084517230779783739890160917020672.000, -26815622247013940391420025427415190689621566753564904655378323716338855176402339010971002580720203442737034675597477860502084517230779783739890160917020672.000, -26815622247013940391420025427415190689621566753564904655378323716338855176402339010971002580720203442737034675597477860502084517230779783739890160917020672.000}}ms
+[f=0155654] [ThreadPool::SetThreadCount][2] workers=0
+[f=0155654] [SpringApp::Kill][2]
+[f=0155654] [Game::KillLua][0] dtor=0 loadscreen=00000000
+[f=0155654] [Game::KillLua][3] dtor=0 luaUI=81336a00
+[f=0155654] Red_UI_Framework>> last processed widget was "Red Tooltip"
+[f=0155654] Red_Drawing>> last processed widget was "Red Tooltip"
+[f=0155654] [LuaMemPool::LogStats][handle=LuaUI (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,305018367,0} {chunk,block}Bytes={0,0}
+[f=0155654] [Game::KillLua][1] dtor=0 luaGaia=00000000
+[f=0155654] [Game::KillLua][2] dtor=0 luaRules=5aede838
+[f=0155654] Shard AI unsync gadget shutdown
+[f=0155654] [LuaMemPool::LogStats][handle=LuaRules (unsynced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,305018383,0} {chunk,block}Bytes={0,0}
+[f=0155654] [LuaMemPool::LogStats][handle=LuaRules (synced)] index=4294967295 {blocks,sizes}={0,0} {int,ext,rec}Allocs={0,305018383,0} {chunk,block}Bytes={0,0}
+[f=0155654] [Game::KillLua][4] dtor=0
+[f=0155654] [WriteDemoFile] writing client-demo "C:\Users\moach\Documents\My Games\Spring\demos\20190522_012545_Deadlock-v1_104.0.1-969-ga0e1218 maintenance.sdfz" (2412695 bytes)
+[f=0155654] [Sound] [Sound::Kill] soundThread.joinable()=1
+[f=0155654] [WatchDog::DeregisterThread] deregistering controls for thread [audio]
+[f=0155654] [Sound] [Sound::UpdateThread][3] #sources=64 #items=122
+[f=0155654] [Sound] [Sound::UpdateThread][4] ctx=057986e0 dev=059146f0
+[f=0155654] [Sound] [Sound::UpdateThread][5] ctx=057986e0 dev=059146f0
+[f=0155654] [Sound] [Sound::Cleanup][alcDestroyContext(057986e0)]
+[f=0155654] [Sound] [Sound::Cleanup][alcCloseDevice(059146f0)]
+[f=0155654] [Sound] [Sound::UpdateThread][6]
+[f=0155654] [Game::~CGame][1]
+[f=0155654] [Game::KillLua][0] dtor=1 loadscreen=00000000
+[f=0155654] [Game::KillLua][3] dtor=1 luaUI=00000000
+[f=0155654] [Game::KillLua][1] dtor=1 luaGaia=00000000
+[f=0155654] [Game::KillLua][2] dtor=1 luaRules=00000000
+[f=0155654] [Game::KillLua][4] dtor=1
+[f=0155654] [Game::KillMisc][1]
+[f=0155654] [Game::KillMisc][2]
+[f=0155654] [Game::KillMisc][3]
+[f=0155654] [Game::KillRendering][1]
+[f=0155654] [3DOParser::Kill] allocated 4708 pieces
+[f=0155654] [S3OParser::Kill] allocated 1094 pieces
+[f=0155654] [AssParser::Kill] allocated 0 pieces
+[f=0155654] [Game::KillInterface][1]
+[f=0155654] [Game::KillInterface][2]
+[f=0155654] [Game::KillSimulation][1]
+[f=0155654] [Game::KillSimulation][2]
+[f=0155654] [CCollisionHandler] dis-/continuous tests: 0/35615071
+[f=0155654] [Game::KillSimulation][3]
+[f=0155654] [~CPathCache(40x40)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0155654] [~CPathCache(40x40)] cacheHits=33111 hitPercentage=56% numHashColls=0 maxCacheSize=102
+[f=0155654] [~CPathCache(80x80)] cacheHits=0 hitPercentage=0% numHashColls=0 maxCacheSize=0
+[f=0155654] [~CPathCache(80x80)] cacheHits=23439 hitPercentage=2% numHashColls=0 maxCacheSize=201
+[f=0155654] [~CRectangleOverlapHandler] 3% overlap reduction
+[f=0155654] [~CRectangleOverlapHandler] 3% overlap reduction
+[f=0155654] [LosHandler::Kill] raycast instance cache-{hits,misses}={2037627,1276687}; shared=6%; from cache=55%
+[f=0155654] [Game::KillSimulation][4]
+[f=0155654] [CommonDefHandler::KillStatic] 3208 sound-set data items added
+[f=0155654] [Game::~CGame][2]
+[f=0155654] [Game::~CGame][3]
+[f=0155654] [SpringApp::Kill][3]
+[f=0155654] [NetProto::~CNetProtocol] [LocalConnection::Statistics]
+	2240795 bytes sent  
+	863159 bytes recv'd
 
-[f=0034645] [SpringApp::Kill][4] font=0518d010
-[f=0034645] [SpringApp::Kill][5]
-[f=0034645] [SpringApp::Kill][6]
+[f=0155654] [SpringApp::Kill][4] font=050dd010
+[f=0155654] [SpringApp::Kill][5]
+[f=0155654] [SpringApp::Kill][6]
 [SpringApp::Kill][7]
 [LuaSocket] [~CLuaSocketRestrictions] dumping luasocket rules:
 [LuaSocket] TCP_CONNECT ALLOW * -1
 [LuaSocket] TCP_LISTEN  ALLOW * -1
 [LuaSocket] UDP_LISTEN  ALLOW * -1
 [~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\springcontent.sdz] 186067 bytes cached in 79 files
-[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\spring\bitmaps.sdz] 835908 bytes cached in 6 files
-[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\games\SA-v0.00.12.sdz] 61821951 bytes cached in 3752 files
-[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\maphelper.sdz] 14008 bytes cached in 3 files
+[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\spring\bitmaps.sdz] 848250 bytes cached in 7 files
+[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\games\SA-v0.00.12.sdz] 64021612 bytes cached in 3879 files
+[~CBufferedArchive][name=C:\Users\moach\Documents\My Games\Spring\engine\104.0.1-969-ga0e1218 maintenance\base\maphelper.sdz] 15664 bytes cached in 3 files
 [SpringApp::Kill][8]
 [WatchDog::DeregisterThread] deregistering controls for thread [main]
 [WatchDog::Uninstall][1] hangDetectorThread=011055cc (joinable=1)
 [WatchDog::Uninstall][2]
 [WatchDog::Uninstall][3]
 [SpringApp::Kill][9]
-[~CRectangleOverlapHandler] 2% overlap reduction
+[~CRectangleOverlapHandler] 3% overlap reduction

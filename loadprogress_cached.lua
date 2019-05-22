@@ -31,7 +31,7 @@ return {
 	["Courtyard-v01"] = 19.8812885,
 	["Craggy Hills v3"] = 31.3646641,
 	Crust = 26.8619995,
-	["Deadlock-v1"] = 23.3555813,
+	["Deadlock-v1"] = 23.7149677,
 	DeathValley = 30.0520611,
 	["DeltaSiegePrime Ultimate"] = 19.0917225,
 	DeltaSiegeX = 24.9146175,
