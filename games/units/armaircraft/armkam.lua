@@ -110,6 +110,7 @@ return {
 					subs = 1,
 					vtol = 10,
 					buildings = 10,
+					tanks = 50,
 				},
 			},
 		},

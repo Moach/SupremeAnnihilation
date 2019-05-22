@@ -100,7 +100,7 @@ return {
 				model = "torpedo",
 				name = "Light homing torpedo launcher",
 				noselfdamage = true,
-				range = 650,
+				range = 850,
 				reloadtime = 8,
 				soundhit = "xplodep2",
 				soundstart = "bombrel",
@@ -119,6 +119,7 @@ return {
 				},
 				damage = {
 					default = 1500,
+					hvyboats = 25000,
 				},
 			},
 		},

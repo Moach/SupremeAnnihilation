@@ -193,6 +193,7 @@ return {
 					fighters = 100,
 					vtol = 1650,
 					buildings = 10,
+					tanks = 100,
 				},
 				rgbcolor = {
 					[1] = 1,

@@ -174,6 +174,8 @@ return {
 					default = 1500,
 					subs = 5,
 					buildings = 3210,
+					tanks = 3000,
+					exp = 5000,
 				},
 			},
 		},

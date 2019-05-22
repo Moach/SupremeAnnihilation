@@ -168,6 +168,7 @@ return {
 					default = 1200,
 					subs = 5,
 					buildings = 2110,
+					tanks = 800,
 				},
 			},
 		},

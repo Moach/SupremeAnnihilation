@@ -14,9 +14,9 @@ numallies=0;
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=9000;
+startposx=2600;
 side=ARM;
-startposz=9000;
+startposz=10700;
 teamleader=1;
 handicap=0;
 }
@@ -76,7 +76,7 @@ map_tidal=unchanged;
 globallos=0;
 comm_wreck_metal=2500;
 map_waterlevel=0;
-ba_weaponsrangemult=1.1;
+ba_weaponsrangemult=1;
 chicken_custom_queenspawnmult=1;
 chicken_queentime=40;
 chicken_custom_burrowspawn=120;
@@ -89,11 +89,11 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=3000;
-side=ARM;
-startposz=3000;
+startposx=10600;
+side=CORE;
+startposz=3200;
 teamleader=1;
-handicap=0;
+handicap=100;
 }
 [player1]
 {
@@ -106,12 +106,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=1312796781;
+maphash=2683576039;
 gametype=Supreme Annihilation M1.00.02;
 modhash=3234155661;
 ishost=1;
 hostip=;
-mapname=Moor_v2;
+mapname=Dworld_V1;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

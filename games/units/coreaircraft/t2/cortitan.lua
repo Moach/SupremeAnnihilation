@@ -120,6 +120,7 @@ return {
 				},
 				damage = {
 					default = 1500,
+					hvyboats = 25000,
 				},
 			},
 		},

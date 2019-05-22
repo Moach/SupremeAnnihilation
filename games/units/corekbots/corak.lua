@@ -151,16 +151,17 @@ return {
 				damage = {
 					bombers = 50,
 					default = 350, -- plus some extra "dooms" to compensate there not being a "core warrior" equivalent
+					tanks = 10,
 					fighters = 50,
 					subs = 1,
 					vtol = 50,
-					buildings = 5,
+					buildings = 10,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL NOWEAPON",
 				def = "GATOR_LASER",
 				onlytargetcategory = "NOTSUB",
 			},

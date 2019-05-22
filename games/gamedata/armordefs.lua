@@ -26,7 +26,7 @@ local armorDefs = {
 		"armah",
 		
 		"armamph",
-		"armanac",
+		
 		
 		"armch",
 		"armck",
@@ -41,176 +41,121 @@ local armorDefs = {
 		"armfav",
 		
 		"armfido",
-		"armflash",
 		"armflea",
 		
-		"armjanus",
+		
 		"armjeth",
-		
-		"armlatnk",
-		
-		
+
 		
 		"armmart",
 		"armmav",
-		"armmerl",
-		
-		"armmh",
-		
-		"armpb",
-		
+		"armmerl",		
+		"armmh",		
+		"armpb",		
 		"armpw",
-		"armrectr",
-		
+		"armrectr",		
 		"armrock",
 		"armsam",
-		"armscab",
-		
+		"armscab",		
 		"armsh",
-		"armsnipe",
-		
+		"armsnipe",		
 		"armspid",
 		"armsptk",
-		
-		"armstump",
-		
-		
 		"armthovr",
-		
 		"armzeus",
 		"armamsub",
-		
-		
 		"armconsul",
 		"coraak",
 		"corack",
 		"coracv",
-		
 		"corah",
 		"corak",
-		
-		
-		
-		
-		"corcan",
 		"corch",
 		"corck",
 		"corcrash",
 		"corcv",
-		
 		"corfast",
 		"corfatf",
 		"corfav",
-		
-		
-		"corgator",
-		
-		
 		"corhrk",
-		
-		
-		"cormabm",
-		
-		"cormart",
-		
+		"cormabm",		
+		"cormart",		
 		"cormh",
-		"cormist",
-		
-		"cormort",
-		
+		"cormist",		
+		"cormort",		
 		"cornecro",
-		
-		"corraid",
-		"correap",
-		
-		"corsnap",
-		
 		"corstorm",
-		
-		
 		"cortermite",
 		"corthovr",
 		"corthud",
-		
-		
-		
 		"corvroc",
-	
 		"corwolv",
-		"coramsub",
-		
+		"coramsub",	
 		"corhal",
-		
 		"armart",
-		"corban",
     	"armbeaver",
-		"armcroc",
-		"armpincer",
 		"coramph",
-		"corgarp",
 		"cormuskrat",
-		"corparrow",
 		"corseal",
-		"corintr",
-		"armmar",
-		"corshiva",
-        
-		
         "armwar",
-		
-		"corlevlr",
-		
         "armspy",
 		"cormando",
 		"corspy",
-       
-       
-		"armyork",
-		
         "armmlv",
 		"cormlv",
 		"corpyro",
-       
 		"armaser",
-		
-		
-		
-		"armjam",
-		
+		"armjam",		
 		"armmark",
-		
-		"armseer",
-		
-		
-		
-		
-		"coreter",
-		
+		"armseer",	
+		"coreter",		
 		"corspec",
 		"corvoyr",
-		"corvrad",
-
-		
-		"armst",
+		"corvrad",				
+		"cortrem",		
+		"corsh",
+		"armflash",	-- light tanks are too small to be considered proper "tanks" - they take damage as though regular vehicles
+		"corgator",
+	},
+	
+	tanks =
+	{
+		"armyork",
+		"corlevlr",
 		"armbull",
-		
-		"armfboy",
-		
+		"armfboy", -- yes, FatBoy is too a tank, a big fat walking tank
 		"corgol",
-		
-		"corsumo",
-		"cortrem",
+		"corsumo",		
+		"corraid",
+		"correap",
+		"corsnap",
+		"armcroc",
+		"armpincer",	
+		"corparrow",
+		"corintr",
+		"corgarp",
+		"armst",
+		"corban",
+		"armstump",
+		"corcan",
+		"armlatnk",
+		"armjanus",
+		"armanac",
+	},
+	
+	exp = 
+	{	
 		"armbanth",
 		"corcat",
 		"armraz",
 		"armvang",
 		"corkarg",
-		"corsh",
 		"corkrog",
 		"corjugg",
-		
-		
+		"corshiva",
+		"armmar",
 	},
+	
 	buildings =
 	{	
 		"armjuno",

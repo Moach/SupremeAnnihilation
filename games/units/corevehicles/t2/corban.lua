@@ -195,7 +195,7 @@ return {
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL LITEINF",
 				def = "BANISHER",
 				maindir = "0 0 1",
 				maxangledif = 270,

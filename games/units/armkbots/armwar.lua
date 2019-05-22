@@ -151,13 +151,14 @@ return {
 					fighters = 100,
 					subs = 5,
 					vtol = 290,
-					buildings = 10,
+					buildings = 50,
+					tanks = 100,
 				},
 			},
 		},
 		weapons = {
 			[1] = {
-				badtargetcategory = "VTOL",
+				badtargetcategory = "VTOL NOWEAPON",
 				def = "ARMWAR_LASER",
 				onlytargetcategory = "NOTSUB",
 			},

@@ -163,6 +163,7 @@ return {
 					subs = 5,
 					vtol = 250,
 					buildings = 1000,
+					tanks = 500,
 				},
 			},
 		},

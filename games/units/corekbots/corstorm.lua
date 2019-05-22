@@ -150,9 +150,10 @@ return {
 					bar_model = "cormissile2.s3o",
 				},
 				damage = {
-					default = 1557,
+					default = 500,
+					tanks = 1500,
 					subs = 5,
-					buildings = 500,
+					buildings = 750,
 				},
 			},
 		},

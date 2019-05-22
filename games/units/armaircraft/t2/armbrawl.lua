@@ -111,6 +111,8 @@ return {
 					subs = 1,
 					vtol = 2,
 					buildings = 100,
+					tanks = 100,
+					exp = 1000,
 				},
 			},
 		},
