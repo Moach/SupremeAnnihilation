@@ -147,7 +147,7 @@ return {
 				weaponvelocity = 386,
 				damage = {
 					bombers = 21,
-					default = 750,
+					default = 165,
 					tanks = 1200,
 					fighters = 21,
 					subs = 5,

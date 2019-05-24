@@ -20,7 +20,7 @@ return {
 		footprintz = 2,
 		idleautoheal = 50,
 		idletime = 150,
-		maxdamage = 500,
+		maxdamage = 1000,
 		maxslope = 18,
 		maxvelocity = 2.8,
 		maxwaterdepth = 12,
@@ -133,7 +133,7 @@ return {
 				intensity = 0.7,
 				name = "Rapid-fire close-quarters g2g plasma guns",
 				noselfdamage = true,
-				range = 400,
+				range = 450,
 				reloadtime = 0.31,
 				rgbcolor = "1 0.95 0.4",
 				size = 2.15,
@@ -148,11 +148,11 @@ return {
 				weaponvelocity = 500,
 				damage = {
 					bombers = 10,
-					default = 150, -- consider here that peewees are lousy shots and spray half their stuff harmlessly around any target smaller than a large building 2 feet away
+					default = 100, -- consider here that peewees are lousy shots and spray half their stuff harmlessly around any target smaller than a large building 2 feet away
 					fighters = 10,
 					subs = 1,
 					vtol = 10,
-					buildings = 3,
+					buildings = 5,
 					tanks = 10,
 					exp = 200,
 				},

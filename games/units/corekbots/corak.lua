@@ -20,7 +20,7 @@ return {
 		footprintz = 2,
 		idleautoheal = 50,
 		idletime = 150,
-		maxdamage = 500,
+		maxdamage = 1000,
 		maxslope = 18,
 		maxvelocity = 2.8,
 		maxwaterdepth = 25,
@@ -133,7 +133,7 @@ return {
 				laserflaresize = 4,
 				name = "Laser",
 				noselfdamage = true,
-				range = 400,
+				range = 450,
 				reloadtime = 0.5,
 				rgbcolor = "1 0 0",
 				soundhitdry = "",
@@ -150,12 +150,12 @@ return {
 				weaponvelocity = 1000,
 				damage = {
 					bombers = 50,
-					default = 350, -- plus some extra "dooms" to compensate there not being a "core warrior" equivalent
+					default = 250, -- plus some extra "dooms" to compensate there not being a "core warrior" equivalent
 					tanks = 10,
 					fighters = 50,
 					subs = 1,
 					vtol = 50,
-					buildings = 10,
+					buildings = 15,
 					exp = 500, -- WHAAAT?!! those big bastards must have some weak points a small unit can pick off (like the Death Star, see...)
 				},
 			},
