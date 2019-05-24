@@ -14,9 +14,9 @@ numallies=0;
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=1044;
+startposx=6520;
 side=ARM;
-startposz=2253;
+startposz=7000;
 teamleader=1;
 handicap=0;
 }
@@ -54,7 +54,7 @@ armageddontime=0;
 allowuserwidgets=1;
 deathmode=killall;
 map_terraintype=enabled;
-ba_unitlosmult=2;
+ba_unitlosmult=1.7;
 chicken_custom_minchicken=8;
 ffa_mode=0;
 chicken_chickenstart=alwaysbox;
@@ -64,7 +64,7 @@ custom_expstep=1.5;
 chicken_custom_damagemod=100;
 chicken_queenanger=1;
 coop=0;
-ai_incomemultiplier=1.2;
+ai_incomemultiplier=1.5;
 critters=0.6;
 relayhoststartpostype=3;
 maxspeed=5;
@@ -89,9 +89,9 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=9380;
+startposx=1860;
 side=CORE;
-startposz=3584;
+startposz=1145;
 teamleader=1;
 handicap=100;
 }
@@ -106,12 +106,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=2269454493;
+maphash=713373965;
 gametype=Supreme Annihilation M1.00.02;
 modhash=3234155661;
 ishost=1;
 hostip=;
-mapname=Mescaline_V2;
+mapname=IslandDivide;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

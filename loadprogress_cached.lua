@@ -80,7 +80,7 @@ return {
 	["Iammas Prime - v01"] = 25.6551495,
 	Iceland_v1 = 19.0907631,
 	["Indar v1"] = 26.9366531,
-	IslandDivide = 18.2380276,
+	IslandDivide = 18.2701874,
 	Kappa_Basin = 17.4786606,
 	["KochCanyon-v02"] = 18.0465832,
 	["Koom Valley V2"] = 31.8301029,
