@@ -9,14 +9,17 @@ numallies=0;
 }
 [mapoptions]
 {
+inv=0;
+alt=0;
+fog=0;
 }
 [team1]
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=6520;
+startposx=8755;
 side=ARM;
-startposz=7000;
+startposz=8316;
 teamleader=1;
 handicap=0;
 }
@@ -64,7 +67,7 @@ custom_expstep=1.5;
 chicken_custom_damagemod=100;
 chicken_queenanger=1;
 coop=0;
-ai_incomemultiplier=1.5;
+ai_incomemultiplier=1.4;
 critters=0.6;
 relayhoststartpostype=3;
 maxspeed=5;
@@ -89,9 +92,9 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=1860;
+startposx=1585;
 side=CORE;
-startposz=1145;
+startposz=2181;
 teamleader=1;
 handicap=100;
 }
@@ -106,12 +109,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=713373965;
+maphash=118844523;
 gametype=Supreme Annihilation M1.00.02;
 modhash=3234155661;
 ishost=1;
 hostip=;
-mapname=IslandDivide;
+mapname=Grts_Cookedwell_007;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

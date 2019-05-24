@@ -167,7 +167,7 @@ return {
 			[1] = {
 				badtargetcategory = "NOWEAPON LIGHTAIRSCOUT LITEINF",
 				def = "CORRL_MISSILE",
-				onlytargetcategory = "NOTSUB",
+				onlytargetcategory = "VTOL",
 			},
 		},
 	},

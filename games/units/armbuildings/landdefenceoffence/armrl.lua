@@ -167,7 +167,7 @@ return {
 			[1] = {
 				badtargetcategory = "NOTAIR LIGHTAIRSCOUT LITEINF",
 				def = "ARMRL_MISSILE",
-				onlytargetcategory = "NOTSUB",
+				onlytargetcategory = "VTOL",
 			},
 		},
 	},
