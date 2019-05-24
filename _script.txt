@@ -9,17 +9,14 @@ numallies=0;
 }
 [mapoptions]
 {
-inv=0;
-alt=0;
-fog=0;
 }
 [team1]
 {
 rgbcolor=1 0 0;
 allyteam=0;
-startposx=8755;
+startposx=7631;
 side=ARM;
-startposz=8316;
+startposz=7811;
 teamleader=1;
 handicap=0;
 }
@@ -57,7 +54,7 @@ armageddontime=0;
 allowuserwidgets=1;
 deathmode=killall;
 map_terraintype=enabled;
-ba_unitlosmult=1.7;
+ba_unitlosmult=1.8;
 chicken_custom_minchicken=8;
 ffa_mode=0;
 chicken_chickenstart=alwaysbox;
@@ -67,7 +64,7 @@ custom_expstep=1.5;
 chicken_custom_damagemod=100;
 chicken_queenanger=1;
 coop=0;
-ai_incomemultiplier=1.4;
+ai_incomemultiplier=1.3;
 critters=0.6;
 relayhoststartpostype=3;
 maxspeed=5;
@@ -79,7 +76,7 @@ map_tidal=unchanged;
 globallos=0;
 comm_wreck_metal=2500;
 map_waterlevel=0;
-ba_weaponsrangemult=1;
+ba_weaponsrangemult=1.1;
 chicken_custom_queenspawnmult=1;
 chicken_queentime=40;
 chicken_custom_burrowspawn=120;
@@ -92,9 +89,9 @@ numallies=0;
 {
 rgbcolor=0.976471 1 0;
 allyteam=1;
-startposx=1585;
-side=CORE;
-startposz=2181;
+startposx=819;
+side=ARM;
+startposz=587;
 teamleader=1;
 handicap=100;
 }
@@ -109,12 +106,12 @@ rank=0;
 }
 numplayers=1;
 myplayername=Player;
-maphash=118844523;
+maphash=3919089066;
 gametype=Supreme Annihilation M1.00.02;
 modhash=3234155661;
 ishost=1;
 hostip=;
-mapname=Grts_Cookedwell_007;
+mapname=Mountainrange-v06;
 startpostype=3;
 numrestrictions=0;
 hostport=8452;

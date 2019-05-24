@@ -33,7 +33,7 @@ return {
 		objectname = "CORHLT",
 		seismicsignature = 0,
 		selfdestructas = "mediumBuildingExplosionGenericSelfd",
-		sightdistance = 500,
+		sightdistance = 800,
 		usebuildinggrounddecal = true,
 		yardmap = "oooo",
 		customparams = {
@@ -134,7 +134,7 @@ return {
 				laserflaresize = 8,
 				name = "High energy g2g laser",
 				noselfdamage = true,
-				range = 620,
+				range = 600,
 				reloadtime = 0.333,
 				rgbcolor = "0 1 0",
 				soundhitdry = "",
@@ -155,6 +155,7 @@ return {
 					fighters = 35,
 					subs = 5,
 					vtol = 135,
+					tanks = 666
 				},
 			},
 		},

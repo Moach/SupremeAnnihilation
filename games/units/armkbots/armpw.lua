@@ -133,7 +133,7 @@ return {
 				intensity = 0.7,
 				name = "Rapid-fire close-quarters g2g plasma guns",
 				noselfdamage = true,
-				range = 450,
+				range = 500,
 				reloadtime = 0.31,
 				rgbcolor = "1 0.95 0.4",
 				size = 2.15,
